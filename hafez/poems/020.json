@@ -1,0 +1,138 @@
+{
+  "id": 20,
+  "ghazal_number": 118,
+  "title_en": "The Secret",
+  "title_fa": "آن کس که به دست جام دارد",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "آن کس که به دست جام دارد",
+      "سـلـطانی جـم مدام دارد",
+      "آبی که خضر حیات از او یافت",
+      "در میکده جو کـه جام دارد",
+      "سررشتـه جان به جام بگذار",
+      "کاین رشتـه از او نـظام دارد",
+      "ما و می و زاهدان و تـقوا",
+      "تا یار سر کدام دارد",
+      "بیرون ز لب تو ساقیا نیسـت",
+      "در دور کـسی کـه کام دارد",
+      "نرگس همه شیوه‌های مستی",
+      "از چشم خوشت بـه وام دارد",
+      "ذکر رخ و زلـف تو دلـم را",
+      "وردیست که صبح و شام دارد",
+      "بر سینـه ریش دردمـندان",
+      "لعلـت نمـکی تـمام دارد",
+      "در چاه ذقن چو حافظ ای جان",
+      "حـسـن تو دو صد غلام دارد"
+    ],
+    "couplets": [
+      [
+        "آن کس که به دست جام دارد",
+        "سـلـطانی جـم مدام دارد"
+      ],
+      [
+        "آبی که خضر حیات از او یافت",
+        "در میکده جو کـه جام دارد"
+      ],
+      [
+        "سررشتـه جان به جام بگذار",
+        "کاین رشتـه از او نـظام دارد"
+      ],
+      [
+        "ما و می و زاهدان و تـقوا",
+        "تا یار سر کدام دارد"
+      ],
+      [
+        "بیرون ز لب تو ساقیا نیسـت",
+        "در دور کـسی کـه کام دارد"
+      ],
+      [
+        "نرگس همه شیوه‌های مستی",
+        "از چشم خوشت بـه وام دارد"
+      ],
+      [
+        "ذکر رخ و زلـف تو دلـم را",
+        "وردیست که صبح و شام دارد"
+      ],
+      [
+        "بر سینـه ریش دردمـندان",
+        "لعلـت نمـکی تـمام دارد"
+      ],
+      [
+        "در چاه ذقن چو حافظ ای جان",
+        "حـسـن تو دو صد غلام دارد"
+      ]
+    ],
+    "full_text": "آن کس که به دست جام دارد\nسـلـطانی جـم مدام دارد\nآبی که خضر حیات از او یافت\nدر میکده جو کـه جام دارد\nسررشتـه جان به جام بگذار\nکاین رشتـه از او نـظام دارد\nما و می و زاهدان و تـقوا\nتا یار سر کدام دارد\nبیرون ز لب تو ساقیا نیسـت\nدر دور کـسی کـه کام دارد\nنرگس همه شیوه‌های مستی\nاز چشم خوشت بـه وام دارد\nذکر رخ و زلـف تو دلـم را\nوردیست که صبح و شام دارد\nبر سینـه ریش دردمـندان\nلعلـت نمـکی تـمام دارد\nدر چاه ذقن چو حافظ ای جان\nحـسـن تو دو صد غلام دارد"
+  },
+  "english": {
+    "lines": [
+      "Whoever holds a cup in hand",
+      "Forever will rule over the land.",
+      "The Water of Life that Elias found",
+      "Seek in the tavern where cups stand.",
+      "The essence of soul submit to the cup",
+      "Rules of the cup are in command.",
+      "We and the wine, pious and virtue",
+      "Let’s see which ones He will demand.",
+      "It is but a word from His lips",
+      "For he who has wished and planned.",
+      "Narcissus’s ways of drunkenness",
+      "Were borrowed from His eye’s gland.",
+      "My heart pictures Your face and hair",
+      "This prayer my day and night spanned.",
+      "It is the painful in the heart",
+      "Who Your sweet lips understand.",
+      "Your features, Your goodness, O soul,",
+      "Like Hafiz, two hundred slaves command."
+    ],
+    "couplets": [
+      [
+        "Whoever holds a cup in hand",
+        "Forever will rule over the land."
+      ],
+      [
+        "The Water of Life that Elias found",
+        "Seek in the tavern where cups stand."
+      ],
+      [
+        "The essence of soul submit to the cup",
+        "Rules of the cup are in command."
+      ],
+      [
+        "We and the wine, pious and virtue",
+        "Let’s see which ones He will demand."
+      ],
+      [
+        "It is but a word from His lips",
+        "For he who has wished and planned."
+      ],
+      [
+        "Narcissus’s ways of drunkenness",
+        "Were borrowed from His eye’s gland."
+      ],
+      [
+        "My heart pictures Your face and hair",
+        "This prayer my day and night spanned."
+      ],
+      [
+        "It is the painful in the heart",
+        "Who Your sweet lips understand."
+      ],
+      [
+        "Your features, Your goodness, O soul,",
+        "Like Hafiz, two hundred slaves command."
+      ]
+    ],
+    "full_text": "Whoever holds a cup in hand\nForever will rule over the land.\nThe Water of Life that Elias found\nSeek in the tavern where cups stand.\nThe essence of soul submit to the cup\nRules of the cup are in command.\nWe and the wine, pious and virtue\nLet’s see which ones He will demand.\nIt is but a word from His lips\nFor he who has wished and planned.\nNarcissus’s ways of drunkenness\nWere borrowed from His eye’s gland.\nMy heart pictures Your face and hair\nThis prayer my day and night spanned.\nIt is the painful in the heart\nWho Your sweet lips understand.\nYour features, Your goodness, O soul,\nLike Hafiz, two hundred slaves command."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/03/118.htm"
+}

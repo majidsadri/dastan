@@ -1,0 +1,126 @@
+{
+  "id": 15,
+  "ghazal_number": 59,
+  "title_en": "The Garden Path",
+  "title_fa": "دارم امید عاطـفـتی از جانـب دوسـت",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "دارم امید عاطـفـتی از جانـب دوسـت",
+      "کردم جـنایتی و امیدم بـه عـفو اوسـت",
+      "دانـم کـه بـگذرد ز سر جرم مـن کـه او",
+      "گر چـه پریوش است ولیکن فرشته خوسـت",
+      "چـندان گریستـم که هر کس که برگذشت",
+      "در اشک ما چو دید روان گفت کاین چه جوست",
+      "هیچ اسـت آن دهان و نبینـم از او نـشان",
+      "موی است آن میان و ندانم که آن چه موست",
+      "دارم عجـب ز نقش خیالش که چون نرفـت",
+      "از دیده‌ام که دم به دمش کار شست و شوست",
+      "بی گـفـت و گوی زلف تو دل را همی‌کـشد",
+      "با زلـف دلکش تو که را روی گفت و گوسـت",
+      "عـمریسـت تا ز زلـف تو بویی شـنیده‌ام",
+      "زان بوی در مـشام دل مـن هـنوز بوسـت",
+      "حافـظ بد اسـت حال پریشان تو ولی",
+      "بر بوی زلـف یار پریشانیت نـکوسـت"
+    ],
+    "couplets": [
+      [
+        "دارم امید عاطـفـتی از جانـب دوسـت",
+        "کردم جـنایتی و امیدم بـه عـفو اوسـت"
+      ],
+      [
+        "دانـم کـه بـگذرد ز سر جرم مـن کـه او",
+        "گر چـه پریوش است ولیکن فرشته خوسـت"
+      ],
+      [
+        "چـندان گریستـم که هر کس که برگذشت",
+        "در اشک ما چو دید روان گفت کاین چه جوست"
+      ],
+      [
+        "هیچ اسـت آن دهان و نبینـم از او نـشان",
+        "موی است آن میان و ندانم که آن چه موست"
+      ],
+      [
+        "دارم عجـب ز نقش خیالش که چون نرفـت",
+        "از دیده‌ام که دم به دمش کار شست و شوست"
+      ],
+      [
+        "بی گـفـت و گوی زلف تو دل را همی‌کـشد",
+        "با زلـف دلکش تو که را روی گفت و گوسـت"
+      ],
+      [
+        "عـمریسـت تا ز زلـف تو بویی شـنیده‌ام",
+        "زان بوی در مـشام دل مـن هـنوز بوسـت"
+      ],
+      [
+        "حافـظ بد اسـت حال پریشان تو ولی",
+        "بر بوی زلـف یار پریشانیت نـکوسـت"
+      ]
+    ],
+    "full_text": "دارم امید عاطـفـتی از جانـب دوسـت\nکردم جـنایتی و امیدم بـه عـفو اوسـت\nدانـم کـه بـگذرد ز سر جرم مـن کـه او\nگر چـه پریوش است ولیکن فرشته خوسـت\nچـندان گریستـم که هر کس که برگذشت\nدر اشک ما چو دید روان گفت کاین چه جوست\nهیچ اسـت آن دهان و نبینـم از او نـشان\nموی است آن میان و ندانم که آن چه موست\nدارم عجـب ز نقش خیالش که چون نرفـت\nاز دیده‌ام که دم به دمش کار شست و شوست\nبی گـفـت و گوی زلف تو دل را همی‌کـشد\nبا زلـف دلکش تو که را روی گفت و گوسـت\nعـمریسـت تا ز زلـف تو بویی شـنیده‌ام\nزان بوی در مـشام دل مـن هـنوز بوسـت\nحافـظ بد اسـت حال پریشان تو ولی\nبر بوی زلـف یار پریشانیت نـکوسـت"
+  },
+  "english": {
+    "lines": [
+      "I long for a kind sentiment from the Friend",
+      "I’ve sinned and hope for Her pardon in the end.",
+      "I know She will overlook my crimes, though she is",
+      "Beautiful-faced, on her angelic nature I can depend.",
+      "I cried such that whomever passed me by",
+      "Was in awe of the stream of my tears descend.",
+      "Naught is that mouth there, of it I see no sign",
+      "And there is that fair hair, yet knowing transcends.",
+      "I see her image in my mind and can’t wash out",
+      "In spite of all the tears that my eyes spend.",
+      "With no talk of your hair, my heart is just dead.",
+      "With your enchanting hair, which talk can I defend?",
+      "A life time has passed since I smelled your hair",
+      "That aroma, in the nose of my heart has since remained.",
+      "Hafiz your perturbed state is bad, yet",
+      "Perturbation over Beloved’s hair is a good trend."
+    ],
+    "couplets": [
+      [
+        "I long for a kind sentiment from the Friend",
+        "I’ve sinned and hope for Her pardon in the end."
+      ],
+      [
+        "I know She will overlook my crimes, though she is",
+        "Beautiful-faced, on her angelic nature I can depend."
+      ],
+      [
+        "I cried such that whomever passed me by",
+        "Was in awe of the stream of my tears descend."
+      ],
+      [
+        "Naught is that mouth there, of it I see no sign",
+        "And there is that fair hair, yet knowing transcends."
+      ],
+      [
+        "I see her image in my mind and can’t wash out",
+        "In spite of all the tears that my eyes spend."
+      ],
+      [
+        "With no talk of your hair, my heart is just dead.",
+        "With your enchanting hair, which talk can I defend?"
+      ],
+      [
+        "A life time has passed since I smelled your hair",
+        "That aroma, in the nose of my heart has since remained."
+      ],
+      [
+        "Hafiz your perturbed state is bad, yet",
+        "Perturbation over Beloved’s hair is a good trend."
+      ]
+    ],
+    "full_text": "I long for a kind sentiment from the Friend\nI’ve sinned and hope for Her pardon in the end.\nI know She will overlook my crimes, though she is\nBeautiful-faced, on her angelic nature I can depend.\nI cried such that whomever passed me by\nWas in awe of the stream of my tears descend.\nNaught is that mouth there, of it I see no sign\nAnd there is that fair hair, yet knowing transcends.\nI see her image in my mind and can’t wash out\nIn spite of all the tears that my eyes spend.\nWith no talk of your hair, my heart is just dead.\nWith your enchanting hair, which talk can I defend?\nA life time has passed since I smelled your hair\nThat aroma, in the nose of my heart has since remained.\nHafiz your perturbed state is bad, yet\nPerturbation over Beloved’s hair is a good trend."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/02/059.htm"
+}

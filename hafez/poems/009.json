@@ -1,0 +1,114 @@
+{
+  "id": 9,
+  "ghazal_number": 26,
+  "title_en": "The Dawn Prayer",
+  "title_fa": "زلف آشفته و خوی کرده و خندان لب و مست",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "زلف آشفته و خوی کرده و خندان لب و مست",
+      "پیرهن چاک و غزل خوان و صراحی در دست",
+      "نرگسـش عربده جوی و لبش افسوس کنان",
+      "نیم شب دوش به بالین من آمد بنشسـت",
+      "سر فرا گوش مـن آورد بـه آواز حزین",
+      "گفـت ای عاشق دیرینه من خوابت هست",
+      "عاشـقی را کـه چنین باده شبگیر دهـند",
+      "کافر عـشـق بود گر نـشود باده پرسـت",
+      "برو ای زاهد و بر دردکـشان خرده مـگیر",
+      "کـه ندادند جز این تحفه به ما روز السـت",
+      "آن چـه او ریخت بـه پیمانـه ما نوشیدیم",
+      "اگر از خمر بهشت است وگر باده مـسـت",
+      "خـنده جام می و زلـف گره گیر نـگار",
+      "ای بسا توبه که چون توبه حافظ بشکسـت"
+    ],
+    "couplets": [
+      [
+        "زلف آشفته و خوی کرده و خندان لب و مست",
+        "پیرهن چاک و غزل خوان و صراحی در دست"
+      ],
+      [
+        "نرگسـش عربده جوی و لبش افسوس کنان",
+        "نیم شب دوش به بالین من آمد بنشسـت"
+      ],
+      [
+        "سر فرا گوش مـن آورد بـه آواز حزین",
+        "گفـت ای عاشق دیرینه من خوابت هست"
+      ],
+      [
+        "عاشـقی را کـه چنین باده شبگیر دهـند",
+        "کافر عـشـق بود گر نـشود باده پرسـت"
+      ],
+      [
+        "برو ای زاهد و بر دردکـشان خرده مـگیر",
+        "کـه ندادند جز این تحفه به ما روز السـت"
+      ],
+      [
+        "آن چـه او ریخت بـه پیمانـه ما نوشیدیم",
+        "اگر از خمر بهشت است وگر باده مـسـت"
+      ],
+      [
+        "خـنده جام می و زلـف گره گیر نـگار",
+        "ای بسا توبه که چون توبه حافظ بشکسـت"
+      ]
+    ],
+    "full_text": "زلف آشفته و خوی کرده و خندان لب و مست\nپیرهن چاک و غزل خوان و صراحی در دست\nنرگسـش عربده جوی و لبش افسوس کنان\nنیم شب دوش به بالین من آمد بنشسـت\nسر فرا گوش مـن آورد بـه آواز حزین\nگفـت ای عاشق دیرینه من خوابت هست\nعاشـقی را کـه چنین باده شبگیر دهـند\nکافر عـشـق بود گر نـشود باده پرسـت\nبرو ای زاهد و بر دردکـشان خرده مـگیر\nکـه ندادند جز این تحفه به ما روز السـت\nآن چـه او ریخت بـه پیمانـه ما نوشیدیم\nاگر از خمر بهشت است وگر باده مـسـت\nخـنده جام می و زلـف گره گیر نـگار\nای بسا توبه که چون توبه حافظ بشکسـت"
+  },
+  "english": {
+    "lines": [
+      "Disheveled hair, sweaty, smiling, drunken, and",
+      "With a torn shirt, singing, the jug in hand",
+      "Narcissus loudly laments, on his lips, alas, alas!",
+      "Last night at midnight, came and sat right by my bed-stand",
+      "Brought his head next to my ears, with a sad song",
+      "Said, O my old lover, you are still in dreamland",
+      "The lover who drinks this nocturnal brew",
+      "Infidel, if not worships the wine's command",
+      "Go away O hermit, fault not the drunk",
+      "Our Divine gift from the day that God made sea and land",
+      "Whatever He poured for us in our cup, we just drank",
+      "If it was a cheap wine or heavenly brand",
+      "The smile on the cup's face and Beloved's hair strand",
+      "Break many who may repent, just as Hafiz falsely planned."
+    ],
+    "couplets": [
+      [
+        "Disheveled hair, sweaty, smiling, drunken, and",
+        "With a torn shirt, singing, the jug in hand"
+      ],
+      [
+        "Narcissus loudly laments, on his lips, alas, alas!",
+        "Last night at midnight, came and sat right by my bed-stand"
+      ],
+      [
+        "Brought his head next to my ears, with a sad song",
+        "Said, O my old lover, you are still in dreamland"
+      ],
+      [
+        "The lover who drinks this nocturnal brew",
+        "Infidel, if not worships the wine's command"
+      ],
+      [
+        "Go away O hermit, fault not the drunk",
+        "Our Divine gift from the day that God made sea and land"
+      ],
+      [
+        "Whatever He poured for us in our cup, we just drank",
+        "If it was a cheap wine or heavenly brand"
+      ],
+      [
+        "The smile on the cup's face and Beloved's hair strand",
+        "Break many who may repent, just as Hafiz falsely planned."
+      ]
+    ],
+    "full_text": "Disheveled hair, sweaty, smiling, drunken, and\nWith a torn shirt, singing, the jug in hand\nNarcissus loudly laments, on his lips, alas, alas!\nLast night at midnight, came and sat right by my bed-stand\nBrought his head next to my ears, with a sad song\nSaid, O my old lover, you are still in dreamland\nThe lover who drinks this nocturnal brew\nInfidel, if not worships the wine's command\nGo away O hermit, fault not the drunk\nOur Divine gift from the day that God made sea and land\nWhatever He poured for us in our cup, we just drank\nIf it was a cheap wine or heavenly brand\nThe smile on the cup's face and Beloved's hair strand\nBreak many who may repent, just as Hafiz falsely planned."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/01/026.htm"
+}

@@ -1,0 +1,358 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-parchment: #FDFBF7;
+  --color-linen: #F5F0E8;
+  --color-sepia: #2C2418;
+  --color-sepia-light: #6B5D4D;
+  --color-gold: #8B6914;
+  --color-gold-hover: #A67C1A;
+  --color-warm-border: #E8E0D0;
+  --color-highlight: #FFF8E7;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-ui: "Inter", system-ui, sans-serif;
+
+  --animate-fade-in: fade-in 0.6s ease-out;
+  --animate-slide-up: slide-up 0.5s ease-out;
+  --animate-pulse-warm: pulse-warm 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-warm {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.4); opacity: 1; }
+}
+
+@keyframes draw-line {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes sketch-draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes brush-move {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(-6px, 4px) rotate(-5deg); }
+  50% { transform: translate(-12px, 2px) rotate(-3deg); }
+  75% { transform: translate(-6px, 6px) rotate(-8deg); }
+}
+
+/* Matisse line-drawing animation */
+.matisse-line-1 {
+  animation: draw-line 2.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.matisse-line-2 {
+  animation: draw-line 0.8s cubic-bezier(0.4, 0, 0.2, 1) 1.2s forwards;
+}
+.matisse-line-3 {
+  animation: draw-line 0.7s cubic-bezier(0.4, 0, 0.2, 1) 1.8s forwards;
+}
+.matisse-accent-1 {
+  animation: draw-line 1s cubic-bezier(0.4, 0, 0.2, 1) 2.2s forwards;
+}
+.matisse-accent-2 {
+  animation: draw-line 0.6s cubic-bezier(0.4, 0, 0.2, 1) 2.6s forwards;
+}
+.matisse-text {
+  animation: matisse-fade 0.8s ease-in 1.5s forwards;
+  opacity: 0;
+}
+@keyframes matisse-fade {
+  to { opacity: 1; }
+}
+
+@keyframes dot-orbit-left {
+  0%   { transform: translate(0, 0) scale(1); }
+  25%  { transform: translate(28px, -18px) scale(0.85); }
+  50%  { transform: translate(48px, 0) scale(0.75); }
+  75%  { transform: translate(28px, 18px) scale(0.85); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes dot-orbit-right {
+  0%   { transform: translate(0, 0) scale(1); }
+  25%  { transform: translate(-28px, 18px) scale(1.15); }
+  50%  { transform: translate(-48px, 0) scale(1.25); }
+  75%  { transform: translate(-28px, -18px) scale(1.15); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes dot-appear {
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes dot-orbit-trail {
+  0%   { transform: translate(-20px, 22px) scale(1); opacity: 0.6; }
+  25%  { transform: translate(-40px, 8px) scale(0.8); opacity: 0.3; }
+  50%  { transform: translate(-48px, -4px) scale(0.6); opacity: 0.15; }
+  75%  { transform: translate(-28px, -20px) scale(0.8); opacity: 0.3; }
+  100% { transform: translate(-20px, 22px) scale(1); opacity: 0.6; }
+}
+
+@keyframes dot-float {
+  0%, 100% { transform: scale(1) translate(0, 0); }
+  33% { transform: scale(1.05) translate(2px, -3px); }
+  66% { transform: scale(0.95) translate(-2px, 2px); }
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #FDFBF7;
+  color: #2C2418;
+  font-family: "Source Serif 4", Georgia, serif;
+  -webkit-tap-highlight-color: transparent;
+  /* iOS safe areas */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* ── Reading typography ── */
+.prose-reading {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #2C2418;
+}
+
+@media (min-width: 640px) {
+  .prose-reading {
+    font-size: 1.125rem;
+    line-height: 1.9;
+  }
+}
+
+.prose-reading p {
+  margin-bottom: 1.1em;
+}
+
+@media (min-width: 640px) {
+  .prose-reading p {
+    margin-bottom: 1.25em;
+  }
+}
+
+/* ── Paper card style ── */
+.paper-card {
+  background-color: #FDFBF7;
+  border: 1px solid #E8E0D0;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(44, 36, 24, 0.06), 0 1px 2px rgba(44, 36, 24, 0.04);
+}
+
+/* ── Dot motif: Section divider ── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #E8E0D0;
+}
+
+.section-divider::before {
+  box-shadow: -18px 0 0 #E8E0D0;
+}
+
+.section-divider::after {
+  box-shadow: 18px 0 0 #E8E0D0;
+}
+
+/* The center dot - larger and gold, echoing the logo */
+.section-divider {
+  position: relative;
+}
+
+.section-divider::before {
+  order: 1;
+}
+
+.section-divider::after {
+  order: 3;
+}
+
+/* Render 5 dots: 2 small, 1 big (gold), 2 small */
+.dot-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 4px 0;
+}
+
+.dot-divider span {
+  display: block;
+  border-radius: 50%;
+  background-color: #E8E0D0;
+}
+
+.dot-divider span:nth-child(1),
+.dot-divider span:nth-child(5) {
+  width: 4px;
+  height: 4px;
+  opacity: 0.4;
+}
+
+.dot-divider span:nth-child(2),
+.dot-divider span:nth-child(4) {
+  width: 6px;
+  height: 6px;
+  opacity: 0.6;
+}
+
+.dot-divider span:nth-child(3) {
+  width: 10px;
+  height: 10px;
+  background-color: #2C2418;
+}
+
+/* ── Hide scrollbar utility ── */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Dot pattern background (subtle, for hero/sections) ── */
+.dot-pattern {
+  background-image: radial-gradient(circle, #E8E0D0 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.dot-pattern-sparse {
+  background-image: radial-gradient(circle, #E8E0D0 0.8px, transparent 0.8px);
+  background-size: 48px 48px;
+}
+
+.dot-pattern-gold {
+  background-image: radial-gradient(circle, rgba(139, 105, 20, 0.08) 1.5px, transparent 1.5px);
+  background-size: 40px 40px;
+}
+
+/* ── Dot accent for cards ── */
+.dot-accent {
+  position: relative;
+}
+
+.dot-accent::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 24px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2C2418;
+  opacity: 0.08;
+}
+
+/* ── Dot bullet list style ── */
+.dot-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.dot-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #8B6914;
+}
+
+/* ── Refresh dot orbit ── */
+@keyframes refresh-orbit {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Gold beacon blink (for fun-fact sound button) ── */
+@keyframes gold-blink {
+  0%, 100% {
+    box-shadow:
+      0 2px 8px rgba(139, 105, 20, 0.25),
+      0 0 0 0 rgba(196, 164, 78, 0.55),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  }
+  50% {
+    box-shadow:
+      0 2px 12px rgba(139, 105, 20, 0.4),
+      0 0 0 6px rgba(196, 164, 78, 0),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  }
+}
+
+.gold-beacon {
+  animation: gold-blink 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ── Ken Burns: slow pan + zoom for backdrop paintings ── */
+@keyframes ken-burns-a {
+  0%   { transform: scale(1.06) translate3d(0%, 0%, 0); }
+  100% { transform: scale(1.16) translate3d(-1.8%, -1.2%, 0); }
+}
+@keyframes ken-burns-b {
+  0%   { transform: scale(1.08) translate3d(0%, 0%, 0); }
+  100% { transform: scale(1.18) translate3d(1.6%, -1.6%, 0); }
+}
+@keyframes ken-burns-c {
+  0%   { transform: scale(1.06) translate3d(0%, 0%, 0); }
+  100% { transform: scale(1.17) translate3d(-1.2%, 1.4%, 0); }
+}
+.animate-ken-burns-a { animation: ken-burns-a 68s ease-in-out infinite alternate; }
+.animate-ken-burns-b { animation: ken-burns-b 74s ease-in-out infinite alternate; }
+.animate-ken-burns-c { animation: ken-burns-c 70s ease-in-out infinite alternate; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ken-burns-a,
+  .animate-ken-burns-b,
+  .animate-ken-burns-c { animation: none; transform: scale(1.06); }
+}
+
+/* ── Backdrop entrance — slow fade-in for painting ── */
+@keyframes backdrop-enter {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-backdrop-enter { animation: backdrop-enter 1.4s ease-out both; }
+
+/* ── Focus styles ── */
+textarea:focus, button:focus-visible {
+  outline: 2px solid #8B6914;
+  outline-offset: 2px;
+}

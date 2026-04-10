@@ -1,0 +1,114 @@
+{
+  "id": 11,
+  "ghazal_number": 42,
+  "title_en": "The Wine-Bringer",
+  "title_fa": "حال دل با تو گفتنم هوس است",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "حال دل با تو گفتنم هوس است",
+      "خـبر دل شنفتنم هوس است",
+      "طـمـع خام بین که قصه فاش",
+      "از رقیبان نهفتنم هوس اسـت",
+      "شب قدری چنین عزیز و شریف",
+      "با تو تا روز خفتنم هوس اسـت",
+      "وه کـه دردانه‌ای چـنین نازک",
+      "در شب تار سفتنم هوس است",
+      "ای صـبا امشبـم مدد فرمای",
+      "که سحرگه شکفتنم هوس است",
+      "از برای شرف بـه نوک مژه",
+      "خاک راه تو رفتنم هوس اسـت",
+      "همـچو حافـظ به رغم مدعیان",
+      "شعر رندانه گفتنم هوس است"
+    ],
+    "couplets": [
+      [
+        "حال دل با تو گفتنم هوس است",
+        "خـبر دل شنفتنم هوس است"
+      ],
+      [
+        "طـمـع خام بین که قصه فاش",
+        "از رقیبان نهفتنم هوس اسـت"
+      ],
+      [
+        "شب قدری چنین عزیز و شریف",
+        "با تو تا روز خفتنم هوس اسـت"
+      ],
+      [
+        "وه کـه دردانه‌ای چـنین نازک",
+        "در شب تار سفتنم هوس است"
+      ],
+      [
+        "ای صـبا امشبـم مدد فرمای",
+        "که سحرگه شکفتنم هوس است"
+      ],
+      [
+        "از برای شرف بـه نوک مژه",
+        "خاک راه تو رفتنم هوس اسـت"
+      ],
+      [
+        "همـچو حافـظ به رغم مدعیان",
+        "شعر رندانه گفتنم هوس است"
+      ]
+    ],
+    "full_text": "حال دل با تو گفتنم هوس است\nخـبر دل شنفتنم هوس است\nطـمـع خام بین که قصه فاش\nاز رقیبان نهفتنم هوس اسـت\nشب قدری چنین عزیز و شریف\nبا تو تا روز خفتنم هوس اسـت\nوه کـه دردانه‌ای چـنین نازک\nدر شب تار سفتنم هوس است\nای صـبا امشبـم مدد فرمای\nکه سحرگه شکفتنم هوس است\nاز برای شرف بـه نوک مژه\nخاک راه تو رفتنم هوس اسـت\nهمـچو حافـظ به رغم مدعیان\nشعر رندانه گفتنم هوس است"
+  },
+  "english": {
+    "lines": [
+      "I long to open up my heart",
+      "For my heart do my part.",
+      "My story was yesterday’s news",
+      "From rivals cannot keep apart.",
+      "On this holy night stay with me",
+      "Till the morning, do not depart.",
+      "On a night so dark as this,",
+      "My course, how can I chart?",
+      "O breath of life, help me tonight",
+      "That in the morn I make a start.",
+      "In my love for you, I will",
+      "My self and ego thwart.",
+      "Like Hafiz, being love smart;",
+      "I long to master that art."
+    ],
+    "couplets": [
+      [
+        "I long to open up my heart",
+        "For my heart do my part."
+      ],
+      [
+        "My story was yesterday’s news",
+        "From rivals cannot keep apart."
+      ],
+      [
+        "On this holy night stay with me",
+        "Till the morning, do not depart."
+      ],
+      [
+        "On a night so dark as this,",
+        "My course, how can I chart?"
+      ],
+      [
+        "O breath of life, help me tonight",
+        "That in the morn I make a start."
+      ],
+      [
+        "In my love for you, I will",
+        "My self and ego thwart."
+      ],
+      [
+        "Like Hafiz, being love smart;",
+        "I long to master that art."
+      ]
+    ],
+    "full_text": "I long to open up my heart\nFor my heart do my part.\nMy story was yesterday’s news\nFrom rivals cannot keep apart.\nOn this holy night stay with me\nTill the morning, do not depart.\nOn a night so dark as this,\nMy course, how can I chart?\nO breath of life, help me tonight\nThat in the morn I make a start.\nIn my love for you, I will\nMy self and ego thwart.\nLike Hafiz, being love smart;\nI long to master that art."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/01/042.htm"
+}

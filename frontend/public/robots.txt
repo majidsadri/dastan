@@ -1,0 +1,9 @@
+# Dastan — Every Day, a New Tale
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /signin
+Disallow: /signup
+
+# Sitemaps
+Sitemap: https://www.mydastan.com/sitemap.xml

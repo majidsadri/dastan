@@ -1,0 +1,35 @@
+# Dependencies / build artifacts
+node_modules/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.next/
+tsconfig.tsbuildinfo
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime state
+.logs/
+.pids/
+
+# Editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/
+dastan.code-workspace
+
+# Large image collections — shipped to prod via rsync, not git
+paintings-collection/*/
+!paintings-collection/catalog.json
+
+# Stray root files
+/test.txt
+/Pierre-Auguste_Renoir_*.jpg
+/dastan_icon_*.png

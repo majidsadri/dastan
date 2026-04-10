@@ -1,0 +1,114 @@
+{
+  "id": 16,
+  "ghazal_number": 67,
+  "title_en": "Twilight Song",
+  "title_fa": "یا رب این شمع دل افروز ز کاشانه کیست",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "یا رب این شمع دل افروز ز کاشانه کیست",
+      "جان ما سوخت بپرسید که جانانه کیسـت",
+      "حالیا خانـه برانداز دل و دین من اسـت",
+      "تا در آغوش که می‌خسبد و همخانه کیست",
+      "باده لعـل لـبـش کز لب من دور مـباد",
+      "راح روح کـه و پیمان ده پیمانـه کیسـت",
+      "دولـت صحـبـت آن شمع سعادت پرتو",
+      "بازپرسید خدا را که بـه پروانـه کیسـت",
+      "می‌دهد هر کسش افسونی و معلوم نشد",
+      "کـه دل نازک او مایل افسانـه کیسـت",
+      "یا رب آن شاهوش ماه رخ زهره جـبین",
+      "در یکـتای کـه و گوهر یک دانه کیسـت",
+      "گـفـتـم آه از دل دیوانه حافـظ بی تو",
+      "زیر لب خنده زنان گفت که دیوانه کیسـت"
+    ],
+    "couplets": [
+      [
+        "یا رب این شمع دل افروز ز کاشانه کیست",
+        "جان ما سوخت بپرسید که جانانه کیسـت"
+      ],
+      [
+        "حالیا خانـه برانداز دل و دین من اسـت",
+        "تا در آغوش که می‌خسبد و همخانه کیست"
+      ],
+      [
+        "باده لعـل لـبـش کز لب من دور مـباد",
+        "راح روح کـه و پیمان ده پیمانـه کیسـت"
+      ],
+      [
+        "دولـت صحـبـت آن شمع سعادت پرتو",
+        "بازپرسید خدا را که بـه پروانـه کیسـت"
+      ],
+      [
+        "می‌دهد هر کسش افسونی و معلوم نشد",
+        "کـه دل نازک او مایل افسانـه کیسـت"
+      ],
+      [
+        "یا رب آن شاهوش ماه رخ زهره جـبین",
+        "در یکـتای کـه و گوهر یک دانه کیسـت"
+      ],
+      [
+        "گـفـتـم آه از دل دیوانه حافـظ بی تو",
+        "زیر لب خنده زنان گفت که دیوانه کیسـت"
+      ]
+    ],
+    "full_text": "یا رب این شمع دل افروز ز کاشانه کیست\nجان ما سوخت بپرسید که جانانه کیسـت\nحالیا خانـه برانداز دل و دین من اسـت\nتا در آغوش که می‌خسبد و همخانه کیست\nباده لعـل لـبـش کز لب من دور مـباد\nراح روح کـه و پیمان ده پیمانـه کیسـت\nدولـت صحـبـت آن شمع سعادت پرتو\nبازپرسید خدا را که بـه پروانـه کیسـت\nمی‌دهد هر کسش افسونی و معلوم نشد\nکـه دل نازک او مایل افسانـه کیسـت\nیا رب آن شاهوش ماه رخ زهره جـبین\nدر یکـتای کـه و گوهر یک دانه کیسـت\nگـفـتـم آه از دل دیوانه حافـظ بی تو\nزیر لب خنده زنان گفت که دیوانه کیسـت"
+  },
+  "english": {
+    "lines": [
+      "From whose house this joyous light brightens my heart?",
+      "Whose lover has sent my soul this cupid's burning dart?",
+      "This state wrecks my house and my faith",
+      "Whose bosom enfolds her & whose fingers her hair part?",
+      "The nectar of her lips always remains upon my lips",
+      "Whose soul will comfort & for whom pour a wine quart?",
+      "That candle who radiates riches and joy",
+      "Ask God, whose moth flight tonight shall thwart?",
+      "Mesmerizes everyone, while none can know",
+      "To whose tale her gentle heart will wake and smart?",
+      "O God, that supremely gentle and graceful face",
+      "Whose rare jewel is tonight and whose irreplaceable art?",
+      "I sighed, O Hafiz, that I'm crazy when apart",
+      "Smilingly you said who is the mad one from the start?"
+    ],
+    "couplets": [
+      [
+        "From whose house this joyous light brightens my heart?",
+        "Whose lover has sent my soul this cupid's burning dart?"
+      ],
+      [
+        "This state wrecks my house and my faith",
+        "Whose bosom enfolds her & whose fingers her hair part?"
+      ],
+      [
+        "The nectar of her lips always remains upon my lips",
+        "Whose soul will comfort & for whom pour a wine quart?"
+      ],
+      [
+        "That candle who radiates riches and joy",
+        "Ask God, whose moth flight tonight shall thwart?"
+      ],
+      [
+        "Mesmerizes everyone, while none can know",
+        "To whose tale her gentle heart will wake and smart?"
+      ],
+      [
+        "O God, that supremely gentle and graceful face",
+        "Whose rare jewel is tonight and whose irreplaceable art?"
+      ],
+      [
+        "I sighed, O Hafiz, that I'm crazy when apart",
+        "Smilingly you said who is the mad one from the start?"
+      ]
+    ],
+    "full_text": "From whose house this joyous light brightens my heart?\nWhose lover has sent my soul this cupid's burning dart?\nThis state wrecks my house and my faith\nWhose bosom enfolds her & whose fingers her hair part?\nThe nectar of her lips always remains upon my lips\nWhose soul will comfort & for whom pour a wine quart?\nThat candle who radiates riches and joy\nAsk God, whose moth flight tonight shall thwart?\nMesmerizes everyone, while none can know\nTo whose tale her gentle heart will wake and smart?\nO God, that supremely gentle and graceful face\nWhose rare jewel is tonight and whose irreplaceable art?\nI sighed, O Hafiz, that I'm crazy when apart\nSmilingly you said who is the mad one from the start?"
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/02/067.htm"
+}

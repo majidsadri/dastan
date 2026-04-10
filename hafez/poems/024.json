@@ -1,0 +1,114 @@
+{
+  "id": 24,
+  "ghazal_number": 184,
+  "title_en": "The Cup of Jamshid",
+  "title_fa": "دوش دیدم که مـلایک در میخانـه زدند",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "دوش دیدم که مـلایک در میخانـه زدند",
+      "گـل آدم بسرشتـند و به پیمانـه زدند",
+      "ساکـنان حرم سـتر و عفاف ملـکوت",
+      "با مـن راه نشین باده مسـتانـه زدند",
+      "آسـمان بار امانـت نتوانست کـشید",
+      "قرعـه کار بـه نام مـن دیوانـه زدند",
+      "جنـگ هفتاد و دو ملت همه را عذر بنه",
+      "چون ندیدند حقیقت ره افـسانـه زدند",
+      "شـکر ایزد که میان من و او صلح افـتاد",
+      "صوفیان رقص کنان ساغر شکرانـه زدند",
+      "آتش آن نیست که از شعله او خندد شمع",
+      "آتـش آن است که در خرمن پروانه زدند",
+      "کس چو حافظ نگشاد از رخ اندیشه نقاب",
+      "تا سر زلف عروسان سخن شانـه زدند"
+    ],
+    "couplets": [
+      [
+        "دوش دیدم که مـلایک در میخانـه زدند",
+        "گـل آدم بسرشتـند و به پیمانـه زدند"
+      ],
+      [
+        "ساکـنان حرم سـتر و عفاف ملـکوت",
+        "با مـن راه نشین باده مسـتانـه زدند"
+      ],
+      [
+        "آسـمان بار امانـت نتوانست کـشید",
+        "قرعـه کار بـه نام مـن دیوانـه زدند"
+      ],
+      [
+        "جنـگ هفتاد و دو ملت همه را عذر بنه",
+        "چون ندیدند حقیقت ره افـسانـه زدند"
+      ],
+      [
+        "شـکر ایزد که میان من و او صلح افـتاد",
+        "صوفیان رقص کنان ساغر شکرانـه زدند"
+      ],
+      [
+        "آتش آن نیست که از شعله او خندد شمع",
+        "آتـش آن است که در خرمن پروانه زدند"
+      ],
+      [
+        "کس چو حافظ نگشاد از رخ اندیشه نقاب",
+        "تا سر زلف عروسان سخن شانـه زدند"
+      ]
+    ],
+    "full_text": "دوش دیدم که مـلایک در میخانـه زدند\nگـل آدم بسرشتـند و به پیمانـه زدند\nساکـنان حرم سـتر و عفاف ملـکوت\nبا مـن راه نشین باده مسـتانـه زدند\nآسـمان بار امانـت نتوانست کـشید\nقرعـه کار بـه نام مـن دیوانـه زدند\nجنـگ هفتاد و دو ملت همه را عذر بنه\nچون ندیدند حقیقت ره افـسانـه زدند\nشـکر ایزد که میان من و او صلح افـتاد\nصوفیان رقص کنان ساغر شکرانـه زدند\nآتش آن نیست که از شعله او خندد شمع\nآتـش آن است که در خرمن پروانه زدند\nکس چو حافظ نگشاد از رخ اندیشه نقاب\nتا سر زلف عروسان سخن شانـه زدند"
+  },
+  "english": {
+    "lines": [
+      "At the gates of the tavern I saw the angels knock",
+      "Kneaded this clay we call human, and made it talk.",
+      "The residents of the Celestial Court and the heavenly bloc",
+      "Drank from the Wine of Love, with me, upon our common walk.",
+      "The earth and the skies could not keep this trust of the clock",
+      "Yet the poor insane me was stuck with such tough luck.",
+      "People find good reason for the wars in which they are stuck",
+      "Since Truth they cannot see, to fantasies they would flock.",
+      "In our midst, thank God, the dogs of war are put in chain and lock",
+      "The angels gratefully drink, gracefully dance, from block to block.",
+      "Fire is not a flickering glow that a candle flame would mock",
+      "Fire is the flame of a heap of moths that lightning has just struck.",
+      "None like Hafiz, the mask of deceitful intellect can pluck",
+      "Till the hair of Bride of Verses was brushed lock after lock."
+    ],
+    "couplets": [
+      [
+        "At the gates of the tavern I saw the angels knock",
+        "Kneaded this clay we call human, and made it talk."
+      ],
+      [
+        "The residents of the Celestial Court and the heavenly bloc",
+        "Drank from the Wine of Love, with me, upon our common walk."
+      ],
+      [
+        "The earth and the skies could not keep this trust of the clock",
+        "Yet the poor insane me was stuck with such tough luck."
+      ],
+      [
+        "People find good reason for the wars in which they are stuck",
+        "Since Truth they cannot see, to fantasies they would flock."
+      ],
+      [
+        "In our midst, thank God, the dogs of war are put in chain and lock",
+        "The angels gratefully drink, gracefully dance, from block to block."
+      ],
+      [
+        "Fire is not a flickering glow that a candle flame would mock",
+        "Fire is the flame of a heap of moths that lightning has just struck."
+      ],
+      [
+        "None like Hafiz, the mask of deceitful intellect can pluck",
+        "Till the hair of Bride of Verses was brushed lock after lock."
+      ]
+    ],
+    "full_text": "At the gates of the tavern I saw the angels knock\nKneaded this clay we call human, and made it talk.\nThe residents of the Celestial Court and the heavenly bloc\nDrank from the Wine of Love, with me, upon our common walk.\nThe earth and the skies could not keep this trust of the clock\nYet the poor insane me was stuck with such tough luck.\nPeople find good reason for the wars in which they are stuck\nSince Truth they cannot see, to fantasies they would flock.\nIn our midst, thank God, the dogs of war are put in chain and lock\nThe angels gratefully drink, gracefully dance, from block to block.\nFire is not a flickering glow that a candle flame would mock\nFire is the flame of a heap of moths that lightning has just struck.\nNone like Hafiz, the mask of deceitful intellect can pluck\nTill the hair of Bride of Verses was brushed lock after lock."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/04/184.htm"
+}

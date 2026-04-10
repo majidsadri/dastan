@@ -1,0 +1,126 @@
+{
+  "id": 2,
+  "ghazal_number": 2,
+  "title_en": "The Curling Locks",
+  "title_fa": "صـلاح کار کـجا و مـن خراب کـجا",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "صـلاح کار کـجا و مـن خراب کـجا",
+      "بـبین تـفاوت ره کز کجاست تا به کجا",
+      "دلـم ز صومعه بگرفت و خرقـه سالوس",
+      "کـجاسـت دیر مغان و شراب ناب کجا",
+      "چـه نسبت است به رندی صلاح و تقوا را",
+      "سـماع وعـظ کـجا نغمـه رباب کجا",
+      "ز روی دوست دل دشمـنان چـه دریابد",
+      "چراغ مرده کـجا شمـع آفـتاب کـجا",
+      "چو کحل بینش ما خاک آستان شماست",
+      "کـجا رویم بـفرما از این جـناب کـجا",
+      "مبین به سیب زنخدان که چاه در راه است",
+      "کـجا همی‌روی ای دل بدین شتاب کجا",
+      "بـشد کـه یاد خوشش باد روزگار وصال",
+      "خود آن کرشمه کجا رفت و آن عتاب کجا",
+      "قرار و خواب ز حافظ طمع مدار ای دوست",
+      "قرار چیسـت صبوری کدام و خواب کـجا"
+    ],
+    "couplets": [
+      [
+        "صـلاح کار کـجا و مـن خراب کـجا",
+        "بـبین تـفاوت ره کز کجاست تا به کجا"
+      ],
+      [
+        "دلـم ز صومعه بگرفت و خرقـه سالوس",
+        "کـجاسـت دیر مغان و شراب ناب کجا"
+      ],
+      [
+        "چـه نسبت است به رندی صلاح و تقوا را",
+        "سـماع وعـظ کـجا نغمـه رباب کجا"
+      ],
+      [
+        "ز روی دوست دل دشمـنان چـه دریابد",
+        "چراغ مرده کـجا شمـع آفـتاب کـجا"
+      ],
+      [
+        "چو کحل بینش ما خاک آستان شماست",
+        "کـجا رویم بـفرما از این جـناب کـجا"
+      ],
+      [
+        "مبین به سیب زنخدان که چاه در راه است",
+        "کـجا همی‌روی ای دل بدین شتاب کجا"
+      ],
+      [
+        "بـشد کـه یاد خوشش باد روزگار وصال",
+        "خود آن کرشمه کجا رفت و آن عتاب کجا"
+      ],
+      [
+        "قرار و خواب ز حافظ طمع مدار ای دوست",
+        "قرار چیسـت صبوری کدام و خواب کـجا"
+      ]
+    ],
+    "full_text": "صـلاح کار کـجا و مـن خراب کـجا\nبـبین تـفاوت ره کز کجاست تا به کجا\nدلـم ز صومعه بگرفت و خرقـه سالوس\nکـجاسـت دیر مغان و شراب ناب کجا\nچـه نسبت است به رندی صلاح و تقوا را\nسـماع وعـظ کـجا نغمـه رباب کجا\nز روی دوست دل دشمـنان چـه دریابد\nچراغ مرده کـجا شمـع آفـتاب کـجا\nچو کحل بینش ما خاک آستان شماست\nکـجا رویم بـفرما از این جـناب کـجا\nمبین به سیب زنخدان که چاه در راه است\nکـجا همی‌روی ای دل بدین شتاب کجا\nبـشد کـه یاد خوشش باد روزگار وصال\nخود آن کرشمه کجا رفت و آن عتاب کجا\nقرار و خواب ز حافظ طمع مدار ای دوست\nقرار چیسـت صبوری کدام و خواب کـجا"
+  },
+  "english": {
+    "lines": [
+      "Where is sensible action, & my insanity whence?",
+      "See the difference, it is from where to whence.",
+      "From the church & hypocritical vestments, I take offence",
+      "Where is the abode of the Magi, & sweet wine whence?",
+      "For dervishes, piety and sensibility make no sense",
+      "Where is sermon and hymn, & the violin's music whence.",
+      "Upon seeing our friend, our foes put up their defense",
+      "Where is a dead lantern, & the candle of the sun whence?",
+      "My eye-liner is the dust of your door and fence",
+      "Where shall I go, tell me, you command me whence?",
+      "Take your focus from your chin to the trap on the path hence,",
+      "Where to O heart, in such hurry you go whence?",
+      "May his memory of union be happy and intense",
+      "Where are your amorous gestures, & your reproach whence?",
+      "Make not restlessness & insomnia, Hafiz's sentence",
+      "What is rest, which is patience, and sleep whence?"
+    ],
+    "couplets": [
+      [
+        "Where is sensible action, & my insanity whence?",
+        "See the difference, it is from where to whence."
+      ],
+      [
+        "From the church & hypocritical vestments, I take offence",
+        "Where is the abode of the Magi, & sweet wine whence?"
+      ],
+      [
+        "For dervishes, piety and sensibility make no sense",
+        "Where is sermon and hymn, & the violin's music whence."
+      ],
+      [
+        "Upon seeing our friend, our foes put up their defense",
+        "Where is a dead lantern, & the candle of the sun whence?"
+      ],
+      [
+        "My eye-liner is the dust of your door and fence",
+        "Where shall I go, tell me, you command me whence?"
+      ],
+      [
+        "Take your focus from your chin to the trap on the path hence,",
+        "Where to O heart, in such hurry you go whence?"
+      ],
+      [
+        "May his memory of union be happy and intense",
+        "Where are your amorous gestures, & your reproach whence?"
+      ],
+      [
+        "Make not restlessness & insomnia, Hafiz's sentence",
+        "What is rest, which is patience, and sleep whence?"
+      ]
+    ],
+    "full_text": "Where is sensible action, & my insanity whence?\nSee the difference, it is from where to whence.\nFrom the church & hypocritical vestments, I take offence\nWhere is the abode of the Magi, & sweet wine whence?\nFor dervishes, piety and sensibility make no sense\nWhere is sermon and hymn, & the violin's music whence.\nUpon seeing our friend, our foes put up their defense\nWhere is a dead lantern, & the candle of the sun whence?\nMy eye-liner is the dust of your door and fence\nWhere shall I go, tell me, you command me whence?\nTake your focus from your chin to the trap on the path hence,\nWhere to O heart, in such hurry you go whence?\nMay his memory of union be happy and intense\nWhere are your amorous gestures, & your reproach whence?\nMake not restlessness & insomnia, Hafiz's sentence\nWhat is rest, which is patience, and sleep whence?"
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/01/002.htm"
+}

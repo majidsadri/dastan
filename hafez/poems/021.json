@@ -1,0 +1,102 @@
+{
+  "id": 21,
+  "ghazal_number": 132,
+  "title_en": "The Nightingale",
+  "title_fa": "به آب روشن می عارفی طهارت کرد",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "به آب روشن می عارفی طهارت کرد",
+      "عـلی الصباح که میخانه را زیارت کرد",
+      "همین که ساغر زرین خور نهان گردید",
+      "هـلال عید بـه دور قدح اشارت کرد",
+      "خوشا نماز و نیاز کسی که از سر درد",
+      "بـه آب دیده و خون جگر طهارت کرد",
+      "امام خواجه که بودش سر نـماز دراز",
+      "بـه خون دختر رز خرقه را قصارت کرد",
+      "دلم ز حلقه زلفش به جان خرید آشوب",
+      "چه سود دید ندانم که این تجارت کرد",
+      "اگر امام جماعت طلـب کـند امروز",
+      "خبر دهید که حافظ به می طهارت کرد"
+    ],
+    "couplets": [
+      [
+        "به آب روشن می عارفی طهارت کرد",
+        "عـلی الصباح که میخانه را زیارت کرد"
+      ],
+      [
+        "همین که ساغر زرین خور نهان گردید",
+        "هـلال عید بـه دور قدح اشارت کرد"
+      ],
+      [
+        "خوشا نماز و نیاز کسی که از سر درد",
+        "بـه آب دیده و خون جگر طهارت کرد"
+      ],
+      [
+        "امام خواجه که بودش سر نـماز دراز",
+        "بـه خون دختر رز خرقه را قصارت کرد"
+      ],
+      [
+        "دلم ز حلقه زلفش به جان خرید آشوب",
+        "چه سود دید ندانم که این تجارت کرد"
+      ],
+      [
+        "اگر امام جماعت طلـب کـند امروز",
+        "خبر دهید که حافظ به می طهارت کرد"
+      ]
+    ],
+    "full_text": "به آب روشن می عارفی طهارت کرد\nعـلی الصباح که میخانه را زیارت کرد\nهمین که ساغر زرین خور نهان گردید\nهـلال عید بـه دور قدح اشارت کرد\nخوشا نماز و نیاز کسی که از سر درد\nبـه آب دیده و خون جگر طهارت کرد\nامام خواجه که بودش سر نـماز دراز\nبـه خون دختر رز خرقه را قصارت کرد\nدلم ز حلقه زلفش به جان خرید آشوب\nچه سود دید ندانم که این تجارت کرد\nاگر امام جماعت طلـب کـند امروز\nخبر دهید که حافظ به می طهارت کرد"
+  },
+  "english": {
+    "lines": [
+      "With clear wine, a wise one washed his behind",
+      "Early morning in tavern, who had homage on his mind.",
+      "When the golden cup of sun, descended from the skies",
+      "Curve of the new moon, of the curved cup would remind.",
+      "Happy is the one whose prayers and needs stem from his pain",
+      "With tears of his eyes and blood of his veins, cleans his behind.",
+      "The head priest leading prayers should be the one",
+      "Whose shrinking gown, blood of the daughter of vine defined.",
+      "My heart bought upheavals for the locks of that flowing hair",
+      "I know not that in this trade, what profit it could ever find.",
+      "If the head priest asks for me and my kind",
+      "Tell him Hafiz, with wine, is baptizing his behind."
+    ],
+    "couplets": [
+      [
+        "With clear wine, a wise one washed his behind",
+        "Early morning in tavern, who had homage on his mind."
+      ],
+      [
+        "When the golden cup of sun, descended from the skies",
+        "Curve of the new moon, of the curved cup would remind."
+      ],
+      [
+        "Happy is the one whose prayers and needs stem from his pain",
+        "With tears of his eyes and blood of his veins, cleans his behind."
+      ],
+      [
+        "The head priest leading prayers should be the one",
+        "Whose shrinking gown, blood of the daughter of vine defined."
+      ],
+      [
+        "My heart bought upheavals for the locks of that flowing hair",
+        "I know not that in this trade, what profit it could ever find."
+      ],
+      [
+        "If the head priest asks for me and my kind",
+        "Tell him Hafiz, with wine, is baptizing his behind."
+      ]
+    ],
+    "full_text": "With clear wine, a wise one washed his behind\nEarly morning in tavern, who had homage on his mind.\nWhen the golden cup of sun, descended from the skies\nCurve of the new moon, of the curved cup would remind.\nHappy is the one whose prayers and needs stem from his pain\nWith tears of his eyes and blood of his veins, cleans his behind.\nThe head priest leading prayers should be the one\nWhose shrinking gown, blood of the daughter of vine defined.\nMy heart bought upheavals for the locks of that flowing hair\nI know not that in this trade, what profit it could ever find.\nIf the head priest asks for me and my kind\nTell him Hafiz, with wine, is baptizing his behind."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/03/132.htm"
+}

@@ -1,0 +1,114 @@
+{
+  "id": 13,
+  "ghazal_number": 53,
+  "title_en": "The Hidden Treasure",
+  "title_fa": "منـم که گوشه میخانه خانقاه من است",
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "era": "14th century",
+  "origin": "Shiraz, Iran",
+  "form": "Ghazal",
+  "form_fa": "غزل",
+  "farsi": {
+    "lines": [
+      "منـم که گوشه میخانه خانقاه من است",
+      "دعای پیر مغان ورد صبحگاه مـن اسـت",
+      "گرم ترانـه چنگ صبوح نیست چـه باک",
+      "نوای من به سحر آه عذرخواه من اسـت",
+      "ز پادشاه و گدا فارغـم بـحـمدالـلـه",
+      "گدای خاک در دوست پادشاه من اسـت",
+      "غرض ز مسجد و میخانه‌ام وصال شماست",
+      "جز این خیال ندارم خدا گواه مـن اسـت",
+      "مـگر بـه تیغ اجل خیمه برکنـم ور نی",
+      "رمیدن از در دولت نه رسم و راه من است",
+      "از آن زمان که بر این آستان نـهادم روی",
+      "فراز مسند خورشید تکیه گاه من اسـت",
+      "گـناه اگر چـه نـبود اختیار ما حافـظ",
+      "تو در طریق ادب باش و گو گناه من است"
+    ],
+    "couplets": [
+      [
+        "منـم که گوشه میخانه خانقاه من است",
+        "دعای پیر مغان ورد صبحگاه مـن اسـت"
+      ],
+      [
+        "گرم ترانـه چنگ صبوح نیست چـه باک",
+        "نوای من به سحر آه عذرخواه من اسـت"
+      ],
+      [
+        "ز پادشاه و گدا فارغـم بـحـمدالـلـه",
+        "گدای خاک در دوست پادشاه من اسـت"
+      ],
+      [
+        "غرض ز مسجد و میخانه‌ام وصال شماست",
+        "جز این خیال ندارم خدا گواه مـن اسـت"
+      ],
+      [
+        "مـگر بـه تیغ اجل خیمه برکنـم ور نی",
+        "رمیدن از در دولت نه رسم و راه من است"
+      ],
+      [
+        "از آن زمان که بر این آستان نـهادم روی",
+        "فراز مسند خورشید تکیه گاه من اسـت"
+      ],
+      [
+        "گـناه اگر چـه نـبود اختیار ما حافـظ",
+        "تو در طریق ادب باش و گو گناه من است"
+      ]
+    ],
+    "full_text": "منـم که گوشه میخانه خانقاه من است\nدعای پیر مغان ورد صبحگاه مـن اسـت\nگرم ترانـه چنگ صبوح نیست چـه باک\nنوای من به سحر آه عذرخواه من اسـت\nز پادشاه و گدا فارغـم بـحـمدالـلـه\nگدای خاک در دوست پادشاه من اسـت\nغرض ز مسجد و میخانه‌ام وصال شماست\nجز این خیال ندارم خدا گواه مـن اسـت\nمـگر بـه تیغ اجل خیمه برکنـم ور نی\nرمیدن از در دولت نه رسم و راه من است\nاز آن زمان که بر این آستان نـهادم روی\nفراز مسند خورشید تکیه گاه من اسـت\nگـناه اگر چـه نـبود اختیار ما حافـظ\nتو در طریق ادب باش و گو گناه من است"
+  },
+  "english": {
+    "lines": [
+      "The corner of the tavern is my altar, where I pray",
+      "At dawn, the mantra of the Old Magi, I say.",
+      "Fear not if the harp plays not at sun's morning ascent",
+      "My morning cry of repentance is the music I play.",
+      "Thank God, free from beggars and kings, away, I stay;",
+      "Homage, to the beggar at the door of the Beloved, I pay.",
+      "For Thee, in the mosque and the tavern, my time, I spent;",
+      "By God, from this intent, I never ran nor walked astray.",
+      "Only, Angel of Death's blade can uproot my tent",
+      "Running from love and grace has never been my way.",
+      "From the time that I made my search for Thee my intent",
+      "I lean upon the throne on which the sun may lay.",
+      "Not your fault was the sins that were put into your clay",
+      "Nonetheless accept them, Hafiz, and good taste display."
+    ],
+    "couplets": [
+      [
+        "The corner of the tavern is my altar, where I pray",
+        "At dawn, the mantra of the Old Magi, I say."
+      ],
+      [
+        "Fear not if the harp plays not at sun's morning ascent",
+        "My morning cry of repentance is the music I play."
+      ],
+      [
+        "Thank God, free from beggars and kings, away, I stay;",
+        "Homage, to the beggar at the door of the Beloved, I pay."
+      ],
+      [
+        "For Thee, in the mosque and the tavern, my time, I spent;",
+        "By God, from this intent, I never ran nor walked astray."
+      ],
+      [
+        "Only, Angel of Death's blade can uproot my tent",
+        "Running from love and grace has never been my way."
+      ],
+      [
+        "From the time that I made my search for Thee my intent",
+        "I lean upon the throne on which the sun may lay."
+      ],
+      [
+        "Not your fault was the sins that were put into your clay",
+        "Nonetheless accept them, Hafiz, and good taste display."
+      ]
+    ],
+    "full_text": "The corner of the tavern is my altar, where I pray\nAt dawn, the mantra of the Old Magi, I say.\nFear not if the harp plays not at sun's morning ascent\nMy morning cry of repentance is the music I play.\nThank God, free from beggars and kings, away, I stay;\nHomage, to the beggar at the door of the Beloved, I pay.\nFor Thee, in the mosque and the tavern, my time, I spent;\nBy God, from this intent, I never ran nor walked astray.\nOnly, Angel of Death's blade can uproot my tent\nRunning from love and grace has never been my way.\nFrom the time that I made my search for Thee my intent\nI lean upon the throne on which the sun may lay.\nNot your fault was the sins that were put into your clay\nNonetheless accept them, Hafiz, and good taste display."
+  },
+  "source": "hafizonlove.com",
+  "source_url": "https://www.hafizonlove.com/divan/02/053.htm"
+}

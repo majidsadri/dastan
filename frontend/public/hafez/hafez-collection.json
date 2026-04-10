@@ -1,0 +1,3941 @@
+{
+  "poet": "Hafez",
+  "poet_fa": "حافظ",
+  "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+  "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+  "description": "30 famous ghazals from the Divan of Hafez, in Farsi with English translation",
+  "source": "hafizonlove.com",
+  "total_poems": 30,
+  "poems": [
+    {
+      "id": 1,
+      "ghazal_number": 1,
+      "title_en": "Arise, O Cup-Bearer",
+      "title_fa": "الا یا ایها الـساقی ادر کاسا و ناولـها",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "الا یا ایها الـساقی ادر کاسا و ناولـها",
+          "که عشق آسان نمود اول ولی افتاد مشکل‌ها",
+          "بـه بوی نافه‌ای کاخر صبا زان طره بگـشاید",
+          "ز تاب جعد مشکینش چه خون افـتاد در دل‌ها",
+          "مرا در منزل جانان چه امـن عیش چون هر دم",
+          "جرس فریاد می‌دارد که بربندید مـحـمـل‌ها",
+          "بـه می سجاده رنگین کن گرت پیر مغان گوید",
+          "کـه سالک بی‌خبر نبود ز راه و رسم منزل‌ها",
+          "شـب تاریک و بیم موج و گردابی چنین هایل",
+          "کـجا دانـند حال ما سبکـباران ساحـل‌ها",
+          "همـه کارم ز خود کامی به بدنامی کشید آخر",
+          "نـهان کی ماند آن رازی کز او سازند محفل‌ها",
+          "حضوری گر همی‌خواهی از او غایب مشو حافظ",
+          "مـتی ما تلق من تهوی دع الدنیا و اهملـها"
+        ],
+        "couplets": [
+          [
+            "الا یا ایها الـساقی ادر کاسا و ناولـها",
+            "که عشق آسان نمود اول ولی افتاد مشکل‌ها"
+          ],
+          [
+            "بـه بوی نافه‌ای کاخر صبا زان طره بگـشاید",
+            "ز تاب جعد مشکینش چه خون افـتاد در دل‌ها"
+          ],
+          [
+            "مرا در منزل جانان چه امـن عیش چون هر دم",
+            "جرس فریاد می‌دارد که بربندید مـحـمـل‌ها"
+          ],
+          [
+            "بـه می سجاده رنگین کن گرت پیر مغان گوید",
+            "کـه سالک بی‌خبر نبود ز راه و رسم منزل‌ها"
+          ],
+          [
+            "شـب تاریک و بیم موج و گردابی چنین هایل",
+            "کـجا دانـند حال ما سبکـباران ساحـل‌ها"
+          ],
+          [
+            "همـه کارم ز خود کامی به بدنامی کشید آخر",
+            "نـهان کی ماند آن رازی کز او سازند محفل‌ها"
+          ],
+          [
+            "حضوری گر همی‌خواهی از او غایب مشو حافظ",
+            "مـتی ما تلق من تهوی دع الدنیا و اهملـها"
+          ]
+        ],
+        "full_text": "الا یا ایها الـساقی ادر کاسا و ناولـها\nکه عشق آسان نمود اول ولی افتاد مشکل‌ها\nبـه بوی نافه‌ای کاخر صبا زان طره بگـشاید\nز تاب جعد مشکینش چه خون افـتاد در دل‌ها\nمرا در منزل جانان چه امـن عیش چون هر دم\nجرس فریاد می‌دارد که بربندید مـحـمـل‌ها\nبـه می سجاده رنگین کن گرت پیر مغان گوید\nکـه سالک بی‌خبر نبود ز راه و رسم منزل‌ها\nشـب تاریک و بیم موج و گردابی چنین هایل\nکـجا دانـند حال ما سبکـباران ساحـل‌ها\nهمـه کارم ز خود کامی به بدنامی کشید آخر\nنـهان کی ماند آن رازی کز او سازند محفل‌ها\nحضوری گر همی‌خواهی از او غایب مشو حافظ\nمـتی ما تلق من تهوی دع الدنیا و اهملـها"
+      },
+      "english": {
+        "lines": [
+          "O beautiful wine-bearer, bring forth the cup and put it to my lips",
+          "Path of love seemed easy at first, what came was many hardships.",
+          "With its perfume, the morning breeze unlocks those beautiful locks",
+          "The curl of those dark ringlets, many hearts to shreds strips.",
+          "In the house of my Beloved, how can I enjoy the feast",
+          "Since the church bells call the call that for pilgrimage equips.",
+          "With wine color your robe, one of the old Magi’s best tips",
+          "Trust in this traveler’s tips, who knows of many paths and trips.",
+          "The dark midnight, fearful waves, and the tempestuous whirlpool",
+          "How can he know of our state, while ports house his unladen ships.",
+          "I followed my own path of love, and now I am in bad repute",
+          "How can a secret remain veiled, if from every tongue it drips?",
+          "If His presence you seek, Hafiz, then why yourself eclipse?",
+          "Stick to the One you know, let go of imaginary trips."
+        ],
+        "couplets": [
+          [
+            "O beautiful wine-bearer, bring forth the cup and put it to my lips",
+            "Path of love seemed easy at first, what came was many hardships."
+          ],
+          [
+            "With its perfume, the morning breeze unlocks those beautiful locks",
+            "The curl of those dark ringlets, many hearts to shreds strips."
+          ],
+          [
+            "In the house of my Beloved, how can I enjoy the feast",
+            "Since the church bells call the call that for pilgrimage equips."
+          ],
+          [
+            "With wine color your robe, one of the old Magi’s best tips",
+            "Trust in this traveler’s tips, who knows of many paths and trips."
+          ],
+          [
+            "The dark midnight, fearful waves, and the tempestuous whirlpool",
+            "How can he know of our state, while ports house his unladen ships."
+          ],
+          [
+            "I followed my own path of love, and now I am in bad repute",
+            "How can a secret remain veiled, if from every tongue it drips?"
+          ],
+          [
+            "If His presence you seek, Hafiz, then why yourself eclipse?",
+            "Stick to the One you know, let go of imaginary trips."
+          ]
+        ],
+        "full_text": "O beautiful wine-bearer, bring forth the cup and put it to my lips\nPath of love seemed easy at first, what came was many hardships.\nWith its perfume, the morning breeze unlocks those beautiful locks\nThe curl of those dark ringlets, many hearts to shreds strips.\nIn the house of my Beloved, how can I enjoy the feast\nSince the church bells call the call that for pilgrimage equips.\nWith wine color your robe, one of the old Magi’s best tips\nTrust in this traveler’s tips, who knows of many paths and trips.\nThe dark midnight, fearful waves, and the tempestuous whirlpool\nHow can he know of our state, while ports house his unladen ships.\nI followed my own path of love, and now I am in bad repute\nHow can a secret remain veiled, if from every tongue it drips?\nIf His presence you seek, Hafiz, then why yourself eclipse?\nStick to the One you know, let go of imaginary trips."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/001.htm"
+    },
+    {
+      "id": 2,
+      "ghazal_number": 2,
+      "title_en": "The Curling Locks",
+      "title_fa": "صـلاح کار کـجا و مـن خراب کـجا",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "صـلاح کار کـجا و مـن خراب کـجا",
+          "بـبین تـفاوت ره کز کجاست تا به کجا",
+          "دلـم ز صومعه بگرفت و خرقـه سالوس",
+          "کـجاسـت دیر مغان و شراب ناب کجا",
+          "چـه نسبت است به رندی صلاح و تقوا را",
+          "سـماع وعـظ کـجا نغمـه رباب کجا",
+          "ز روی دوست دل دشمـنان چـه دریابد",
+          "چراغ مرده کـجا شمـع آفـتاب کـجا",
+          "چو کحل بینش ما خاک آستان شماست",
+          "کـجا رویم بـفرما از این جـناب کـجا",
+          "مبین به سیب زنخدان که چاه در راه است",
+          "کـجا همی‌روی ای دل بدین شتاب کجا",
+          "بـشد کـه یاد خوشش باد روزگار وصال",
+          "خود آن کرشمه کجا رفت و آن عتاب کجا",
+          "قرار و خواب ز حافظ طمع مدار ای دوست",
+          "قرار چیسـت صبوری کدام و خواب کـجا"
+        ],
+        "couplets": [
+          [
+            "صـلاح کار کـجا و مـن خراب کـجا",
+            "بـبین تـفاوت ره کز کجاست تا به کجا"
+          ],
+          [
+            "دلـم ز صومعه بگرفت و خرقـه سالوس",
+            "کـجاسـت دیر مغان و شراب ناب کجا"
+          ],
+          [
+            "چـه نسبت است به رندی صلاح و تقوا را",
+            "سـماع وعـظ کـجا نغمـه رباب کجا"
+          ],
+          [
+            "ز روی دوست دل دشمـنان چـه دریابد",
+            "چراغ مرده کـجا شمـع آفـتاب کـجا"
+          ],
+          [
+            "چو کحل بینش ما خاک آستان شماست",
+            "کـجا رویم بـفرما از این جـناب کـجا"
+          ],
+          [
+            "مبین به سیب زنخدان که چاه در راه است",
+            "کـجا همی‌روی ای دل بدین شتاب کجا"
+          ],
+          [
+            "بـشد کـه یاد خوشش باد روزگار وصال",
+            "خود آن کرشمه کجا رفت و آن عتاب کجا"
+          ],
+          [
+            "قرار و خواب ز حافظ طمع مدار ای دوست",
+            "قرار چیسـت صبوری کدام و خواب کـجا"
+          ]
+        ],
+        "full_text": "صـلاح کار کـجا و مـن خراب کـجا\nبـبین تـفاوت ره کز کجاست تا به کجا\nدلـم ز صومعه بگرفت و خرقـه سالوس\nکـجاسـت دیر مغان و شراب ناب کجا\nچـه نسبت است به رندی صلاح و تقوا را\nسـماع وعـظ کـجا نغمـه رباب کجا\nز روی دوست دل دشمـنان چـه دریابد\nچراغ مرده کـجا شمـع آفـتاب کـجا\nچو کحل بینش ما خاک آستان شماست\nکـجا رویم بـفرما از این جـناب کـجا\nمبین به سیب زنخدان که چاه در راه است\nکـجا همی‌روی ای دل بدین شتاب کجا\nبـشد کـه یاد خوشش باد روزگار وصال\nخود آن کرشمه کجا رفت و آن عتاب کجا\nقرار و خواب ز حافظ طمع مدار ای دوست\nقرار چیسـت صبوری کدام و خواب کـجا"
+      },
+      "english": {
+        "lines": [
+          "Where is sensible action, & my insanity whence?",
+          "See the difference, it is from where to whence.",
+          "From the church & hypocritical vestments, I take offence",
+          "Where is the abode of the Magi, & sweet wine whence?",
+          "For dervishes, piety and sensibility make no sense",
+          "Where is sermon and hymn, & the violin's music whence.",
+          "Upon seeing our friend, our foes put up their defense",
+          "Where is a dead lantern, & the candle of the sun whence?",
+          "My eye-liner is the dust of your door and fence",
+          "Where shall I go, tell me, you command me whence?",
+          "Take your focus from your chin to the trap on the path hence,",
+          "Where to O heart, in such hurry you go whence?",
+          "May his memory of union be happy and intense",
+          "Where are your amorous gestures, & your reproach whence?",
+          "Make not restlessness & insomnia, Hafiz's sentence",
+          "What is rest, which is patience, and sleep whence?"
+        ],
+        "couplets": [
+          [
+            "Where is sensible action, & my insanity whence?",
+            "See the difference, it is from where to whence."
+          ],
+          [
+            "From the church & hypocritical vestments, I take offence",
+            "Where is the abode of the Magi, & sweet wine whence?"
+          ],
+          [
+            "For dervishes, piety and sensibility make no sense",
+            "Where is sermon and hymn, & the violin's music whence."
+          ],
+          [
+            "Upon seeing our friend, our foes put up their defense",
+            "Where is a dead lantern, & the candle of the sun whence?"
+          ],
+          [
+            "My eye-liner is the dust of your door and fence",
+            "Where shall I go, tell me, you command me whence?"
+          ],
+          [
+            "Take your focus from your chin to the trap on the path hence,",
+            "Where to O heart, in such hurry you go whence?"
+          ],
+          [
+            "May his memory of union be happy and intense",
+            "Where are your amorous gestures, & your reproach whence?"
+          ],
+          [
+            "Make not restlessness & insomnia, Hafiz's sentence",
+            "What is rest, which is patience, and sleep whence?"
+          ]
+        ],
+        "full_text": "Where is sensible action, & my insanity whence?\nSee the difference, it is from where to whence.\nFrom the church & hypocritical vestments, I take offence\nWhere is the abode of the Magi, & sweet wine whence?\nFor dervishes, piety and sensibility make no sense\nWhere is sermon and hymn, & the violin's music whence.\nUpon seeing our friend, our foes put up their defense\nWhere is a dead lantern, & the candle of the sun whence?\nMy eye-liner is the dust of your door and fence\nWhere shall I go, tell me, you command me whence?\nTake your focus from your chin to the trap on the path hence,\nWhere to O heart, in such hurry you go whence?\nMay his memory of union be happy and intense\nWhere are your amorous gestures, & your reproach whence?\nMake not restlessness & insomnia, Hafiz's sentence\nWhat is rest, which is patience, and sleep whence?"
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/002.htm"
+    },
+    {
+      "id": 3,
+      "ghazal_number": 3,
+      "title_en": "If That Turk of Shiraz",
+      "title_fa": "اگر آن ترک شیرازی بـه دسـت آرد دل ما را",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "اگر آن ترک شیرازی بـه دسـت آرد دل ما را",
+          "بـه خال هـندویش بخشم سمرقند و بـخارا را",
+          "بده ساقی می باقی که در جنت نخواهی یافـت",
+          "کـنار آب رکـن آباد و گلگـشـت مـصـلا را",
+          "فـغان کاین لولیان شوخ شیرین کار شـهرآشوب",
+          "چـنان بردند صبر از دل که ترکان خوان یغـما را",
+          "ز عشـق ناتـمام ما جمال یار مستغنی اسـت",
+          "بـه آب و رنگ و خال و خط چه حاجت روی زیبا را",
+          "من از آن حسن روزافزون که یوسف داشت دانستم",
+          "کـه عـشـق از پرده عصمت برون آرد زلیخا را",
+          "اگر دشـنام فرمایی و گر نـفرین دعا گویم",
+          "جواب تـلـخ می‌زیبد لـب لعـل شـکرخا را",
+          "نصیحـت گوش کن جانا که از جان دوست‌تر دارند",
+          "جوانان سـعادتـمـند پـند پیر دانا را",
+          "حدیث از مـطرب و می گو و راز دهر کـمـتر جو",
+          "کـه کس نگشود و نگشاید به حکمت این معما را",
+          "غزل گفتی و در سفتی بیا و خوش بخوان حافـظ",
+          "کـه بر نـظـم تو افـشاند فلک عـقد ثریا را"
+        ],
+        "couplets": [
+          [
+            "اگر آن ترک شیرازی بـه دسـت آرد دل ما را",
+            "بـه خال هـندویش بخشم سمرقند و بـخارا را"
+          ],
+          [
+            "بده ساقی می باقی که در جنت نخواهی یافـت",
+            "کـنار آب رکـن آباد و گلگـشـت مـصـلا را"
+          ],
+          [
+            "فـغان کاین لولیان شوخ شیرین کار شـهرآشوب",
+            "چـنان بردند صبر از دل که ترکان خوان یغـما را"
+          ],
+          [
+            "ز عشـق ناتـمام ما جمال یار مستغنی اسـت",
+            "بـه آب و رنگ و خال و خط چه حاجت روی زیبا را"
+          ],
+          [
+            "من از آن حسن روزافزون که یوسف داشت دانستم",
+            "کـه عـشـق از پرده عصمت برون آرد زلیخا را"
+          ],
+          [
+            "اگر دشـنام فرمایی و گر نـفرین دعا گویم",
+            "جواب تـلـخ می‌زیبد لـب لعـل شـکرخا را"
+          ],
+          [
+            "نصیحـت گوش کن جانا که از جان دوست‌تر دارند",
+            "جوانان سـعادتـمـند پـند پیر دانا را"
+          ],
+          [
+            "حدیث از مـطرب و می گو و راز دهر کـمـتر جو",
+            "کـه کس نگشود و نگشاید به حکمت این معما را"
+          ],
+          [
+            "غزل گفتی و در سفتی بیا و خوش بخوان حافـظ",
+            "کـه بر نـظـم تو افـشاند فلک عـقد ثریا را"
+          ]
+        ],
+        "full_text": "اگر آن ترک شیرازی بـه دسـت آرد دل ما را\nبـه خال هـندویش بخشم سمرقند و بـخارا را\nبده ساقی می باقی که در جنت نخواهی یافـت\nکـنار آب رکـن آباد و گلگـشـت مـصـلا را\nفـغان کاین لولیان شوخ شیرین کار شـهرآشوب\nچـنان بردند صبر از دل که ترکان خوان یغـما را\nز عشـق ناتـمام ما جمال یار مستغنی اسـت\nبـه آب و رنگ و خال و خط چه حاجت روی زیبا را\nمن از آن حسن روزافزون که یوسف داشت دانستم\nکـه عـشـق از پرده عصمت برون آرد زلیخا را\nاگر دشـنام فرمایی و گر نـفرین دعا گویم\nجواب تـلـخ می‌زیبد لـب لعـل شـکرخا را\nنصیحـت گوش کن جانا که از جان دوست‌تر دارند\nجوانان سـعادتـمـند پـند پیر دانا را\nحدیث از مـطرب و می گو و راز دهر کـمـتر جو\nکـه کس نگشود و نگشاید به حکمت این معما را\nغزل گفتی و در سفتی بیا و خوش بخوان حافـظ\nکـه بر نـظـم تو افـشاند فلک عـقد ثریا را"
+      },
+      "english": {
+        "lines": [
+          "That beautiful Shirazi Turk, took control and my heart stole,",
+          "I'll give Samarkand & Bukhara, for her Hindu beauty mole.",
+          "O wine-bearer bring me wine, such wine not found in Heavens",
+          "By running brooks, in flowery fields, spend your days and stroll.",
+          "Alas, these sweet gypsy clowns, these agitators of our town",
+          "Took the patience of my heart, like looting Turks take their toll.",
+          "Such unfinished love as ours, the Beloved has no need,",
+          "For the Perfect Beauty, frills and adornments play no role.",
+          "I came to know Joseph's goodness, that daily would increase",
+          "Even the chaste Mistress succumbed to the love she would extol.",
+          "Whether profane or even cursed, I'll reply only in praise",
+          "Sweetness of tongue and the lips, even bitterness would enthrall.",
+          "Heed the advice of the wise, make your most endeared goal,",
+          "The fortunate blessed youth, listen to the old wise soul.",
+          "Tell tales of song and wine, seek not secrets of the world,",
+          "None has found and no-one will, knowledge leaves this riddle whole.",
+          "You composed poems and sang, Hafiz, you spent your days well",
+          "Venus wedded to your songs, in the firmaments' inverted bowl."
+        ],
+        "couplets": [
+          [
+            "That beautiful Shirazi Turk, took control and my heart stole,",
+            "I'll give Samarkand & Bukhara, for her Hindu beauty mole."
+          ],
+          [
+            "O wine-bearer bring me wine, such wine not found in Heavens",
+            "By running brooks, in flowery fields, spend your days and stroll."
+          ],
+          [
+            "Alas, these sweet gypsy clowns, these agitators of our town",
+            "Took the patience of my heart, like looting Turks take their toll."
+          ],
+          [
+            "Such unfinished love as ours, the Beloved has no need,",
+            "For the Perfect Beauty, frills and adornments play no role."
+          ],
+          [
+            "I came to know Joseph's goodness, that daily would increase",
+            "Even the chaste Mistress succumbed to the love she would extol."
+          ],
+          [
+            "Whether profane or even cursed, I'll reply only in praise",
+            "Sweetness of tongue and the lips, even bitterness would enthrall."
+          ],
+          [
+            "Heed the advice of the wise, make your most endeared goal,",
+            "The fortunate blessed youth, listen to the old wise soul."
+          ],
+          [
+            "Tell tales of song and wine, seek not secrets of the world,",
+            "None has found and no-one will, knowledge leaves this riddle whole."
+          ],
+          [
+            "You composed poems and sang, Hafiz, you spent your days well",
+            "Venus wedded to your songs, in the firmaments' inverted bowl."
+          ]
+        ],
+        "full_text": "That beautiful Shirazi Turk, took control and my heart stole,\nI'll give Samarkand & Bukhara, for her Hindu beauty mole.\nO wine-bearer bring me wine, such wine not found in Heavens\nBy running brooks, in flowery fields, spend your days and stroll.\nAlas, these sweet gypsy clowns, these agitators of our town\nTook the patience of my heart, like looting Turks take their toll.\nSuch unfinished love as ours, the Beloved has no need,\nFor the Perfect Beauty, frills and adornments play no role.\nI came to know Joseph's goodness, that daily would increase\nEven the chaste Mistress succumbed to the love she would extol.\nWhether profane or even cursed, I'll reply only in praise\nSweetness of tongue and the lips, even bitterness would enthrall.\nHeed the advice of the wise, make your most endeared goal,\nThe fortunate blessed youth, listen to the old wise soul.\nTell tales of song and wine, seek not secrets of the world,\nNone has found and no-one will, knowledge leaves this riddle whole.\nYou composed poems and sang, Hafiz, you spent your days well\nVenus wedded to your songs, in the firmaments' inverted bowl."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/003.htm"
+    },
+    {
+      "id": 4,
+      "ghazal_number": 4,
+      "title_en": "The Morning Breeze",
+      "title_fa": "صـبا بـه لطـف بگو آن غزال رعنا را",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "صـبا بـه لطـف بگو آن غزال رعنا را",
+          "که سر به کوه و بیابان تو داده‌ای ما را",
+          "شـکرفروش کـه عمرش دراز باد چرا",
+          "تفـقدی نـکـند طوطی شکرخا را",
+          "غرور حسنت اجازت مگر نداد ای گـل",
+          "کـه پرسشی نکنی عندلیب شیدا را",
+          "به خلق و لطف توان کرد صید اهل نظر",
+          "بـه بـند و دام نـگیرند مرغ دانا را",
+          "ندانم از چه سبب رنگ آشنایی نیست",
+          "سهی قدان سیه چشم ماه سیما را",
+          "چو با حـبیب نـشینی و باده پیمایی",
+          "بـه یاد دار مـحـبان بادپیما را",
+          "جز این قدر نتوان گفت در جمال تو عیب",
+          "کـه وضع مهر و وفا نیست روی زیبا را",
+          "در آسمان نه عجب گر به گفته حافـظ",
+          "سرود زهره به رقص آورد مـسیحا را"
+        ],
+        "couplets": [
+          [
+            "صـبا بـه لطـف بگو آن غزال رعنا را",
+            "که سر به کوه و بیابان تو داده‌ای ما را"
+          ],
+          [
+            "شـکرفروش کـه عمرش دراز باد چرا",
+            "تفـقدی نـکـند طوطی شکرخا را"
+          ],
+          [
+            "غرور حسنت اجازت مگر نداد ای گـل",
+            "کـه پرسشی نکنی عندلیب شیدا را"
+          ],
+          [
+            "به خلق و لطف توان کرد صید اهل نظر",
+            "بـه بـند و دام نـگیرند مرغ دانا را"
+          ],
+          [
+            "ندانم از چه سبب رنگ آشنایی نیست",
+            "سهی قدان سیه چشم ماه سیما را"
+          ],
+          [
+            "چو با حـبیب نـشینی و باده پیمایی",
+            "بـه یاد دار مـحـبان بادپیما را"
+          ],
+          [
+            "جز این قدر نتوان گفت در جمال تو عیب",
+            "کـه وضع مهر و وفا نیست روی زیبا را"
+          ],
+          [
+            "در آسمان نه عجب گر به گفته حافـظ",
+            "سرود زهره به رقص آورد مـسیحا را"
+          ]
+        ],
+        "full_text": "صـبا بـه لطـف بگو آن غزال رعنا را\nکه سر به کوه و بیابان تو داده‌ای ما را\nشـکرفروش کـه عمرش دراز باد چرا\nتفـقدی نـکـند طوطی شکرخا را\nغرور حسنت اجازت مگر نداد ای گـل\nکـه پرسشی نکنی عندلیب شیدا را\nبه خلق و لطف توان کرد صید اهل نظر\nبـه بـند و دام نـگیرند مرغ دانا را\nندانم از چه سبب رنگ آشنایی نیست\nسهی قدان سیه چشم ماه سیما را\nچو با حـبیب نـشینی و باده پیمایی\nبـه یاد دار مـحـبان بادپیما را\nجز این قدر نتوان گفت در جمال تو عیب\nکـه وضع مهر و وفا نیست روی زیبا را\nدر آسمان نه عجب گر به گفته حافـظ\nسرود زهره به رقص آورد مـسیحا را"
+      },
+      "english": {
+        "lines": [
+          "Kindly tell the tender deer, O morning breeze",
+          "I am wandering your desert and the wild countries.",
+          "Long live the sugar merchant, but why",
+          "Is he unkind to sweet lovers, the honey-bees?",
+          "Tender rose, pride in your goodness forbids",
+          "To ask the manic nightingale of his fantasies.",
+          "Only with gentle compassion can you trap the wise.",
+          "The wise bird from any snare simply flees.",
+          "I know not why there is no familiarity",
+          "With the tall, black eye, bright faced beauties.",
+          "When in company of friends, glass of wine in hand",
+          "Remember old companions who travel upon the breeze.",
+          "The only criticism that I can have of you;",
+          "For kindness, the beauties charge extortionate fees.",
+          "No wonder if in the heavens, as claims Hafiz;",
+          "Venus’ song brings Christ to dancing sprees."
+        ],
+        "couplets": [
+          [
+            "Kindly tell the tender deer, O morning breeze",
+            "I am wandering your desert and the wild countries."
+          ],
+          [
+            "Long live the sugar merchant, but why",
+            "Is he unkind to sweet lovers, the honey-bees?"
+          ],
+          [
+            "Tender rose, pride in your goodness forbids",
+            "To ask the manic nightingale of his fantasies."
+          ],
+          [
+            "Only with gentle compassion can you trap the wise.",
+            "The wise bird from any snare simply flees."
+          ],
+          [
+            "I know not why there is no familiarity",
+            "With the tall, black eye, bright faced beauties."
+          ],
+          [
+            "When in company of friends, glass of wine in hand",
+            "Remember old companions who travel upon the breeze."
+          ],
+          [
+            "The only criticism that I can have of you;",
+            "For kindness, the beauties charge extortionate fees."
+          ],
+          [
+            "No wonder if in the heavens, as claims Hafiz;",
+            "Venus’ song brings Christ to dancing sprees."
+          ]
+        ],
+        "full_text": "Kindly tell the tender deer, O morning breeze\nI am wandering your desert and the wild countries.\nLong live the sugar merchant, but why\nIs he unkind to sweet lovers, the honey-bees?\nTender rose, pride in your goodness forbids\nTo ask the manic nightingale of his fantasies.\nOnly with gentle compassion can you trap the wise.\nThe wise bird from any snare simply flees.\nI know not why there is no familiarity\nWith the tall, black eye, bright faced beauties.\nWhen in company of friends, glass of wine in hand\nRemember old companions who travel upon the breeze.\nThe only criticism that I can have of you;\nFor kindness, the beauties charge extortionate fees.\nNo wonder if in the heavens, as claims Hafiz;\nVenus’ song brings Christ to dancing sprees."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/004.htm"
+    },
+    {
+      "id": 5,
+      "ghazal_number": 5,
+      "title_en": "The Heart's Desire",
+      "title_fa": "دل می‌رود ز دستـم صاحـب دلان خدا را",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "دل می‌رود ز دستـم صاحـب دلان خدا را",
+          "دردا کـه راز پنـهان خواهد شد آشـکارا",
+          "کشـتی شکستگانیم ای باد شرطه برخیز",
+          "باشد کـه بازبینیم دیدار آشـنا را",
+          "ده روزه مهر گردون افسانه است و افـسون",
+          "نیکی بـه جای یاران فرصـت شـمار یارا",
+          "در حلقه گل و مل خوش خواند دوش بلبـل",
+          "هات الـصـبوح هـبوا یا ایها الـسـکارا",
+          "ای صاحـب کرامـت شکرانـه سلامـت",
+          "روزی تـفـقدی کـن درویش بی‌نوا را",
+          "آسایش دو گیتی تفسیر این دو حرف است",
+          "با دوسـتان مروت با دشـمـنان مدارا",
+          "در کوی نیک نامی ما را گذر ندادند",
+          "گر تو نمی‌پسـندی تـغییر کـن قـضا را",
+          "آن تلخ وش که صوفی ام الخبائثـش خواند",
+          "اشـهی لـنا و احـلی من قبله الـعذارا",
+          "هنـگام تنگدستی در عیش کوش و مستی",
+          "کاین کیمیای هسـتی قارون کـند گدا را",
+          "سرکش مشو که چون شمع از غیرتت بسوزد",
+          "دلـبر کـه در کف او موم است سنگ خارا",
+          "آیینـه سـکـندر جام می اسـت بنـگر",
+          "تا بر تو عرضـه دارد احوال مـلـک دارا",
+          "خوبان پارسی گو بـخـشـندگان عـمرند",
+          "ساقی بده بـشارت رندان پارسا را",
+          "حافـظ بـه خود نپوشید این خرقه می آلود",
+          "ای شیخ پاکدامـن مـعذور دار ما را"
+        ],
+        "couplets": [
+          [
+            "دل می‌رود ز دستـم صاحـب دلان خدا را",
+            "دردا کـه راز پنـهان خواهد شد آشـکارا"
+          ],
+          [
+            "کشـتی شکستگانیم ای باد شرطه برخیز",
+            "باشد کـه بازبینیم دیدار آشـنا را"
+          ],
+          [
+            "ده روزه مهر گردون افسانه است و افـسون",
+            "نیکی بـه جای یاران فرصـت شـمار یارا"
+          ],
+          [
+            "در حلقه گل و مل خوش خواند دوش بلبـل",
+            "هات الـصـبوح هـبوا یا ایها الـسـکارا"
+          ],
+          [
+            "ای صاحـب کرامـت شکرانـه سلامـت",
+            "روزی تـفـقدی کـن درویش بی‌نوا را"
+          ],
+          [
+            "آسایش دو گیتی تفسیر این دو حرف است",
+            "با دوسـتان مروت با دشـمـنان مدارا"
+          ],
+          [
+            "در کوی نیک نامی ما را گذر ندادند",
+            "گر تو نمی‌پسـندی تـغییر کـن قـضا را"
+          ],
+          [
+            "آن تلخ وش که صوفی ام الخبائثـش خواند",
+            "اشـهی لـنا و احـلی من قبله الـعذارا"
+          ],
+          [
+            "هنـگام تنگدستی در عیش کوش و مستی",
+            "کاین کیمیای هسـتی قارون کـند گدا را"
+          ],
+          [
+            "سرکش مشو که چون شمع از غیرتت بسوزد",
+            "دلـبر کـه در کف او موم است سنگ خارا"
+          ],
+          [
+            "آیینـه سـکـندر جام می اسـت بنـگر",
+            "تا بر تو عرضـه دارد احوال مـلـک دارا"
+          ],
+          [
+            "خوبان پارسی گو بـخـشـندگان عـمرند",
+            "ساقی بده بـشارت رندان پارسا را"
+          ],
+          [
+            "حافـظ بـه خود نپوشید این خرقه می آلود",
+            "ای شیخ پاکدامـن مـعذور دار ما را"
+          ]
+        ],
+        "full_text": "دل می‌رود ز دستـم صاحـب دلان خدا را\nدردا کـه راز پنـهان خواهد شد آشـکارا\nکشـتی شکستگانیم ای باد شرطه برخیز\nباشد کـه بازبینیم دیدار آشـنا را\nده روزه مهر گردون افسانه است و افـسون\nنیکی بـه جای یاران فرصـت شـمار یارا\nدر حلقه گل و مل خوش خواند دوش بلبـل\nهات الـصـبوح هـبوا یا ایها الـسـکارا\nای صاحـب کرامـت شکرانـه سلامـت\nروزی تـفـقدی کـن درویش بی‌نوا را\nآسایش دو گیتی تفسیر این دو حرف است\nبا دوسـتان مروت با دشـمـنان مدارا\nدر کوی نیک نامی ما را گذر ندادند\nگر تو نمی‌پسـندی تـغییر کـن قـضا را\nآن تلخ وش که صوفی ام الخبائثـش خواند\nاشـهی لـنا و احـلی من قبله الـعذارا\nهنـگام تنگدستی در عیش کوش و مستی\nکاین کیمیای هسـتی قارون کـند گدا را\nسرکش مشو که چون شمع از غیرتت بسوزد\nدلـبر کـه در کف او موم است سنگ خارا\nآیینـه سـکـندر جام می اسـت بنـگر\nتا بر تو عرضـه دارد احوال مـلـک دارا\nخوبان پارسی گو بـخـشـندگان عـمرند\nساقی بده بـشارت رندان پارسا را\nحافـظ بـه خود نپوشید این خرقه می آلود\nای شیخ پاکدامـن مـعذور دار ما را"
+      },
+      "english": {
+        "lines": [
+          "O pious of the heart, I am lost in a love, so great",
+          "O pain the hidden secrets will become open debate.",
+          "Shipwrecked we just float, O favorable wind arise,",
+          "May we one more time gaze upon that familiar trait.",
+          "Passage of time and the stars, are but what we fantasize",
+          "For compassion and kindness, it is never too late.",
+          "In the circle of wine and roses, nightingale’s song is prize",
+          "With the aroma and the wine your senses satiate.",
+          "O Thou compassionate one, life giver and the wise",
+          "One day bestow thy grace upon this mendicant’s state.",
+          "For peace of this world and the next, understand what I advise",
+          "Magnanimity the lot of friends, and with foes try to relate.",
+          "In the land of repute, our passage they will dispute",
+          "If this will not suit, don’t stay mute, and transmute dictates of fate.",
+          "When destitute and in need, let your love and passion breed",
+          "Life’s alchemy, essence and seed, unimagined wealth shall create.",
+          "If unruly with pride, with a candle’s zeal your flame will rise",
+          "Beloved turns stone to lava, and molten wax manipulate.",
+          "The Grail contains but wine, if only you realize",
+          "Then the Kingdom of the world, at your feet prostrate.",
+          "The good and wise Magi, forgivers of lives and lies",
+          "Bearer bring good news, drunkards’ wine consecrate.",
+          "With this wine stained robe, Hafiz would never disguise",
+          "O untainted pure Master, exempt us from this fate."
+        ],
+        "couplets": [
+          [
+            "O pious of the heart, I am lost in a love, so great",
+            "O pain the hidden secrets will become open debate."
+          ],
+          [
+            "Shipwrecked we just float, O favorable wind arise,",
+            "May we one more time gaze upon that familiar trait."
+          ],
+          [
+            "Passage of time and the stars, are but what we fantasize",
+            "For compassion and kindness, it is never too late."
+          ],
+          [
+            "In the circle of wine and roses, nightingale’s song is prize",
+            "With the aroma and the wine your senses satiate."
+          ],
+          [
+            "O Thou compassionate one, life giver and the wise",
+            "One day bestow thy grace upon this mendicant’s state."
+          ],
+          [
+            "For peace of this world and the next, understand what I advise",
+            "Magnanimity the lot of friends, and with foes try to relate."
+          ],
+          [
+            "In the land of repute, our passage they will dispute",
+            "If this will not suit, don’t stay mute, and transmute dictates of fate."
+          ],
+          [
+            "When destitute and in need, let your love and passion breed",
+            "Life’s alchemy, essence and seed, unimagined wealth shall create."
+          ],
+          [
+            "If unruly with pride, with a candle’s zeal your flame will rise",
+            "Beloved turns stone to lava, and molten wax manipulate."
+          ],
+          [
+            "The Grail contains but wine, if only you realize",
+            "Then the Kingdom of the world, at your feet prostrate."
+          ],
+          [
+            "The good and wise Magi, forgivers of lives and lies",
+            "Bearer bring good news, drunkards’ wine consecrate."
+          ],
+          [
+            "With this wine stained robe, Hafiz would never disguise",
+            "O untainted pure Master, exempt us from this fate."
+          ]
+        ],
+        "full_text": "O pious of the heart, I am lost in a love, so great\nO pain the hidden secrets will become open debate.\nShipwrecked we just float, O favorable wind arise,\nMay we one more time gaze upon that familiar trait.\nPassage of time and the stars, are but what we fantasize\nFor compassion and kindness, it is never too late.\nIn the circle of wine and roses, nightingale’s song is prize\nWith the aroma and the wine your senses satiate.\nO Thou compassionate one, life giver and the wise\nOne day bestow thy grace upon this mendicant’s state.\nFor peace of this world and the next, understand what I advise\nMagnanimity the lot of friends, and with foes try to relate.\nIn the land of repute, our passage they will dispute\nIf this will not suit, don’t stay mute, and transmute dictates of fate.\nWhen destitute and in need, let your love and passion breed\nLife’s alchemy, essence and seed, unimagined wealth shall create.\nIf unruly with pride, with a candle’s zeal your flame will rise\nBeloved turns stone to lava, and molten wax manipulate.\nThe Grail contains but wine, if only you realize\nThen the Kingdom of the world, at your feet prostrate.\nThe good and wise Magi, forgivers of lives and lies\nBearer bring good news, drunkards’ wine consecrate.\nWith this wine stained robe, Hafiz would never disguise\nO untainted pure Master, exempt us from this fate."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/005.htm"
+    },
+    {
+      "id": 6,
+      "ghazal_number": 11,
+      "title_en": "The East Wind",
+      "title_fa": "ساقی بـه نور باده برافروز جام ما",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "ساقی بـه نور باده برافروز جام ما",
+          "مـطرب بـگو کـه کار جهان شد به کام ما",
+          "ما در پیالـه عـکـس رخ یار دیده‌ایم",
+          "ای بی‌خـبر ز لذت شرب مدام ما",
+          "هرگز نمیرد آن که دلش زنده شد به عشـق",
+          "ثـبـت اسـت بر جریده عالـم دوام ما",
+          "چـندان بود کرشمـه و ناز سـهی قدان",
+          "کاید بـه جـلوه سرو صـنوبرخرام ما",
+          "ای باد اگر بـه گلشـن احـباب بـگذری",
+          "زنـهار عرضـه ده بر جانان پیام ما",
+          "گو نام ما ز یاد بـه عـمدا چـه می‌بری",
+          "خود آید آن کـه یاد نیاری ز نام ما",
+          "مستی به چشم شاهد دلبند ما خوش است",
+          "زان رو سـپرده‌اند بـه مـسـتی زمام ما",
+          "ترسـم کـه صرفـه‌ای نبرد روز بازخواست",
+          "نان حـلال شیخ ز آب حرام ما",
+          "حافـظ ز دیده دانه اشکی هـمی‌فـشان",
+          "باشد کـه مرغ وصـل کـند قـصد دام ما",
+          "دریای اخـضر فـلـک و کشـتی هـلال",
+          "هسـتـند غرق نعـمـت حاجی قوام ما"
+        ],
+        "couplets": [
+          [
+            "ساقی بـه نور باده برافروز جام ما",
+            "مـطرب بـگو کـه کار جهان شد به کام ما"
+          ],
+          [
+            "ما در پیالـه عـکـس رخ یار دیده‌ایم",
+            "ای بی‌خـبر ز لذت شرب مدام ما"
+          ],
+          [
+            "هرگز نمیرد آن که دلش زنده شد به عشـق",
+            "ثـبـت اسـت بر جریده عالـم دوام ما"
+          ],
+          [
+            "چـندان بود کرشمـه و ناز سـهی قدان",
+            "کاید بـه جـلوه سرو صـنوبرخرام ما"
+          ],
+          [
+            "ای باد اگر بـه گلشـن احـباب بـگذری",
+            "زنـهار عرضـه ده بر جانان پیام ما"
+          ],
+          [
+            "گو نام ما ز یاد بـه عـمدا چـه می‌بری",
+            "خود آید آن کـه یاد نیاری ز نام ما"
+          ],
+          [
+            "مستی به چشم شاهد دلبند ما خوش است",
+            "زان رو سـپرده‌اند بـه مـسـتی زمام ما"
+          ],
+          [
+            "ترسـم کـه صرفـه‌ای نبرد روز بازخواست",
+            "نان حـلال شیخ ز آب حرام ما"
+          ],
+          [
+            "حافـظ ز دیده دانه اشکی هـمی‌فـشان",
+            "باشد کـه مرغ وصـل کـند قـصد دام ما"
+          ],
+          [
+            "دریای اخـضر فـلـک و کشـتی هـلال",
+            "هسـتـند غرق نعـمـت حاجی قوام ما"
+          ]
+        ],
+        "full_text": "ساقی بـه نور باده برافروز جام ما\nمـطرب بـگو کـه کار جهان شد به کام ما\nما در پیالـه عـکـس رخ یار دیده‌ایم\nای بی‌خـبر ز لذت شرب مدام ما\nهرگز نمیرد آن که دلش زنده شد به عشـق\nثـبـت اسـت بر جریده عالـم دوام ما\nچـندان بود کرشمـه و ناز سـهی قدان\nکاید بـه جـلوه سرو صـنوبرخرام ما\nای باد اگر بـه گلشـن احـباب بـگذری\nزنـهار عرضـه ده بر جانان پیام ما\nگو نام ما ز یاد بـه عـمدا چـه می‌بری\nخود آید آن کـه یاد نیاری ز نام ما\nمستی به چشم شاهد دلبند ما خوش است\nزان رو سـپرده‌اند بـه مـسـتی زمام ما\nترسـم کـه صرفـه‌ای نبرد روز بازخواست\nنان حـلال شیخ ز آب حرام ما\nحافـظ ز دیده دانه اشکی هـمی‌فـشان\nباشد کـه مرغ وصـل کـند قـصد دام ما\nدریای اخـضر فـلـک و کشـتی هـلال\nهسـتـند غرق نعـمـت حاجی قوام ما"
+      },
+      "english": {
+        "lines": [
+          "O wine-bearer brighten my cup with the wine",
+          "O minstrel say good fortune is now mine.",
+          "The face of my Beloved is reflected in my cup",
+          "Little you know why with wine, I always myself align.",
+          "Eternal is the one whose heart has awakened to Love",
+          "This is how Eternal Records my life define.",
+          "So proud are the tall beauties of the world",
+          "Outshines all the others this handsome spruce of mine.",
+          "O breeze if by chance you pass through friendly gardens",
+          "From me to my Beloved, please give a sign;",
+          "Ask why you choose to forget my name?",
+          "Will come the one to whom an audience you decline.",
+          "Intoxication pleases my Beloved and my Lord",
+          "To the wine, they would assign, my life's design.",
+          "What if on Judgment Day, no favor would be gained",
+          "From eating bread and leaving a forbidden water so fine?",
+          "Hafiz, let a tear drop or two leave your eyes,",
+          "May we ensnare the Bird of Union, divine.",
+          "The sea of the skies and the gondola of the moon",
+          "With the grace of the Master, radiantly shine."
+        ],
+        "couplets": [
+          [
+            "O wine-bearer brighten my cup with the wine",
+            "O minstrel say good fortune is now mine."
+          ],
+          [
+            "The face of my Beloved is reflected in my cup",
+            "Little you know why with wine, I always myself align."
+          ],
+          [
+            "Eternal is the one whose heart has awakened to Love",
+            "This is how Eternal Records my life define."
+          ],
+          [
+            "So proud are the tall beauties of the world",
+            "Outshines all the others this handsome spruce of mine."
+          ],
+          [
+            "O breeze if by chance you pass through friendly gardens",
+            "From me to my Beloved, please give a sign;"
+          ],
+          [
+            "Ask why you choose to forget my name?",
+            "Will come the one to whom an audience you decline."
+          ],
+          [
+            "Intoxication pleases my Beloved and my Lord",
+            "To the wine, they would assign, my life's design."
+          ],
+          [
+            "What if on Judgment Day, no favor would be gained",
+            "From eating bread and leaving a forbidden water so fine?"
+          ],
+          [
+            "Hafiz, let a tear drop or two leave your eyes,",
+            "May we ensnare the Bird of Union, divine."
+          ],
+          [
+            "The sea of the skies and the gondola of the moon",
+            "With the grace of the Master, radiantly shine."
+          ]
+        ],
+        "full_text": "O wine-bearer brighten my cup with the wine\nO minstrel say good fortune is now mine.\nThe face of my Beloved is reflected in my cup\nLittle you know why with wine, I always myself align.\nEternal is the one whose heart has awakened to Love\nThis is how Eternal Records my life define.\nSo proud are the tall beauties of the world\nOutshines all the others this handsome spruce of mine.\nO breeze if by chance you pass through friendly gardens\nFrom me to my Beloved, please give a sign;\nAsk why you choose to forget my name?\nWill come the one to whom an audience you decline.\nIntoxication pleases my Beloved and my Lord\nTo the wine, they would assign, my life's design.\nWhat if on Judgment Day, no favor would be gained\nFrom eating bread and leaving a forbidden water so fine?\nHafiz, let a tear drop or two leave your eyes,\nMay we ensnare the Bird of Union, divine.\nThe sea of the skies and the gondola of the moon\nWith the grace of the Master, radiantly shine."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/011.htm"
+    },
+    {
+      "id": 7,
+      "ghazal_number": 12,
+      "title_en": "The Beloved's Lane",
+      "title_fa": "ای فروغ ماه حـسـن از روی رخـشان شـما",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "ای فروغ ماه حـسـن از روی رخـشان شـما",
+          "آب روی خوبی از چاه زنـخدان شـما",
+          "عزم دیدار تو دارد جان بر لـب آمده",
+          "بازگردد یا برآید چیسـت فرمان شـما",
+          "کـس بـه دور نرگست طرفی نبسـت از عافیت",
+          "بـه کـه نفروشـند مسـتوری به مستان شما",
+          "بـخـت خواب آلود ما بیدار خواهد شد مـگر",
+          "زان کـه زد بر دیده آبی روی رخـشان شـما",
+          "با صـبا هـمراه بفرسـت از رخت گلدستـه‌ای",
+          "بو کـه بویی بشـنویم از خاک بسـتان شـما",
+          "عـمرتان باد و مراد ای ساقیان بزم جـم",
+          "گر چـه جام ما نـشد پرمی بـه دوران شـما",
+          "دل خرابی می‌کـند دلدار را آگـه کـنید",
+          "زینـهار ای دوسـتان جان مـن و جان شـما",
+          "کی دهد دست این غرض یا رب که همدستان شوند",
+          "خاطر مـجـموع ما زلـف پریشان شـما",
+          "دور دار از خاک و خون دامـن چو بر ما بـگذری",
+          "کاندر این ره کـشـتـه بـسیارند قربان شـما",
+          "ای صـبا با ساکـنان شـهر یزد از ما بـگو",
+          "کای سر حـق ناشـناسان گوی چوگان شـما",
+          "گر چـه دوریم از بساط قرب همـت دور نیسـت",
+          "بـنده شاه شـماییم و ثـناخوان شـما",
+          "ای شهنـشاه بـلـنداخـتر خدا را هـمـتی",
+          "تا ببوسـم هـمـچو اخـتر خاک ایوان شـما",
+          "می‌کـند حافـظ دعایی بـشـنو آمینی بـگو",
+          "روزی ما باد لـعـل شـکرافـشان شـما"
+        ],
+        "couplets": [
+          [
+            "ای فروغ ماه حـسـن از روی رخـشان شـما",
+            "آب روی خوبی از چاه زنـخدان شـما"
+          ],
+          [
+            "عزم دیدار تو دارد جان بر لـب آمده",
+            "بازگردد یا برآید چیسـت فرمان شـما"
+          ],
+          [
+            "کـس بـه دور نرگست طرفی نبسـت از عافیت",
+            "بـه کـه نفروشـند مسـتوری به مستان شما"
+          ],
+          [
+            "بـخـت خواب آلود ما بیدار خواهد شد مـگر",
+            "زان کـه زد بر دیده آبی روی رخـشان شـما"
+          ],
+          [
+            "با صـبا هـمراه بفرسـت از رخت گلدستـه‌ای",
+            "بو کـه بویی بشـنویم از خاک بسـتان شـما"
+          ],
+          [
+            "عـمرتان باد و مراد ای ساقیان بزم جـم",
+            "گر چـه جام ما نـشد پرمی بـه دوران شـما"
+          ],
+          [
+            "دل خرابی می‌کـند دلدار را آگـه کـنید",
+            "زینـهار ای دوسـتان جان مـن و جان شـما"
+          ],
+          [
+            "کی دهد دست این غرض یا رب که همدستان شوند",
+            "خاطر مـجـموع ما زلـف پریشان شـما"
+          ],
+          [
+            "دور دار از خاک و خون دامـن چو بر ما بـگذری",
+            "کاندر این ره کـشـتـه بـسیارند قربان شـما"
+          ],
+          [
+            "ای صـبا با ساکـنان شـهر یزد از ما بـگو",
+            "کای سر حـق ناشـناسان گوی چوگان شـما"
+          ],
+          [
+            "گر چـه دوریم از بساط قرب همـت دور نیسـت",
+            "بـنده شاه شـماییم و ثـناخوان شـما"
+          ],
+          [
+            "ای شهنـشاه بـلـنداخـتر خدا را هـمـتی",
+            "تا ببوسـم هـمـچو اخـتر خاک ایوان شـما"
+          ],
+          [
+            "می‌کـند حافـظ دعایی بـشـنو آمینی بـگو",
+            "روزی ما باد لـعـل شـکرافـشان شـما"
+          ]
+        ],
+        "full_text": "ای فروغ ماه حـسـن از روی رخـشان شـما\nآب روی خوبی از چاه زنـخدان شـما\nعزم دیدار تو دارد جان بر لـب آمده\nبازگردد یا برآید چیسـت فرمان شـما\nکـس بـه دور نرگست طرفی نبسـت از عافیت\nبـه کـه نفروشـند مسـتوری به مستان شما\nبـخـت خواب آلود ما بیدار خواهد شد مـگر\nزان کـه زد بر دیده آبی روی رخـشان شـما\nبا صـبا هـمراه بفرسـت از رخت گلدستـه‌ای\nبو کـه بویی بشـنویم از خاک بسـتان شـما\nعـمرتان باد و مراد ای ساقیان بزم جـم\nگر چـه جام ما نـشد پرمی بـه دوران شـما\nدل خرابی می‌کـند دلدار را آگـه کـنید\nزینـهار ای دوسـتان جان مـن و جان شـما\nکی دهد دست این غرض یا رب که همدستان شوند\nخاطر مـجـموع ما زلـف پریشان شـما\nدور دار از خاک و خون دامـن چو بر ما بـگذری\nکاندر این ره کـشـتـه بـسیارند قربان شـما\nای صـبا با ساکـنان شـهر یزد از ما بـگو\nکای سر حـق ناشـناسان گوی چوگان شـما\nگر چـه دوریم از بساط قرب همـت دور نیسـت\nبـنده شاه شـماییم و ثـناخوان شـما\nای شهنـشاه بـلـنداخـتر خدا را هـمـتی\nتا ببوسـم هـمـچو اخـتر خاک ایوان شـما\nمی‌کـند حافـظ دعایی بـشـنو آمینی بـگو\nروزی ما باد لـعـل شـکرافـشان شـما"
+      },
+      "english": {
+        "lines": [
+          "The bright moon reflects your radiant face",
+          "Your snowcapped cheekbones supply water of grace",
+          "My heavy heart desires an audience with your face",
+          "Come forward or must return, your command I will embrace.",
+          "Nobody for good measures girded your fields",
+          "Such trades no one in their right mind would chase.",
+          "Our dormant fate will never awake, unless",
+          "You wash its face and shout brace, brace!",
+          "Send a bouquet of your face with morning breeze",
+          "Perhaps inhaling your scent, your fields we envision & trace.",
+          "May you live fulfilled and long, O wine-bearer of this feast",
+          "Though our cup was never filled from your jug or your vase.",
+          "My heart is reckless, please, let Beloved know",
+          "Beware my friend, my soul your soul replace.",
+          "O God, when will my fate and desires hand in hand",
+          "Bring me to my Beloved hair, in one place?",
+          "Step above the ground, when you decide to pass us by",
+          "On this path lie bloody, the martyrs of human race.",
+          "Hafiz says a prayer, listen, and say amen",
+          "May your sweet wine daily pour upon my lips and my face.",
+          "O breeze tell us about the inhabitants of city of Yazd",
+          "May the heads of unworthy roll as a ball in your polo race.",
+          "Though we are far from friends, kinship is near",
+          "We praise your goodness and majestic mace.",
+          "O Majesty, may we be touched by your grace",
+          "I kiss and touch the ground that is your base."
+        ],
+        "couplets": [
+          [
+            "The bright moon reflects your radiant face",
+            "Your snowcapped cheekbones supply water of grace"
+          ],
+          [
+            "My heavy heart desires an audience with your face",
+            "Come forward or must return, your command I will embrace."
+          ],
+          [
+            "Nobody for good measures girded your fields",
+            "Such trades no one in their right mind would chase."
+          ],
+          [
+            "Our dormant fate will never awake, unless",
+            "You wash its face and shout brace, brace!"
+          ],
+          [
+            "Send a bouquet of your face with morning breeze",
+            "Perhaps inhaling your scent, your fields we envision & trace."
+          ],
+          [
+            "May you live fulfilled and long, O wine-bearer of this feast",
+            "Though our cup was never filled from your jug or your vase."
+          ],
+          [
+            "My heart is reckless, please, let Beloved know",
+            "Beware my friend, my soul your soul replace."
+          ],
+          [
+            "O God, when will my fate and desires hand in hand",
+            "Bring me to my Beloved hair, in one place?"
+          ],
+          [
+            "Step above the ground, when you decide to pass us by",
+            "On this path lie bloody, the martyrs of human race."
+          ],
+          [
+            "Hafiz says a prayer, listen, and say amen",
+            "May your sweet wine daily pour upon my lips and my face."
+          ],
+          [
+            "O breeze tell us about the inhabitants of city of Yazd",
+            "May the heads of unworthy roll as a ball in your polo race."
+          ],
+          [
+            "Though we are far from friends, kinship is near",
+            "We praise your goodness and majestic mace."
+          ],
+          [
+            "O Majesty, may we be touched by your grace",
+            "I kiss and touch the ground that is your base."
+          ]
+        ],
+        "full_text": "The bright moon reflects your radiant face\nYour snowcapped cheekbones supply water of grace\nMy heavy heart desires an audience with your face\nCome forward or must return, your command I will embrace.\nNobody for good measures girded your fields\nSuch trades no one in their right mind would chase.\nOur dormant fate will never awake, unless\nYou wash its face and shout brace, brace!\nSend a bouquet of your face with morning breeze\nPerhaps inhaling your scent, your fields we envision & trace.\nMay you live fulfilled and long, O wine-bearer of this feast\nThough our cup was never filled from your jug or your vase.\nMy heart is reckless, please, let Beloved know\nBeware my friend, my soul your soul replace.\nO God, when will my fate and desires hand in hand\nBring me to my Beloved hair, in one place?\nStep above the ground, when you decide to pass us by\nOn this path lie bloody, the martyrs of human race.\nHafiz says a prayer, listen, and say amen\nMay your sweet wine daily pour upon my lips and my face.\nO breeze tell us about the inhabitants of city of Yazd\nMay the heads of unworthy roll as a ball in your polo race.\nThough we are far from friends, kinship is near\nWe praise your goodness and majestic mace.\nO Majesty, may we be touched by your grace\nI kiss and touch the ground that is your base."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/012.htm"
+    },
+    {
+      "id": 8,
+      "ghazal_number": 22,
+      "title_en": "The Rose Garden",
+      "title_fa": "چو بشنوی سخن اهل دل مگو که خطاست",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "چو بشنوی سخن اهل دل مگو که خطاست",
+          "سخن شناس نه‌ای جان من خطا این جاست",
+          "سرم بـه دنیی و عـقـبی فرو نـمی‌آید",
+          "تـبارک الله از این فتنه‌ها که در سر ماست",
+          "در اندرون مـن خسته دل ندانـم کیسـت",
+          "که من خموشم و او در فغان و در غوغاست",
+          "دلـم ز پرده برون شد کـجایی ای مـطرب",
+          "بـنال هان که از این پرده کار ما به نواست",
+          "مرا بـه کار جـهان هرگز الـتـفات نـبود",
+          "رخ تو در نظر من چنین خوشـش آراسـت",
+          "نخـفـتـه‌ام ز خیالی کـه می‌پزد دل من",
+          "خـمار صدشـبـه دارم شرابخانه کجاست",
+          "چـنین کـه صومعـه آلوده شد ز خون دلم",
+          "گرم به باده بشویید حق به دست شماست",
+          "از آن بـه دیر مـغانـم عزیز می‌دارند",
+          "کـه آتشی که نمیرد همیشه در دل ماست",
+          "چـه ساز بود که در پرده می‌زد آن مـطرب",
+          "کـه رفـت عمر و هنوزم دماغ پر ز هواست",
+          "ندای عـشـق تو دیشـب در اندرون دادند",
+          "فـضای سینـه حافـظ هنوز پر ز صداست"
+        ],
+        "couplets": [
+          [
+            "چو بشنوی سخن اهل دل مگو که خطاست",
+            "سخن شناس نه‌ای جان من خطا این جاست"
+          ],
+          [
+            "سرم بـه دنیی و عـقـبی فرو نـمی‌آید",
+            "تـبارک الله از این فتنه‌ها که در سر ماست"
+          ],
+          [
+            "در اندرون مـن خسته دل ندانـم کیسـت",
+            "که من خموشم و او در فغان و در غوغاست"
+          ],
+          [
+            "دلـم ز پرده برون شد کـجایی ای مـطرب",
+            "بـنال هان که از این پرده کار ما به نواست"
+          ],
+          [
+            "مرا بـه کار جـهان هرگز الـتـفات نـبود",
+            "رخ تو در نظر من چنین خوشـش آراسـت"
+          ],
+          [
+            "نخـفـتـه‌ام ز خیالی کـه می‌پزد دل من",
+            "خـمار صدشـبـه دارم شرابخانه کجاست"
+          ],
+          [
+            "چـنین کـه صومعـه آلوده شد ز خون دلم",
+            "گرم به باده بشویید حق به دست شماست"
+          ],
+          [
+            "از آن بـه دیر مـغانـم عزیز می‌دارند",
+            "کـه آتشی که نمیرد همیشه در دل ماست"
+          ],
+          [
+            "چـه ساز بود که در پرده می‌زد آن مـطرب",
+            "کـه رفـت عمر و هنوزم دماغ پر ز هواست"
+          ],
+          [
+            "ندای عـشـق تو دیشـب در اندرون دادند",
+            "فـضای سینـه حافـظ هنوز پر ز صداست"
+          ]
+        ],
+        "full_text": "چو بشنوی سخن اهل دل مگو که خطاست\nسخن شناس نه‌ای جان من خطا این جاست\nسرم بـه دنیی و عـقـبی فرو نـمی‌آید\nتـبارک الله از این فتنه‌ها که در سر ماست\nدر اندرون مـن خسته دل ندانـم کیسـت\nکه من خموشم و او در فغان و در غوغاست\nدلـم ز پرده برون شد کـجایی ای مـطرب\nبـنال هان که از این پرده کار ما به نواست\nمرا بـه کار جـهان هرگز الـتـفات نـبود\nرخ تو در نظر من چنین خوشـش آراسـت\nنخـفـتـه‌ام ز خیالی کـه می‌پزد دل من\nخـمار صدشـبـه دارم شرابخانه کجاست\nچـنین کـه صومعـه آلوده شد ز خون دلم\nگرم به باده بشویید حق به دست شماست\nاز آن بـه دیر مـغانـم عزیز می‌دارند\nکـه آتشی که نمیرد همیشه در دل ماست\nچـه ساز بود که در پرده می‌زد آن مـطرب\nکـه رفـت عمر و هنوزم دماغ پر ز هواست\nندای عـشـق تو دیشـب در اندرون دادند\nفـضای سینـه حافـظ هنوز پر ز صداست"
+      },
+      "english": {
+        "lines": [
+          "When you hear the lovers’ words, think them not a mistake",
+          "You don’t recognize these words, the error must be your take.",
+          "The here and hereafter cannot tame my spirit and soul",
+          "Praise God for all the intrigue in my mind that is at stake.",
+          "I know not who resides within my heart",
+          "Though I am silent, he must shake and quake.",
+          "My heart went through the veil, play a song",
+          "Hark, my fate, this music I must make.",
+          "I paid no heed, worldly affairs I forsake",
+          "It is for your beauty, beauty of the world I partake.",
+          "My heart is on fire, I am restless and awake",
+          "To the tavern to cure my hundred day headache.",
+          "My bleeding heart has left its mark in the temple",
+          "You have every right to wash my body in a wine lake.",
+          "In the abode of the Magi, I am welcome because",
+          "The fire that never dies, in my heart is awake.",
+          "What was the song the minstrel played?",
+          "My life is gone, but breathing, I still fake!",
+          "Within me last night, the voice of your love did break",
+          "Hafiz’s breast still quivers and shakes for your sake."
+        ],
+        "couplets": [
+          [
+            "When you hear the lovers’ words, think them not a mistake",
+            "You don’t recognize these words, the error must be your take."
+          ],
+          [
+            "The here and hereafter cannot tame my spirit and soul",
+            "Praise God for all the intrigue in my mind that is at stake."
+          ],
+          [
+            "I know not who resides within my heart",
+            "Though I am silent, he must shake and quake."
+          ],
+          [
+            "My heart went through the veil, play a song",
+            "Hark, my fate, this music I must make."
+          ],
+          [
+            "I paid no heed, worldly affairs I forsake",
+            "It is for your beauty, beauty of the world I partake."
+          ],
+          [
+            "My heart is on fire, I am restless and awake",
+            "To the tavern to cure my hundred day headache."
+          ],
+          [
+            "My bleeding heart has left its mark in the temple",
+            "You have every right to wash my body in a wine lake."
+          ],
+          [
+            "In the abode of the Magi, I am welcome because",
+            "The fire that never dies, in my heart is awake."
+          ],
+          [
+            "What was the song the minstrel played?",
+            "My life is gone, but breathing, I still fake!"
+          ],
+          [
+            "Within me last night, the voice of your love did break",
+            "Hafiz’s breast still quivers and shakes for your sake."
+          ]
+        ],
+        "full_text": "When you hear the lovers’ words, think them not a mistake\nYou don’t recognize these words, the error must be your take.\nThe here and hereafter cannot tame my spirit and soul\nPraise God for all the intrigue in my mind that is at stake.\nI know not who resides within my heart\nThough I am silent, he must shake and quake.\nMy heart went through the veil, play a song\nHark, my fate, this music I must make.\nI paid no heed, worldly affairs I forsake\nIt is for your beauty, beauty of the world I partake.\nMy heart is on fire, I am restless and awake\nTo the tavern to cure my hundred day headache.\nMy bleeding heart has left its mark in the temple\nYou have every right to wash my body in a wine lake.\nIn the abode of the Magi, I am welcome because\nThe fire that never dies, in my heart is awake.\nWhat was the song the minstrel played?\nMy life is gone, but breathing, I still fake!\nWithin me last night, the voice of your love did break\nHafiz’s breast still quivers and shakes for your sake."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/022.htm"
+    },
+    {
+      "id": 9,
+      "ghazal_number": 26,
+      "title_en": "The Dawn Prayer",
+      "title_fa": "زلف آشفته و خوی کرده و خندان لب و مست",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "زلف آشفته و خوی کرده و خندان لب و مست",
+          "پیرهن چاک و غزل خوان و صراحی در دست",
+          "نرگسـش عربده جوی و لبش افسوس کنان",
+          "نیم شب دوش به بالین من آمد بنشسـت",
+          "سر فرا گوش مـن آورد بـه آواز حزین",
+          "گفـت ای عاشق دیرینه من خوابت هست",
+          "عاشـقی را کـه چنین باده شبگیر دهـند",
+          "کافر عـشـق بود گر نـشود باده پرسـت",
+          "برو ای زاهد و بر دردکـشان خرده مـگیر",
+          "کـه ندادند جز این تحفه به ما روز السـت",
+          "آن چـه او ریخت بـه پیمانـه ما نوشیدیم",
+          "اگر از خمر بهشت است وگر باده مـسـت",
+          "خـنده جام می و زلـف گره گیر نـگار",
+          "ای بسا توبه که چون توبه حافظ بشکسـت"
+        ],
+        "couplets": [
+          [
+            "زلف آشفته و خوی کرده و خندان لب و مست",
+            "پیرهن چاک و غزل خوان و صراحی در دست"
+          ],
+          [
+            "نرگسـش عربده جوی و لبش افسوس کنان",
+            "نیم شب دوش به بالین من آمد بنشسـت"
+          ],
+          [
+            "سر فرا گوش مـن آورد بـه آواز حزین",
+            "گفـت ای عاشق دیرینه من خوابت هست"
+          ],
+          [
+            "عاشـقی را کـه چنین باده شبگیر دهـند",
+            "کافر عـشـق بود گر نـشود باده پرسـت"
+          ],
+          [
+            "برو ای زاهد و بر دردکـشان خرده مـگیر",
+            "کـه ندادند جز این تحفه به ما روز السـت"
+          ],
+          [
+            "آن چـه او ریخت بـه پیمانـه ما نوشیدیم",
+            "اگر از خمر بهشت است وگر باده مـسـت"
+          ],
+          [
+            "خـنده جام می و زلـف گره گیر نـگار",
+            "ای بسا توبه که چون توبه حافظ بشکسـت"
+          ]
+        ],
+        "full_text": "زلف آشفته و خوی کرده و خندان لب و مست\nپیرهن چاک و غزل خوان و صراحی در دست\nنرگسـش عربده جوی و لبش افسوس کنان\nنیم شب دوش به بالین من آمد بنشسـت\nسر فرا گوش مـن آورد بـه آواز حزین\nگفـت ای عاشق دیرینه من خوابت هست\nعاشـقی را کـه چنین باده شبگیر دهـند\nکافر عـشـق بود گر نـشود باده پرسـت\nبرو ای زاهد و بر دردکـشان خرده مـگیر\nکـه ندادند جز این تحفه به ما روز السـت\nآن چـه او ریخت بـه پیمانـه ما نوشیدیم\nاگر از خمر بهشت است وگر باده مـسـت\nخـنده جام می و زلـف گره گیر نـگار\nای بسا توبه که چون توبه حافظ بشکسـت"
+      },
+      "english": {
+        "lines": [
+          "Disheveled hair, sweaty, smiling, drunken, and",
+          "With a torn shirt, singing, the jug in hand",
+          "Narcissus loudly laments, on his lips, alas, alas!",
+          "Last night at midnight, came and sat right by my bed-stand",
+          "Brought his head next to my ears, with a sad song",
+          "Said, O my old lover, you are still in dreamland",
+          "The lover who drinks this nocturnal brew",
+          "Infidel, if not worships the wine's command",
+          "Go away O hermit, fault not the drunk",
+          "Our Divine gift from the day that God made sea and land",
+          "Whatever He poured for us in our cup, we just drank",
+          "If it was a cheap wine or heavenly brand",
+          "The smile on the cup's face and Beloved's hair strand",
+          "Break many who may repent, just as Hafiz falsely planned."
+        ],
+        "couplets": [
+          [
+            "Disheveled hair, sweaty, smiling, drunken, and",
+            "With a torn shirt, singing, the jug in hand"
+          ],
+          [
+            "Narcissus loudly laments, on his lips, alas, alas!",
+            "Last night at midnight, came and sat right by my bed-stand"
+          ],
+          [
+            "Brought his head next to my ears, with a sad song",
+            "Said, O my old lover, you are still in dreamland"
+          ],
+          [
+            "The lover who drinks this nocturnal brew",
+            "Infidel, if not worships the wine's command"
+          ],
+          [
+            "Go away O hermit, fault not the drunk",
+            "Our Divine gift from the day that God made sea and land"
+          ],
+          [
+            "Whatever He poured for us in our cup, we just drank",
+            "If it was a cheap wine or heavenly brand"
+          ],
+          [
+            "The smile on the cup's face and Beloved's hair strand",
+            "Break many who may repent, just as Hafiz falsely planned."
+          ]
+        ],
+        "full_text": "Disheveled hair, sweaty, smiling, drunken, and\nWith a torn shirt, singing, the jug in hand\nNarcissus loudly laments, on his lips, alas, alas!\nLast night at midnight, came and sat right by my bed-stand\nBrought his head next to my ears, with a sad song\nSaid, O my old lover, you are still in dreamland\nThe lover who drinks this nocturnal brew\nInfidel, if not worships the wine's command\nGo away O hermit, fault not the drunk\nOur Divine gift from the day that God made sea and land\nWhatever He poured for us in our cup, we just drank\nIf it was a cheap wine or heavenly brand\nThe smile on the cup's face and Beloved's hair strand\nBreak many who may repent, just as Hafiz falsely planned."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/026.htm"
+    },
+    {
+      "id": 10,
+      "ghazal_number": 33,
+      "title_en": "Spring Breeze",
+      "title_fa": "خـلوت گزیده را به تماشا چه حاجـت اسـت",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "خـلوت گزیده را به تماشا چه حاجـت اسـت",
+          "چون کوی دوست هست به صحرا چه حاجت است",
+          "جانا بـه حاجـتی کـه تو را هـسـت با خدا",
+          "کاخر دمی بـپرس که ما را چه حاجـت اسـت",
+          "ای پادشاه حـسـن خدا را بـسوخـتیم",
+          "آخر سؤ‌ال کـن کـه گدا را چه حاجـت اسـت",
+          "ارباب حاجـتیم و زبان سؤ‌ال نیسـت",
+          "در حـضرت کریم تمـنا چـه حاجـت اسـت",
+          "محـتاج قصـه نیسـت گرت قصد خون ماست",
+          "چون رخت از آن توست به یغما چه حاجت اسـت",
+          "جام جـهان نماسـت ضـمیر مـنیر دوسـت",
+          "اظـهار احـتیاج خود آن جا چه حاجت اسـت",
+          "آن شد کـه بار مـنـت مـلاح بردمی",
+          "گوهر چو دست داد به دریا چه حاجـت اسـت",
+          "ای مدعی برو کـه مرا با تو کار نیسـت",
+          "احـباب حاضرند بـه اعدا چه حاجـت اسـت",
+          "ای عاشـق گدا چو لـب روح بـخـش یار",
+          "می‌داندت وظیفـه تـقاضا چـه حاجت اسـت",
+          "حافـظ تو ختـم کـن که هـنر خود عیان شود",
+          "با مدعی نزاع و مـحاکا چـه حاجـت اسـت"
+        ],
+        "couplets": [
+          [
+            "خـلوت گزیده را به تماشا چه حاجـت اسـت",
+            "چون کوی دوست هست به صحرا چه حاجت است"
+          ],
+          [
+            "جانا بـه حاجـتی کـه تو را هـسـت با خدا",
+            "کاخر دمی بـپرس که ما را چه حاجـت اسـت"
+          ],
+          [
+            "ای پادشاه حـسـن خدا را بـسوخـتیم",
+            "آخر سؤ‌ال کـن کـه گدا را چه حاجـت اسـت"
+          ],
+          [
+            "ارباب حاجـتیم و زبان سؤ‌ال نیسـت",
+            "در حـضرت کریم تمـنا چـه حاجـت اسـت"
+          ],
+          [
+            "محـتاج قصـه نیسـت گرت قصد خون ماست",
+            "چون رخت از آن توست به یغما چه حاجت اسـت"
+          ],
+          [
+            "جام جـهان نماسـت ضـمیر مـنیر دوسـت",
+            "اظـهار احـتیاج خود آن جا چه حاجت اسـت"
+          ],
+          [
+            "آن شد کـه بار مـنـت مـلاح بردمی",
+            "گوهر چو دست داد به دریا چه حاجـت اسـت"
+          ],
+          [
+            "ای مدعی برو کـه مرا با تو کار نیسـت",
+            "احـباب حاضرند بـه اعدا چه حاجـت اسـت"
+          ],
+          [
+            "ای عاشـق گدا چو لـب روح بـخـش یار",
+            "می‌داندت وظیفـه تـقاضا چـه حاجت اسـت"
+          ],
+          [
+            "حافـظ تو ختـم کـن که هـنر خود عیان شود",
+            "با مدعی نزاع و مـحاکا چـه حاجـت اسـت"
+          ]
+        ],
+        "full_text": "خـلوت گزیده را به تماشا چه حاجـت اسـت\nچون کوی دوست هست به صحرا چه حاجت است\nجانا بـه حاجـتی کـه تو را هـسـت با خدا\nکاخر دمی بـپرس که ما را چه حاجـت اسـت\nای پادشاه حـسـن خدا را بـسوخـتیم\nآخر سؤ‌ال کـن کـه گدا را چه حاجـت اسـت\nارباب حاجـتیم و زبان سؤ‌ال نیسـت\nدر حـضرت کریم تمـنا چـه حاجـت اسـت\nمحـتاج قصـه نیسـت گرت قصد خون ماست\nچون رخت از آن توست به یغما چه حاجت اسـت\nجام جـهان نماسـت ضـمیر مـنیر دوسـت\nاظـهار احـتیاج خود آن جا چه حاجت اسـت\nآن شد کـه بار مـنـت مـلاح بردمی\nگوهر چو دست داد به دریا چه حاجـت اسـت\nای مدعی برو کـه مرا با تو کار نیسـت\nاحـباب حاضرند بـه اعدا چه حاجـت اسـت\nای عاشـق گدا چو لـب روح بـخـش یار\nمی‌داندت وظیفـه تـقاضا چـه حاجت اسـت\nحافـظ تو ختـم کـن که هـنر خود عیان شود\nبا مدعی نزاع و مـحاکا چـه حاجـت اسـت"
+      },
+      "english": {
+        "lines": [
+          "The hermit has no need to watch the stage",
+          "Since Beloved is at home, no need for pilgrimage.",
+          "O soul you have a pact with the Divine,",
+          "Then ask how should I my life manage?",
+          "O King of goodness, I swear that I’m on fire",
+          "Then ask how this beggar should I manage?",
+          "I am the master of demands, yet my tongue is still",
+          "In your compassion to ask is an outrage.",
+          "No need to plot, if our blood you demand,",
+          "Our body is yours to take at any age.",
+          "Essence of the Beloved is the Holy Grail,",
+          "In expressing our needs, we need not engage.",
+          "I put up with the hardships of the sea",
+          "No need for the sea, once I earned my pearly wage.",
+          "No need to deal with fake prophets because",
+          "When friends are here, false claims disparage.",
+          "O begging lover, when Beloved’s life giving lips",
+          "Give their dutiful gifts, begging discourage.",
+          "Hafiz desist, for art self-radiates",
+          "Needless debate with fake artist and false sage."
+        ],
+        "couplets": [
+          [
+            "The hermit has no need to watch the stage",
+            "Since Beloved is at home, no need for pilgrimage."
+          ],
+          [
+            "O soul you have a pact with the Divine,",
+            "Then ask how should I my life manage?"
+          ],
+          [
+            "O King of goodness, I swear that I’m on fire",
+            "Then ask how this beggar should I manage?"
+          ],
+          [
+            "I am the master of demands, yet my tongue is still",
+            "In your compassion to ask is an outrage."
+          ],
+          [
+            "No need to plot, if our blood you demand,",
+            "Our body is yours to take at any age."
+          ],
+          [
+            "Essence of the Beloved is the Holy Grail,",
+            "In expressing our needs, we need not engage."
+          ],
+          [
+            "I put up with the hardships of the sea",
+            "No need for the sea, once I earned my pearly wage."
+          ],
+          [
+            "No need to deal with fake prophets because",
+            "When friends are here, false claims disparage."
+          ],
+          [
+            "O begging lover, when Beloved’s life giving lips",
+            "Give their dutiful gifts, begging discourage."
+          ],
+          [
+            "Hafiz desist, for art self-radiates",
+            "Needless debate with fake artist and false sage."
+          ]
+        ],
+        "full_text": "The hermit has no need to watch the stage\nSince Beloved is at home, no need for pilgrimage.\nO soul you have a pact with the Divine,\nThen ask how should I my life manage?\nO King of goodness, I swear that I’m on fire\nThen ask how this beggar should I manage?\nI am the master of demands, yet my tongue is still\nIn your compassion to ask is an outrage.\nNo need to plot, if our blood you demand,\nOur body is yours to take at any age.\nEssence of the Beloved is the Holy Grail,\nIn expressing our needs, we need not engage.\nI put up with the hardships of the sea\nNo need for the sea, once I earned my pearly wage.\nNo need to deal with fake prophets because\nWhen friends are here, false claims disparage.\nO begging lover, when Beloved’s life giving lips\nGive their dutiful gifts, begging discourage.\nHafiz desist, for art self-radiates\nNeedless debate with fake artist and false sage."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/033.htm"
+    },
+    {
+      "id": 11,
+      "ghazal_number": 42,
+      "title_en": "The Wine-Bringer",
+      "title_fa": "حال دل با تو گفتنم هوس است",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "حال دل با تو گفتنم هوس است",
+          "خـبر دل شنفتنم هوس است",
+          "طـمـع خام بین که قصه فاش",
+          "از رقیبان نهفتنم هوس اسـت",
+          "شب قدری چنین عزیز و شریف",
+          "با تو تا روز خفتنم هوس اسـت",
+          "وه کـه دردانه‌ای چـنین نازک",
+          "در شب تار سفتنم هوس است",
+          "ای صـبا امشبـم مدد فرمای",
+          "که سحرگه شکفتنم هوس است",
+          "از برای شرف بـه نوک مژه",
+          "خاک راه تو رفتنم هوس اسـت",
+          "همـچو حافـظ به رغم مدعیان",
+          "شعر رندانه گفتنم هوس است"
+        ],
+        "couplets": [
+          [
+            "حال دل با تو گفتنم هوس است",
+            "خـبر دل شنفتنم هوس است"
+          ],
+          [
+            "طـمـع خام بین که قصه فاش",
+            "از رقیبان نهفتنم هوس اسـت"
+          ],
+          [
+            "شب قدری چنین عزیز و شریف",
+            "با تو تا روز خفتنم هوس اسـت"
+          ],
+          [
+            "وه کـه دردانه‌ای چـنین نازک",
+            "در شب تار سفتنم هوس است"
+          ],
+          [
+            "ای صـبا امشبـم مدد فرمای",
+            "که سحرگه شکفتنم هوس است"
+          ],
+          [
+            "از برای شرف بـه نوک مژه",
+            "خاک راه تو رفتنم هوس اسـت"
+          ],
+          [
+            "همـچو حافـظ به رغم مدعیان",
+            "شعر رندانه گفتنم هوس است"
+          ]
+        ],
+        "full_text": "حال دل با تو گفتنم هوس است\nخـبر دل شنفتنم هوس است\nطـمـع خام بین که قصه فاش\nاز رقیبان نهفتنم هوس اسـت\nشب قدری چنین عزیز و شریف\nبا تو تا روز خفتنم هوس اسـت\nوه کـه دردانه‌ای چـنین نازک\nدر شب تار سفتنم هوس است\nای صـبا امشبـم مدد فرمای\nکه سحرگه شکفتنم هوس است\nاز برای شرف بـه نوک مژه\nخاک راه تو رفتنم هوس اسـت\nهمـچو حافـظ به رغم مدعیان\nشعر رندانه گفتنم هوس است"
+      },
+      "english": {
+        "lines": [
+          "I long to open up my heart",
+          "For my heart do my part.",
+          "My story was yesterday’s news",
+          "From rivals cannot keep apart.",
+          "On this holy night stay with me",
+          "Till the morning, do not depart.",
+          "On a night so dark as this,",
+          "My course, how can I chart?",
+          "O breath of life, help me tonight",
+          "That in the morn I make a start.",
+          "In my love for you, I will",
+          "My self and ego thwart.",
+          "Like Hafiz, being love smart;",
+          "I long to master that art."
+        ],
+        "couplets": [
+          [
+            "I long to open up my heart",
+            "For my heart do my part."
+          ],
+          [
+            "My story was yesterday’s news",
+            "From rivals cannot keep apart."
+          ],
+          [
+            "On this holy night stay with me",
+            "Till the morning, do not depart."
+          ],
+          [
+            "On a night so dark as this,",
+            "My course, how can I chart?"
+          ],
+          [
+            "O breath of life, help me tonight",
+            "That in the morn I make a start."
+          ],
+          [
+            "In my love for you, I will",
+            "My self and ego thwart."
+          ],
+          [
+            "Like Hafiz, being love smart;",
+            "I long to master that art."
+          ]
+        ],
+        "full_text": "I long to open up my heart\nFor my heart do my part.\nMy story was yesterday’s news\nFrom rivals cannot keep apart.\nOn this holy night stay with me\nTill the morning, do not depart.\nOn a night so dark as this,\nMy course, how can I chart?\nO breath of life, help me tonight\nThat in the morn I make a start.\nIn my love for you, I will\nMy self and ego thwart.\nLike Hafiz, being love smart;\nI long to master that art."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/01/042.htm"
+    },
+    {
+      "id": 12,
+      "ghazal_number": 51,
+      "title_en": "The Moth and Flame",
+      "title_fa": "لعل سیراب به خون تشنه لب یار من است",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "لعل سیراب به خون تشنه لب یار من است",
+          "وز پی دیدن او دادن جان کار مـن اسـت",
+          "شرم از آن چشم سیه بادش و مژگان دراز",
+          "هر که دل بردن او دید و در انکار من است",
+          "ساروان رخـت به دروازه مـبر کان سر کو",
+          "شاهراهیسـت که منزلگه دلدار من است",
+          "بـنده طالـع خویشم که در این قحط وفا",
+          "عشق آن لولی سرمست خریدار من است",
+          "طبلـه عـطر گـل و زلف عبیرافشانش",
+          "فیض یک شمه ز بوی خوش عطار من است",
+          "باغـبان همچو نسیمم ز در خویش مران",
+          "کاب گلزار تو از اشک چو گلنار من اسـت",
+          "شربـت قـند و گلاب از لـب یارم فرمود",
+          "نرگـس او که طبیب دل بیمار من اسـت",
+          "آن که در طرز غزل نکته به حافظ آموخـت",
+          "یار شیرین سخن نادره گفتار مـن اسـت"
+        ],
+        "couplets": [
+          [
+            "لعل سیراب به خون تشنه لب یار من است",
+            "وز پی دیدن او دادن جان کار مـن اسـت"
+          ],
+          [
+            "شرم از آن چشم سیه بادش و مژگان دراز",
+            "هر که دل بردن او دید و در انکار من است"
+          ],
+          [
+            "ساروان رخـت به دروازه مـبر کان سر کو",
+            "شاهراهیسـت که منزلگه دلدار من است"
+          ],
+          [
+            "بـنده طالـع خویشم که در این قحط وفا",
+            "عشق آن لولی سرمست خریدار من است"
+          ],
+          [
+            "طبلـه عـطر گـل و زلف عبیرافشانش",
+            "فیض یک شمه ز بوی خوش عطار من است"
+          ],
+          [
+            "باغـبان همچو نسیمم ز در خویش مران",
+            "کاب گلزار تو از اشک چو گلنار من اسـت"
+          ],
+          [
+            "شربـت قـند و گلاب از لـب یارم فرمود",
+            "نرگـس او که طبیب دل بیمار من اسـت"
+          ],
+          [
+            "آن که در طرز غزل نکته به حافظ آموخـت",
+            "یار شیرین سخن نادره گفتار مـن اسـت"
+          ]
+        ],
+        "full_text": "لعل سیراب به خون تشنه لب یار من است\nوز پی دیدن او دادن جان کار مـن اسـت\nشرم از آن چشم سیه بادش و مژگان دراز\nهر که دل بردن او دید و در انکار من است\nساروان رخـت به دروازه مـبر کان سر کو\nشاهراهیسـت که منزلگه دلدار من است\nبـنده طالـع خویشم که در این قحط وفا\nعشق آن لولی سرمست خریدار من است\nطبلـه عـطر گـل و زلف عبیرافشانش\nفیض یک شمه ز بوی خوش عطار من است\nباغـبان همچو نسیمم ز در خویش مران\nکاب گلزار تو از اشک چو گلنار من اسـت\nشربـت قـند و گلاب از لـب یارم فرمود\nنرگـس او که طبیب دل بیمار من اسـت\nآن که در طرز غزل نکته به حافظ آموخـت\nیار شیرین سخن نادره گفتار مـن اسـت"
+      },
+      "english": {
+        "lines": [
+          "My eyes drown in tears, yet thirst for but one chance",
+          "I'll give away my whole life, for Beloved, but one glance.",
+          "Be ashamed of Beloved's beautiful eyes and long lashes",
+          "If you have seen what I have, and still deny me my trance.",
+          "O traveler, leave these city gates behind and go back",
+          "Tread the same path, and towards my Beloved you'll advance.",
+          "With such shortage of love, I submit to my fate",
+          "That drunken gypsy's love is now my circumstance.",
+          "The aromatic flowers, the perfume of that hair",
+          "Is only a sample from my Perfumer's fragrance.",
+          "O gardener, like the breeze, do not drive me away,",
+          "You water your flowers with my tears' assistance.",
+          "Ordered me to drink much from my lover's sweet lips",
+          "And healed my sickened heart by taking such joyous stance.",
+          "The one who taught Hafiz, how his ghazals enhance,",
+          "Is none but my silent friend, with a sweet parlance."
+        ],
+        "couplets": [
+          [
+            "My eyes drown in tears, yet thirst for but one chance",
+            "I'll give away my whole life, for Beloved, but one glance."
+          ],
+          [
+            "Be ashamed of Beloved's beautiful eyes and long lashes",
+            "If you have seen what I have, and still deny me my trance."
+          ],
+          [
+            "O traveler, leave these city gates behind and go back",
+            "Tread the same path, and towards my Beloved you'll advance."
+          ],
+          [
+            "With such shortage of love, I submit to my fate",
+            "That drunken gypsy's love is now my circumstance."
+          ],
+          [
+            "The aromatic flowers, the perfume of that hair",
+            "Is only a sample from my Perfumer's fragrance."
+          ],
+          [
+            "O gardener, like the breeze, do not drive me away,",
+            "You water your flowers with my tears' assistance."
+          ],
+          [
+            "Ordered me to drink much from my lover's sweet lips",
+            "And healed my sickened heart by taking such joyous stance."
+          ],
+          [
+            "The one who taught Hafiz, how his ghazals enhance,",
+            "Is none but my silent friend, with a sweet parlance."
+          ]
+        ],
+        "full_text": "My eyes drown in tears, yet thirst for but one chance\nI'll give away my whole life, for Beloved, but one glance.\nBe ashamed of Beloved's beautiful eyes and long lashes\nIf you have seen what I have, and still deny me my trance.\nO traveler, leave these city gates behind and go back\nTread the same path, and towards my Beloved you'll advance.\nWith such shortage of love, I submit to my fate\nThat drunken gypsy's love is now my circumstance.\nThe aromatic flowers, the perfume of that hair\nIs only a sample from my Perfumer's fragrance.\nO gardener, like the breeze, do not drive me away,\nYou water your flowers with my tears' assistance.\nOrdered me to drink much from my lover's sweet lips\nAnd healed my sickened heart by taking such joyous stance.\nThe one who taught Hafiz, how his ghazals enhance,\nIs none but my silent friend, with a sweet parlance."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/051.htm"
+    },
+    {
+      "id": 13,
+      "ghazal_number": 53,
+      "title_en": "The Hidden Treasure",
+      "title_fa": "منـم که گوشه میخانه خانقاه من است",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "منـم که گوشه میخانه خانقاه من است",
+          "دعای پیر مغان ورد صبحگاه مـن اسـت",
+          "گرم ترانـه چنگ صبوح نیست چـه باک",
+          "نوای من به سحر آه عذرخواه من اسـت",
+          "ز پادشاه و گدا فارغـم بـحـمدالـلـه",
+          "گدای خاک در دوست پادشاه من اسـت",
+          "غرض ز مسجد و میخانه‌ام وصال شماست",
+          "جز این خیال ندارم خدا گواه مـن اسـت",
+          "مـگر بـه تیغ اجل خیمه برکنـم ور نی",
+          "رمیدن از در دولت نه رسم و راه من است",
+          "از آن زمان که بر این آستان نـهادم روی",
+          "فراز مسند خورشید تکیه گاه من اسـت",
+          "گـناه اگر چـه نـبود اختیار ما حافـظ",
+          "تو در طریق ادب باش و گو گناه من است"
+        ],
+        "couplets": [
+          [
+            "منـم که گوشه میخانه خانقاه من است",
+            "دعای پیر مغان ورد صبحگاه مـن اسـت"
+          ],
+          [
+            "گرم ترانـه چنگ صبوح نیست چـه باک",
+            "نوای من به سحر آه عذرخواه من اسـت"
+          ],
+          [
+            "ز پادشاه و گدا فارغـم بـحـمدالـلـه",
+            "گدای خاک در دوست پادشاه من اسـت"
+          ],
+          [
+            "غرض ز مسجد و میخانه‌ام وصال شماست",
+            "جز این خیال ندارم خدا گواه مـن اسـت"
+          ],
+          [
+            "مـگر بـه تیغ اجل خیمه برکنـم ور نی",
+            "رمیدن از در دولت نه رسم و راه من است"
+          ],
+          [
+            "از آن زمان که بر این آستان نـهادم روی",
+            "فراز مسند خورشید تکیه گاه من اسـت"
+          ],
+          [
+            "گـناه اگر چـه نـبود اختیار ما حافـظ",
+            "تو در طریق ادب باش و گو گناه من است"
+          ]
+        ],
+        "full_text": "منـم که گوشه میخانه خانقاه من است\nدعای پیر مغان ورد صبحگاه مـن اسـت\nگرم ترانـه چنگ صبوح نیست چـه باک\nنوای من به سحر آه عذرخواه من اسـت\nز پادشاه و گدا فارغـم بـحـمدالـلـه\nگدای خاک در دوست پادشاه من اسـت\nغرض ز مسجد و میخانه‌ام وصال شماست\nجز این خیال ندارم خدا گواه مـن اسـت\nمـگر بـه تیغ اجل خیمه برکنـم ور نی\nرمیدن از در دولت نه رسم و راه من است\nاز آن زمان که بر این آستان نـهادم روی\nفراز مسند خورشید تکیه گاه من اسـت\nگـناه اگر چـه نـبود اختیار ما حافـظ\nتو در طریق ادب باش و گو گناه من است"
+      },
+      "english": {
+        "lines": [
+          "The corner of the tavern is my altar, where I pray",
+          "At dawn, the mantra of the Old Magi, I say.",
+          "Fear not if the harp plays not at sun's morning ascent",
+          "My morning cry of repentance is the music I play.",
+          "Thank God, free from beggars and kings, away, I stay;",
+          "Homage, to the beggar at the door of the Beloved, I pay.",
+          "For Thee, in the mosque and the tavern, my time, I spent;",
+          "By God, from this intent, I never ran nor walked astray.",
+          "Only, Angel of Death's blade can uproot my tent",
+          "Running from love and grace has never been my way.",
+          "From the time that I made my search for Thee my intent",
+          "I lean upon the throne on which the sun may lay.",
+          "Not your fault was the sins that were put into your clay",
+          "Nonetheless accept them, Hafiz, and good taste display."
+        ],
+        "couplets": [
+          [
+            "The corner of the tavern is my altar, where I pray",
+            "At dawn, the mantra of the Old Magi, I say."
+          ],
+          [
+            "Fear not if the harp plays not at sun's morning ascent",
+            "My morning cry of repentance is the music I play."
+          ],
+          [
+            "Thank God, free from beggars and kings, away, I stay;",
+            "Homage, to the beggar at the door of the Beloved, I pay."
+          ],
+          [
+            "For Thee, in the mosque and the tavern, my time, I spent;",
+            "By God, from this intent, I never ran nor walked astray."
+          ],
+          [
+            "Only, Angel of Death's blade can uproot my tent",
+            "Running from love and grace has never been my way."
+          ],
+          [
+            "From the time that I made my search for Thee my intent",
+            "I lean upon the throne on which the sun may lay."
+          ],
+          [
+            "Not your fault was the sins that were put into your clay",
+            "Nonetheless accept them, Hafiz, and good taste display."
+          ]
+        ],
+        "full_text": "The corner of the tavern is my altar, where I pray\nAt dawn, the mantra of the Old Magi, I say.\nFear not if the harp plays not at sun's morning ascent\nMy morning cry of repentance is the music I play.\nThank God, free from beggars and kings, away, I stay;\nHomage, to the beggar at the door of the Beloved, I pay.\nFor Thee, in the mosque and the tavern, my time, I spent;\nBy God, from this intent, I never ran nor walked astray.\nOnly, Angel of Death's blade can uproot my tent\nRunning from love and grace has never been my way.\nFrom the time that I made my search for Thee my intent\nI lean upon the throne on which the sun may lay.\nNot your fault was the sins that were put into your clay\nNonetheless accept them, Hafiz, and good taste display."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/053.htm"
+    },
+    {
+      "id": 14,
+      "ghazal_number": 57,
+      "title_en": "The Tavern Door",
+      "title_fa": "آن سیه چرده که شیرینی عالم با اوسـت",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "آن سیه چرده که شیرینی عالم با اوسـت",
+          "چشم میگون لب خندان دل خرم با اوست",
+          "گر چـه شیرین دهنان پادشهانـند ولی",
+          "او سلیمان زمان است که خاتم با اوسـت",
+          "روی خوب است و کمال هنر و دامـن پاک",
+          "لاجرم هـمـت پاکان دو عالم با اوسـت",
+          "خال مشکین که بدان عارض گندمگون است",
+          "سر آن دانه که شد رهزن آدم با اوسـت",
+          "دلـبرم عزم سـفر کرد خدا را یاران",
+          "چـه کنم با دل مجروح که مرهم با اوست",
+          "با که این نکته توان گفت که آن سنگین دل",
+          "کشـت ما را و دم عیسی مریم با اوست",
+          "حافـظ از معتقدان اسـت گرامی دارش",
+          "زان که بخشایش بس روح مکرم با اوسـت"
+        ],
+        "couplets": [
+          [
+            "آن سیه چرده که شیرینی عالم با اوسـت",
+            "چشم میگون لب خندان دل خرم با اوست"
+          ],
+          [
+            "گر چـه شیرین دهنان پادشهانـند ولی",
+            "او سلیمان زمان است که خاتم با اوسـت"
+          ],
+          [
+            "روی خوب است و کمال هنر و دامـن پاک",
+            "لاجرم هـمـت پاکان دو عالم با اوسـت"
+          ],
+          [
+            "خال مشکین که بدان عارض گندمگون است",
+            "سر آن دانه که شد رهزن آدم با اوسـت"
+          ],
+          [
+            "دلـبرم عزم سـفر کرد خدا را یاران",
+            "چـه کنم با دل مجروح که مرهم با اوست"
+          ],
+          [
+            "با که این نکته توان گفت که آن سنگین دل",
+            "کشـت ما را و دم عیسی مریم با اوست"
+          ],
+          [
+            "حافـظ از معتقدان اسـت گرامی دارش",
+            "زان که بخشایش بس روح مکرم با اوسـت"
+          ]
+        ],
+        "full_text": "آن سیه چرده که شیرینی عالم با اوسـت\nچشم میگون لب خندان دل خرم با اوست\nگر چـه شیرین دهنان پادشهانـند ولی\nاو سلیمان زمان است که خاتم با اوسـت\nروی خوب است و کمال هنر و دامـن پاک\nلاجرم هـمـت پاکان دو عالم با اوسـت\nخال مشکین که بدان عارض گندمگون است\nسر آن دانه که شد رهزن آدم با اوسـت\nدلـبرم عزم سـفر کرد خدا را یاران\nچـه کنم با دل مجروح که مرهم با اوست\nبا که این نکته توان گفت که آن سنگین دل\nکشـت ما را و دم عیسی مریم با اوست\nحافـظ از معتقدان اسـت گرامی دارش\nزان که بخشایش بس روح مکرم با اوسـت"
+      },
+      "english": {
+        "lines": [
+          "What beauty, sweetness of the world with her lies",
+          "Soft eyes, smiling lips, and happy heart with her lies.",
+          "Though sweetness of the tongue, kingship implies,",
+          "She is Solomon of times, and prophecy with her lies.",
+          "Beauty, artistry and innocence are her guise,",
+          "And hence, in both worlds, will of the Good, with her lies.",
+          "Her beauty-mole is that fair face's prize,",
+          "The secrets that seek the wise, with her lies.",
+          "My lover is leaving, God be with her through my cries,",
+          "What to do with broken heart, since my cure with her lies.",
+          "With whom can I share that she brought me my demise",
+          "I am now crucified, resurrection with her lies.",
+          "Respect Hafiz, his faith no-one denies,",
+          "Forgiveness of godly souls with her lies."
+        ],
+        "couplets": [
+          [
+            "What beauty, sweetness of the world with her lies",
+            "Soft eyes, smiling lips, and happy heart with her lies."
+          ],
+          [
+            "Though sweetness of the tongue, kingship implies,",
+            "She is Solomon of times, and prophecy with her lies."
+          ],
+          [
+            "Beauty, artistry and innocence are her guise,",
+            "And hence, in both worlds, will of the Good, with her lies."
+          ],
+          [
+            "Her beauty-mole is that fair face's prize,",
+            "The secrets that seek the wise, with her lies."
+          ],
+          [
+            "My lover is leaving, God be with her through my cries,",
+            "What to do with broken heart, since my cure with her lies."
+          ],
+          [
+            "With whom can I share that she brought me my demise",
+            "I am now crucified, resurrection with her lies."
+          ],
+          [
+            "Respect Hafiz, his faith no-one denies,",
+            "Forgiveness of godly souls with her lies."
+          ]
+        ],
+        "full_text": "What beauty, sweetness of the world with her lies\nSoft eyes, smiling lips, and happy heart with her lies.\nThough sweetness of the tongue, kingship implies,\nShe is Solomon of times, and prophecy with her lies.\nBeauty, artistry and innocence are her guise,\nAnd hence, in both worlds, will of the Good, with her lies.\nHer beauty-mole is that fair face's prize,\nThe secrets that seek the wise, with her lies.\nMy lover is leaving, God be with her through my cries,\nWhat to do with broken heart, since my cure with her lies.\nWith whom can I share that she brought me my demise\nI am now crucified, resurrection with her lies.\nRespect Hafiz, his faith no-one denies,\nForgiveness of godly souls with her lies."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/057.htm"
+    },
+    {
+      "id": 15,
+      "ghazal_number": 59,
+      "title_en": "The Garden Path",
+      "title_fa": "دارم امید عاطـفـتی از جانـب دوسـت",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "دارم امید عاطـفـتی از جانـب دوسـت",
+          "کردم جـنایتی و امیدم بـه عـفو اوسـت",
+          "دانـم کـه بـگذرد ز سر جرم مـن کـه او",
+          "گر چـه پریوش است ولیکن فرشته خوسـت",
+          "چـندان گریستـم که هر کس که برگذشت",
+          "در اشک ما چو دید روان گفت کاین چه جوست",
+          "هیچ اسـت آن دهان و نبینـم از او نـشان",
+          "موی است آن میان و ندانم که آن چه موست",
+          "دارم عجـب ز نقش خیالش که چون نرفـت",
+          "از دیده‌ام که دم به دمش کار شست و شوست",
+          "بی گـفـت و گوی زلف تو دل را همی‌کـشد",
+          "با زلـف دلکش تو که را روی گفت و گوسـت",
+          "عـمریسـت تا ز زلـف تو بویی شـنیده‌ام",
+          "زان بوی در مـشام دل مـن هـنوز بوسـت",
+          "حافـظ بد اسـت حال پریشان تو ولی",
+          "بر بوی زلـف یار پریشانیت نـکوسـت"
+        ],
+        "couplets": [
+          [
+            "دارم امید عاطـفـتی از جانـب دوسـت",
+            "کردم جـنایتی و امیدم بـه عـفو اوسـت"
+          ],
+          [
+            "دانـم کـه بـگذرد ز سر جرم مـن کـه او",
+            "گر چـه پریوش است ولیکن فرشته خوسـت"
+          ],
+          [
+            "چـندان گریستـم که هر کس که برگذشت",
+            "در اشک ما چو دید روان گفت کاین چه جوست"
+          ],
+          [
+            "هیچ اسـت آن دهان و نبینـم از او نـشان",
+            "موی است آن میان و ندانم که آن چه موست"
+          ],
+          [
+            "دارم عجـب ز نقش خیالش که چون نرفـت",
+            "از دیده‌ام که دم به دمش کار شست و شوست"
+          ],
+          [
+            "بی گـفـت و گوی زلف تو دل را همی‌کـشد",
+            "با زلـف دلکش تو که را روی گفت و گوسـت"
+          ],
+          [
+            "عـمریسـت تا ز زلـف تو بویی شـنیده‌ام",
+            "زان بوی در مـشام دل مـن هـنوز بوسـت"
+          ],
+          [
+            "حافـظ بد اسـت حال پریشان تو ولی",
+            "بر بوی زلـف یار پریشانیت نـکوسـت"
+          ]
+        ],
+        "full_text": "دارم امید عاطـفـتی از جانـب دوسـت\nکردم جـنایتی و امیدم بـه عـفو اوسـت\nدانـم کـه بـگذرد ز سر جرم مـن کـه او\nگر چـه پریوش است ولیکن فرشته خوسـت\nچـندان گریستـم که هر کس که برگذشت\nدر اشک ما چو دید روان گفت کاین چه جوست\nهیچ اسـت آن دهان و نبینـم از او نـشان\nموی است آن میان و ندانم که آن چه موست\nدارم عجـب ز نقش خیالش که چون نرفـت\nاز دیده‌ام که دم به دمش کار شست و شوست\nبی گـفـت و گوی زلف تو دل را همی‌کـشد\nبا زلـف دلکش تو که را روی گفت و گوسـت\nعـمریسـت تا ز زلـف تو بویی شـنیده‌ام\nزان بوی در مـشام دل مـن هـنوز بوسـت\nحافـظ بد اسـت حال پریشان تو ولی\nبر بوی زلـف یار پریشانیت نـکوسـت"
+      },
+      "english": {
+        "lines": [
+          "I long for a kind sentiment from the Friend",
+          "I’ve sinned and hope for Her pardon in the end.",
+          "I know She will overlook my crimes, though she is",
+          "Beautiful-faced, on her angelic nature I can depend.",
+          "I cried such that whomever passed me by",
+          "Was in awe of the stream of my tears descend.",
+          "Naught is that mouth there, of it I see no sign",
+          "And there is that fair hair, yet knowing transcends.",
+          "I see her image in my mind and can’t wash out",
+          "In spite of all the tears that my eyes spend.",
+          "With no talk of your hair, my heart is just dead.",
+          "With your enchanting hair, which talk can I defend?",
+          "A life time has passed since I smelled your hair",
+          "That aroma, in the nose of my heart has since remained.",
+          "Hafiz your perturbed state is bad, yet",
+          "Perturbation over Beloved’s hair is a good trend."
+        ],
+        "couplets": [
+          [
+            "I long for a kind sentiment from the Friend",
+            "I’ve sinned and hope for Her pardon in the end."
+          ],
+          [
+            "I know She will overlook my crimes, though she is",
+            "Beautiful-faced, on her angelic nature I can depend."
+          ],
+          [
+            "I cried such that whomever passed me by",
+            "Was in awe of the stream of my tears descend."
+          ],
+          [
+            "Naught is that mouth there, of it I see no sign",
+            "And there is that fair hair, yet knowing transcends."
+          ],
+          [
+            "I see her image in my mind and can’t wash out",
+            "In spite of all the tears that my eyes spend."
+          ],
+          [
+            "With no talk of your hair, my heart is just dead.",
+            "With your enchanting hair, which talk can I defend?"
+          ],
+          [
+            "A life time has passed since I smelled your hair",
+            "That aroma, in the nose of my heart has since remained."
+          ],
+          [
+            "Hafiz your perturbed state is bad, yet",
+            "Perturbation over Beloved’s hair is a good trend."
+          ]
+        ],
+        "full_text": "I long for a kind sentiment from the Friend\nI’ve sinned and hope for Her pardon in the end.\nI know She will overlook my crimes, though she is\nBeautiful-faced, on her angelic nature I can depend.\nI cried such that whomever passed me by\nWas in awe of the stream of my tears descend.\nNaught is that mouth there, of it I see no sign\nAnd there is that fair hair, yet knowing transcends.\nI see her image in my mind and can’t wash out\nIn spite of all the tears that my eyes spend.\nWith no talk of your hair, my heart is just dead.\nWith your enchanting hair, which talk can I defend?\nA life time has passed since I smelled your hair\nThat aroma, in the nose of my heart has since remained.\nHafiz your perturbed state is bad, yet\nPerturbation over Beloved’s hair is a good trend."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/059.htm"
+    },
+    {
+      "id": 16,
+      "ghazal_number": 67,
+      "title_en": "Twilight Song",
+      "title_fa": "یا رب این شمع دل افروز ز کاشانه کیست",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "یا رب این شمع دل افروز ز کاشانه کیست",
+          "جان ما سوخت بپرسید که جانانه کیسـت",
+          "حالیا خانـه برانداز دل و دین من اسـت",
+          "تا در آغوش که می‌خسبد و همخانه کیست",
+          "باده لعـل لـبـش کز لب من دور مـباد",
+          "راح روح کـه و پیمان ده پیمانـه کیسـت",
+          "دولـت صحـبـت آن شمع سعادت پرتو",
+          "بازپرسید خدا را که بـه پروانـه کیسـت",
+          "می‌دهد هر کسش افسونی و معلوم نشد",
+          "کـه دل نازک او مایل افسانـه کیسـت",
+          "یا رب آن شاهوش ماه رخ زهره جـبین",
+          "در یکـتای کـه و گوهر یک دانه کیسـت",
+          "گـفـتـم آه از دل دیوانه حافـظ بی تو",
+          "زیر لب خنده زنان گفت که دیوانه کیسـت"
+        ],
+        "couplets": [
+          [
+            "یا رب این شمع دل افروز ز کاشانه کیست",
+            "جان ما سوخت بپرسید که جانانه کیسـت"
+          ],
+          [
+            "حالیا خانـه برانداز دل و دین من اسـت",
+            "تا در آغوش که می‌خسبد و همخانه کیست"
+          ],
+          [
+            "باده لعـل لـبـش کز لب من دور مـباد",
+            "راح روح کـه و پیمان ده پیمانـه کیسـت"
+          ],
+          [
+            "دولـت صحـبـت آن شمع سعادت پرتو",
+            "بازپرسید خدا را که بـه پروانـه کیسـت"
+          ],
+          [
+            "می‌دهد هر کسش افسونی و معلوم نشد",
+            "کـه دل نازک او مایل افسانـه کیسـت"
+          ],
+          [
+            "یا رب آن شاهوش ماه رخ زهره جـبین",
+            "در یکـتای کـه و گوهر یک دانه کیسـت"
+          ],
+          [
+            "گـفـتـم آه از دل دیوانه حافـظ بی تو",
+            "زیر لب خنده زنان گفت که دیوانه کیسـت"
+          ]
+        ],
+        "full_text": "یا رب این شمع دل افروز ز کاشانه کیست\nجان ما سوخت بپرسید که جانانه کیسـت\nحالیا خانـه برانداز دل و دین من اسـت\nتا در آغوش که می‌خسبد و همخانه کیست\nباده لعـل لـبـش کز لب من دور مـباد\nراح روح کـه و پیمان ده پیمانـه کیسـت\nدولـت صحـبـت آن شمع سعادت پرتو\nبازپرسید خدا را که بـه پروانـه کیسـت\nمی‌دهد هر کسش افسونی و معلوم نشد\nکـه دل نازک او مایل افسانـه کیسـت\nیا رب آن شاهوش ماه رخ زهره جـبین\nدر یکـتای کـه و گوهر یک دانه کیسـت\nگـفـتـم آه از دل دیوانه حافـظ بی تو\nزیر لب خنده زنان گفت که دیوانه کیسـت"
+      },
+      "english": {
+        "lines": [
+          "From whose house this joyous light brightens my heart?",
+          "Whose lover has sent my soul this cupid's burning dart?",
+          "This state wrecks my house and my faith",
+          "Whose bosom enfolds her & whose fingers her hair part?",
+          "The nectar of her lips always remains upon my lips",
+          "Whose soul will comfort & for whom pour a wine quart?",
+          "That candle who radiates riches and joy",
+          "Ask God, whose moth flight tonight shall thwart?",
+          "Mesmerizes everyone, while none can know",
+          "To whose tale her gentle heart will wake and smart?",
+          "O God, that supremely gentle and graceful face",
+          "Whose rare jewel is tonight and whose irreplaceable art?",
+          "I sighed, O Hafiz, that I'm crazy when apart",
+          "Smilingly you said who is the mad one from the start?"
+        ],
+        "couplets": [
+          [
+            "From whose house this joyous light brightens my heart?",
+            "Whose lover has sent my soul this cupid's burning dart?"
+          ],
+          [
+            "This state wrecks my house and my faith",
+            "Whose bosom enfolds her & whose fingers her hair part?"
+          ],
+          [
+            "The nectar of her lips always remains upon my lips",
+            "Whose soul will comfort & for whom pour a wine quart?"
+          ],
+          [
+            "That candle who radiates riches and joy",
+            "Ask God, whose moth flight tonight shall thwart?"
+          ],
+          [
+            "Mesmerizes everyone, while none can know",
+            "To whose tale her gentle heart will wake and smart?"
+          ],
+          [
+            "O God, that supremely gentle and graceful face",
+            "Whose rare jewel is tonight and whose irreplaceable art?"
+          ],
+          [
+            "I sighed, O Hafiz, that I'm crazy when apart",
+            "Smilingly you said who is the mad one from the start?"
+          ]
+        ],
+        "full_text": "From whose house this joyous light brightens my heart?\nWhose lover has sent my soul this cupid's burning dart?\nThis state wrecks my house and my faith\nWhose bosom enfolds her & whose fingers her hair part?\nThe nectar of her lips always remains upon my lips\nWhose soul will comfort & for whom pour a wine quart?\nThat candle who radiates riches and joy\nAsk God, whose moth flight tonight shall thwart?\nMesmerizes everyone, while none can know\nTo whose tale her gentle heart will wake and smart?\nO God, that supremely gentle and graceful face\nWhose rare jewel is tonight and whose irreplaceable art?\nI sighed, O Hafiz, that I'm crazy when apart\nSmilingly you said who is the mad one from the start?"
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/067.htm"
+    },
+    {
+      "id": 17,
+      "ghazal_number": 71,
+      "title_en": "The Riddle of Fate",
+      "title_fa": "زاهد ظاهرپرسـت از حال ما آگاه نیسـت",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "زاهد ظاهرپرسـت از حال ما آگاه نیسـت",
+          "در حـق ما هر چه گوید جای هیچ اکراه نیسـت",
+          "در طریقـت هر چه پیش سالک آید خیر اوسـت",
+          "در صراط مستقیم ای دل کسی گـمراه نیسـت",
+          "تا چـه بازی رخ نـماید بیدقی خواهیم راند",
+          "عرصـه شـطرنـج رندان را مجال شاه نیسـت",
+          "چیسـت این سقـف بلـند ساده بسیارنقـش",
+          "زین مـعـما هیچ دانا در جـهان آگاه نیسـت",
+          "این چه استغناست یا رب وین چه قادر حکمت است",
+          "کاین همـه زخم نهان هست و مجال آه نیسـت",
+          "صاحـب دیوان ما گویی نـمی‌داند حـساب",
+          "کاندر این طـغرا نـشان حسبـه للـه نیسـت",
+          "هر کـه خواهد گو بیا و هر چـه خواهد گو بـگو",
+          "کـبر و ناز و حاجـب و دربان بدین درگاه نیسـت",
+          "بر در میخانـه رفـتـن کار یک رنـگان بود",
+          "خودفروشان را بـه کوی می فروشان راه نیسـت",
+          "هر چـه هست از قامت ناساز بی اندام ماسـت",
+          "ور نـه تـشریف تو بر بالای کـس کوتاه نیسـت",
+          "بـنده پیر خراباتـم کـه لطفـش دایم اسـت",
+          "ور نه لطف شیخ و زاهد گاه هست و گاه نیسـت",
+          "حافـظ ار بر صدر ننشیند ز عالی مـشربیسـت",
+          "عاشـق دردی کـش اندربند مال و جاه نیسـت"
+        ],
+        "couplets": [
+          [
+            "زاهد ظاهرپرسـت از حال ما آگاه نیسـت",
+            "در حـق ما هر چه گوید جای هیچ اکراه نیسـت"
+          ],
+          [
+            "در طریقـت هر چه پیش سالک آید خیر اوسـت",
+            "در صراط مستقیم ای دل کسی گـمراه نیسـت"
+          ],
+          [
+            "تا چـه بازی رخ نـماید بیدقی خواهیم راند",
+            "عرصـه شـطرنـج رندان را مجال شاه نیسـت"
+          ],
+          [
+            "چیسـت این سقـف بلـند ساده بسیارنقـش",
+            "زین مـعـما هیچ دانا در جـهان آگاه نیسـت"
+          ],
+          [
+            "این چه استغناست یا رب وین چه قادر حکمت است",
+            "کاین همـه زخم نهان هست و مجال آه نیسـت"
+          ],
+          [
+            "صاحـب دیوان ما گویی نـمی‌داند حـساب",
+            "کاندر این طـغرا نـشان حسبـه للـه نیسـت"
+          ],
+          [
+            "هر کـه خواهد گو بیا و هر چـه خواهد گو بـگو",
+            "کـبر و ناز و حاجـب و دربان بدین درگاه نیسـت"
+          ],
+          [
+            "بر در میخانـه رفـتـن کار یک رنـگان بود",
+            "خودفروشان را بـه کوی می فروشان راه نیسـت"
+          ],
+          [
+            "هر چـه هست از قامت ناساز بی اندام ماسـت",
+            "ور نـه تـشریف تو بر بالای کـس کوتاه نیسـت"
+          ],
+          [
+            "بـنده پیر خراباتـم کـه لطفـش دایم اسـت",
+            "ور نه لطف شیخ و زاهد گاه هست و گاه نیسـت"
+          ],
+          [
+            "حافـظ ار بر صدر ننشیند ز عالی مـشربیسـت",
+            "عاشـق دردی کـش اندربند مال و جاه نیسـت"
+          ]
+        ],
+        "full_text": "زاهد ظاهرپرسـت از حال ما آگاه نیسـت\nدر حـق ما هر چه گوید جای هیچ اکراه نیسـت\nدر طریقـت هر چه پیش سالک آید خیر اوسـت\nدر صراط مستقیم ای دل کسی گـمراه نیسـت\nتا چـه بازی رخ نـماید بیدقی خواهیم راند\nعرصـه شـطرنـج رندان را مجال شاه نیسـت\nچیسـت این سقـف بلـند ساده بسیارنقـش\nزین مـعـما هیچ دانا در جـهان آگاه نیسـت\nاین چه استغناست یا رب وین چه قادر حکمت است\nکاین همـه زخم نهان هست و مجال آه نیسـت\nصاحـب دیوان ما گویی نـمی‌داند حـساب\nکاندر این طـغرا نـشان حسبـه للـه نیسـت\nهر کـه خواهد گو بیا و هر چـه خواهد گو بـگو\nکـبر و ناز و حاجـب و دربان بدین درگاه نیسـت\nبر در میخانـه رفـتـن کار یک رنـگان بود\nخودفروشان را بـه کوی می فروشان راه نیسـت\nهر چـه هست از قامت ناساز بی اندام ماسـت\nور نـه تـشریف تو بر بالای کـس کوتاه نیسـت\nبـنده پیر خراباتـم کـه لطفـش دایم اسـت\nور نه لطف شیخ و زاهد گاه هست و گاه نیسـت\nحافـظ ار بر صدر ننشیند ز عالی مـشربیسـت\nعاشـق دردی کـش اندربند مال و جاه نیسـت"
+      },
+      "english": {
+        "lines": [
+          "Falsely pious, of our state are unaware",
+          "No offence if their words our hearts tear.",
+          "On the path, whatever you meet is for your good",
+          "On the straight and the narrow, can't be lost there.",
+          "Whatever the rook may play, we'll knock it down",
+          "On the chessboard of lovers, Kings won't dare.",
+          "What is this multi-patterned, tall, simple dome?",
+          "Who is wise to this riddle? Show me where?",
+          "Is this your grace, O Lord, powerful, wise?",
+          "Too many hidden wounds; no time to catch a breath of air.",
+          "It's as if the Judge of our Court is not fair.",
+          "This Royal Seal, sign of God does not bear",
+          "Whoever wishes may come, and whatever, may declare.",
+          "No guards, no grandeur, this hall is bare",
+          "Those who enter the tavern, openly share.",
+          "Those who sell themselves, meet the wine-seller's glare",
+          "Whatever befalls us is the doing of our own affair.",
+          "Your grace is not rare, and there's no one you'd spare",
+          "I serve the Tavern-Master, with his endless love and care.",
+          "Piety, sometimes is cold, sometimes will flare.",
+          "Hafiz gracefully declines from taking the head chair",
+          "Lovers are free from fortune and fame's snare."
+        ],
+        "couplets": [
+          [
+            "Falsely pious, of our state are unaware",
+            "No offence if their words our hearts tear."
+          ],
+          [
+            "On the path, whatever you meet is for your good",
+            "On the straight and the narrow, can't be lost there."
+          ],
+          [
+            "Whatever the rook may play, we'll knock it down",
+            "On the chessboard of lovers, Kings won't dare."
+          ],
+          [
+            "What is this multi-patterned, tall, simple dome?",
+            "Who is wise to this riddle? Show me where?"
+          ],
+          [
+            "Is this your grace, O Lord, powerful, wise?",
+            "Too many hidden wounds; no time to catch a breath of air."
+          ],
+          [
+            "It's as if the Judge of our Court is not fair.",
+            "This Royal Seal, sign of God does not bear"
+          ],
+          [
+            "Whoever wishes may come, and whatever, may declare.",
+            "No guards, no grandeur, this hall is bare"
+          ],
+          [
+            "Those who enter the tavern, openly share.",
+            "Those who sell themselves, meet the wine-seller's glare"
+          ],
+          [
+            "Whatever befalls us is the doing of our own affair.",
+            "Your grace is not rare, and there's no one you'd spare"
+          ],
+          [
+            "I serve the Tavern-Master, with his endless love and care.",
+            "Piety, sometimes is cold, sometimes will flare."
+          ],
+          [
+            "Hafiz gracefully declines from taking the head chair",
+            "Lovers are free from fortune and fame's snare."
+          ]
+        ],
+        "full_text": "Falsely pious, of our state are unaware\nNo offence if their words our hearts tear.\nOn the path, whatever you meet is for your good\nOn the straight and the narrow, can't be lost there.\nWhatever the rook may play, we'll knock it down\nOn the chessboard of lovers, Kings won't dare.\nWhat is this multi-patterned, tall, simple dome?\nWho is wise to this riddle? Show me where?\nIs this your grace, O Lord, powerful, wise?\nToo many hidden wounds; no time to catch a breath of air.\nIt's as if the Judge of our Court is not fair.\nThis Royal Seal, sign of God does not bear\nWhoever wishes may come, and whatever, may declare.\nNo guards, no grandeur, this hall is bare\nThose who enter the tavern, openly share.\nThose who sell themselves, meet the wine-seller's glare\nWhatever befalls us is the doing of our own affair.\nYour grace is not rare, and there's no one you'd spare\nI serve the Tavern-Master, with his endless love and care.\nPiety, sometimes is cold, sometimes will flare.\nHafiz gracefully declines from taking the head chair\nLovers are free from fortune and fame's snare."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/02/071.htm"
+    },
+    {
+      "id": 18,
+      "ghazal_number": 107,
+      "title_en": "The Lover's Complaint",
+      "title_fa": "حسـن تو همیشه در فزون باد",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "حسـن تو همیشه در فزون باد",
+          "رویت همه ساله لالـه گون باد",
+          "اندر سر ما خیال عشـقـت",
+          "هر روز کـه باد در فزون باد",
+          "هر سرو که در چـمـن درآید",
+          "در خدمـت قامتت نـگون باد",
+          "چشـمی که نه فتنه تو باشد",
+          "چون گوهر اشک غرق خون باد",
+          "چـشـم تو ز بـهر دلربایی",
+          "در کردن سـحر ذوفـنون باد",
+          "هر جا که دلیسـت در غـم تو",
+          "بی صبر و قرار و بی سکون باد",
+          "قد هـمـه دلـبران عالـم",
+          "پیش الـف قدت چو نون باد",
+          "هر دل که ز عشق توست خالی",
+          "از حلـقـه وصـل تو برون باد",
+          "لعـل تو که هست جان حافظ",
+          "دور از لـب مردمان دون باد"
+        ],
+        "couplets": [
+          [
+            "حسـن تو همیشه در فزون باد",
+            "رویت همه ساله لالـه گون باد"
+          ],
+          [
+            "اندر سر ما خیال عشـقـت",
+            "هر روز کـه باد در فزون باد"
+          ],
+          [
+            "هر سرو که در چـمـن درآید",
+            "در خدمـت قامتت نـگون باد"
+          ],
+          [
+            "چشـمی که نه فتنه تو باشد",
+            "چون گوهر اشک غرق خون باد"
+          ],
+          [
+            "چـشـم تو ز بـهر دلربایی",
+            "در کردن سـحر ذوفـنون باد"
+          ],
+          [
+            "هر جا که دلیسـت در غـم تو",
+            "بی صبر و قرار و بی سکون باد"
+          ],
+          [
+            "قد هـمـه دلـبران عالـم",
+            "پیش الـف قدت چو نون باد"
+          ],
+          [
+            "هر دل که ز عشق توست خالی",
+            "از حلـقـه وصـل تو برون باد"
+          ],
+          [
+            "لعـل تو که هست جان حافظ",
+            "دور از لـب مردمان دون باد"
+          ]
+        ],
+        "full_text": "حسـن تو همیشه در فزون باد\nرویت همه ساله لالـه گون باد\nاندر سر ما خیال عشـقـت\nهر روز کـه باد در فزون باد\nهر سرو که در چـمـن درآید\nدر خدمـت قامتت نـگون باد\nچشـمی که نه فتنه تو باشد\nچون گوهر اشک غرق خون باد\nچـشـم تو ز بـهر دلربایی\nدر کردن سـحر ذوفـنون باد\nهر جا که دلیسـت در غـم تو\nبی صبر و قرار و بی سکون باد\nقد هـمـه دلـبران عالـم\nپیش الـف قدت چو نون باد\nهر دل که ز عشق توست خالی\nاز حلـقـه وصـل تو برون باد\nلعـل تو که هست جان حافظ\nدور از لـب مردمان دون باد"
+      },
+      "english": {
+        "lines": [
+          "May your goodness always increase",
+          "And your smiling face never cease",
+          "In our head the thought of your love",
+          "Every day is on the increase.",
+          "Every cedar and every spruce",
+          "From your height may you hear their pleas",
+          "The eye not intrigued by thee",
+          "Its tear drops a bloody disease.",
+          "Your eye for mesmerizing hearts",
+          "Is a magician and master-tease.",
+          "Wherever a heart is longing for thee",
+          "Impatiently shears its own fleece.",
+          "The beauty of all the lovers",
+          "Beside your swan is ugly geese.",
+          "The heart that is out of love’s lease",
+          "From the circle of union release.",
+          "Hafiz’s soul, your ruby lips ease",
+          "Away from base lips, if you please."
+        ],
+        "couplets": [
+          [
+            "May your goodness always increase",
+            "And your smiling face never cease"
+          ],
+          [
+            "In our head the thought of your love",
+            "Every day is on the increase."
+          ],
+          [
+            "Every cedar and every spruce",
+            "From your height may you hear their pleas"
+          ],
+          [
+            "The eye not intrigued by thee",
+            "Its tear drops a bloody disease."
+          ],
+          [
+            "Your eye for mesmerizing hearts",
+            "Is a magician and master-tease."
+          ],
+          [
+            "Wherever a heart is longing for thee",
+            "Impatiently shears its own fleece."
+          ],
+          [
+            "The beauty of all the lovers",
+            "Beside your swan is ugly geese."
+          ],
+          [
+            "The heart that is out of love’s lease",
+            "From the circle of union release."
+          ],
+          [
+            "Hafiz’s soul, your ruby lips ease",
+            "Away from base lips, if you please."
+          ]
+        ],
+        "full_text": "May your goodness always increase\nAnd your smiling face never cease\nIn our head the thought of your love\nEvery day is on the increase.\nEvery cedar and every spruce\nFrom your height may you hear their pleas\nThe eye not intrigued by thee\nIts tear drops a bloody disease.\nYour eye for mesmerizing hearts\nIs a magician and master-tease.\nWherever a heart is longing for thee\nImpatiently shears its own fleece.\nThe beauty of all the lovers\nBeside your swan is ugly geese.\nThe heart that is out of love’s lease\nFrom the circle of union release.\nHafiz’s soul, your ruby lips ease\nAway from base lips, if you please."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/03/107.htm"
+    },
+    {
+      "id": 19,
+      "ghazal_number": 112,
+      "title_en": "Hidden Love",
+      "title_fa": "آن که رخسار تو را رنگ گل و نـسرین داد",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "آن که رخسار تو را رنگ گل و نـسرین داد",
+          "صـبر و آرام تواند به مـن مـسـکین داد",
+          "وان که گیسوی تو را رسم تطاول آموخـت",
+          "هـم تواند کرمـش داد من غمـگین داد",
+          "مـن هـمان روز ز فرهاد طمـع بـبریدم",
+          "کـه عـنان دل شیدا به لـب شیرین داد",
+          "گـنـج زر گر نبود کنج قناعت باقیسـت",
+          "آن که آن داد به شاهان بـه گدایان این داد",
+          "خوش عروسیست جهان از ره صورت لیکـن",
+          "هر که پیوست بدو عـمر خودش کاوین داد",
+          "بعد از این دست من و دامن سرو و لب جوی",
+          "خاصـه اکـنون که صبا مژده فروردین داد",
+          "در کـف غصه دوران دل حافـظ خون شد",
+          "از فراق رخـت ای خواجـه قوام الدین داد"
+        ],
+        "couplets": [
+          [
+            "آن که رخسار تو را رنگ گل و نـسرین داد",
+            "صـبر و آرام تواند به مـن مـسـکین داد"
+          ],
+          [
+            "وان که گیسوی تو را رسم تطاول آموخـت",
+            "هـم تواند کرمـش داد من غمـگین داد"
+          ],
+          [
+            "مـن هـمان روز ز فرهاد طمـع بـبریدم",
+            "کـه عـنان دل شیدا به لـب شیرین داد"
+          ],
+          [
+            "گـنـج زر گر نبود کنج قناعت باقیسـت",
+            "آن که آن داد به شاهان بـه گدایان این داد"
+          ],
+          [
+            "خوش عروسیست جهان از ره صورت لیکـن",
+            "هر که پیوست بدو عـمر خودش کاوین داد"
+          ],
+          [
+            "بعد از این دست من و دامن سرو و لب جوی",
+            "خاصـه اکـنون که صبا مژده فروردین داد"
+          ],
+          [
+            "در کـف غصه دوران دل حافـظ خون شد",
+            "از فراق رخـت ای خواجـه قوام الدین داد"
+          ]
+        ],
+        "full_text": "آن که رخسار تو را رنگ گل و نـسرین داد\nصـبر و آرام تواند به مـن مـسـکین داد\nوان که گیسوی تو را رسم تطاول آموخـت\nهـم تواند کرمـش داد من غمـگین داد\nمـن هـمان روز ز فرهاد طمـع بـبریدم\nکـه عـنان دل شیدا به لـب شیرین داد\nگـنـج زر گر نبود کنج قناعت باقیسـت\nآن که آن داد به شاهان بـه گدایان این داد\nخوش عروسیست جهان از ره صورت لیکـن\nهر که پیوست بدو عـمر خودش کاوین داد\nبعد از این دست من و دامن سرو و لب جوی\nخاصـه اکـنون که صبا مژده فروردین داد\nدر کـف غصه دوران دل حافـظ خون شد\nاز فراق رخـت ای خواجـه قوام الدین داد"
+      },
+      "english": {
+        "lines": [
+          "Whoever, to your face, such cheerful colors gave",
+          "Patience and serenity for poor me can also save",
+          "Whoever trained your hair so arrogantly to behave",
+          "His grace, such injustice for poor me can also waive.",
+          "I gave up my desires on the first day when",
+          "Beloved took my heart's rein and made me her slave.",
+          "If there's no golden treasure, at least satisfied I remain",
+          "He who gave that to the king, made this the lot of the knave.",
+          "This world, just like a bride, in appearance is glorified",
+          "He who gave his life to this, has only dug his own grave.",
+          "From now on, I spend my time in nature with rivers & trees",
+          "While the breeze, of time of spring, would rant and rave.",
+          "Hafiz's heart was brave, rode hardships wave after wave",
+          "Though separations deprave, the King as our healer gave."
+        ],
+        "couplets": [
+          [
+            "Whoever, to your face, such cheerful colors gave",
+            "Patience and serenity for poor me can also save"
+          ],
+          [
+            "Whoever trained your hair so arrogantly to behave",
+            "His grace, such injustice for poor me can also waive."
+          ],
+          [
+            "I gave up my desires on the first day when",
+            "Beloved took my heart's rein and made me her slave."
+          ],
+          [
+            "If there's no golden treasure, at least satisfied I remain",
+            "He who gave that to the king, made this the lot of the knave."
+          ],
+          [
+            "This world, just like a bride, in appearance is glorified",
+            "He who gave his life to this, has only dug his own grave."
+          ],
+          [
+            "From now on, I spend my time in nature with rivers & trees",
+            "While the breeze, of time of spring, would rant and rave."
+          ],
+          [
+            "Hafiz's heart was brave, rode hardships wave after wave",
+            "Though separations deprave, the King as our healer gave."
+          ]
+        ],
+        "full_text": "Whoever, to your face, such cheerful colors gave\nPatience and serenity for poor me can also save\nWhoever trained your hair so arrogantly to behave\nHis grace, such injustice for poor me can also waive.\nI gave up my desires on the first day when\nBeloved took my heart's rein and made me her slave.\nIf there's no golden treasure, at least satisfied I remain\nHe who gave that to the king, made this the lot of the knave.\nThis world, just like a bride, in appearance is glorified\nHe who gave his life to this, has only dug his own grave.\nFrom now on, I spend my time in nature with rivers & trees\nWhile the breeze, of time of spring, would rant and rave.\nHafiz's heart was brave, rode hardships wave after wave\nThough separations deprave, the King as our healer gave."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/03/112.htm"
+    },
+    {
+      "id": 20,
+      "ghazal_number": 118,
+      "title_en": "The Secret",
+      "title_fa": "آن کس که به دست جام دارد",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "آن کس که به دست جام دارد",
+          "سـلـطانی جـم مدام دارد",
+          "آبی که خضر حیات از او یافت",
+          "در میکده جو کـه جام دارد",
+          "سررشتـه جان به جام بگذار",
+          "کاین رشتـه از او نـظام دارد",
+          "ما و می و زاهدان و تـقوا",
+          "تا یار سر کدام دارد",
+          "بیرون ز لب تو ساقیا نیسـت",
+          "در دور کـسی کـه کام دارد",
+          "نرگس همه شیوه‌های مستی",
+          "از چشم خوشت بـه وام دارد",
+          "ذکر رخ و زلـف تو دلـم را",
+          "وردیست که صبح و شام دارد",
+          "بر سینـه ریش دردمـندان",
+          "لعلـت نمـکی تـمام دارد",
+          "در چاه ذقن چو حافظ ای جان",
+          "حـسـن تو دو صد غلام دارد"
+        ],
+        "couplets": [
+          [
+            "آن کس که به دست جام دارد",
+            "سـلـطانی جـم مدام دارد"
+          ],
+          [
+            "آبی که خضر حیات از او یافت",
+            "در میکده جو کـه جام دارد"
+          ],
+          [
+            "سررشتـه جان به جام بگذار",
+            "کاین رشتـه از او نـظام دارد"
+          ],
+          [
+            "ما و می و زاهدان و تـقوا",
+            "تا یار سر کدام دارد"
+          ],
+          [
+            "بیرون ز لب تو ساقیا نیسـت",
+            "در دور کـسی کـه کام دارد"
+          ],
+          [
+            "نرگس همه شیوه‌های مستی",
+            "از چشم خوشت بـه وام دارد"
+          ],
+          [
+            "ذکر رخ و زلـف تو دلـم را",
+            "وردیست که صبح و شام دارد"
+          ],
+          [
+            "بر سینـه ریش دردمـندان",
+            "لعلـت نمـکی تـمام دارد"
+          ],
+          [
+            "در چاه ذقن چو حافظ ای جان",
+            "حـسـن تو دو صد غلام دارد"
+          ]
+        ],
+        "full_text": "آن کس که به دست جام دارد\nسـلـطانی جـم مدام دارد\nآبی که خضر حیات از او یافت\nدر میکده جو کـه جام دارد\nسررشتـه جان به جام بگذار\nکاین رشتـه از او نـظام دارد\nما و می و زاهدان و تـقوا\nتا یار سر کدام دارد\nبیرون ز لب تو ساقیا نیسـت\nدر دور کـسی کـه کام دارد\nنرگس همه شیوه‌های مستی\nاز چشم خوشت بـه وام دارد\nذکر رخ و زلـف تو دلـم را\nوردیست که صبح و شام دارد\nبر سینـه ریش دردمـندان\nلعلـت نمـکی تـمام دارد\nدر چاه ذقن چو حافظ ای جان\nحـسـن تو دو صد غلام دارد"
+      },
+      "english": {
+        "lines": [
+          "Whoever holds a cup in hand",
+          "Forever will rule over the land.",
+          "The Water of Life that Elias found",
+          "Seek in the tavern where cups stand.",
+          "The essence of soul submit to the cup",
+          "Rules of the cup are in command.",
+          "We and the wine, pious and virtue",
+          "Let’s see which ones He will demand.",
+          "It is but a word from His lips",
+          "For he who has wished and planned.",
+          "Narcissus’s ways of drunkenness",
+          "Were borrowed from His eye’s gland.",
+          "My heart pictures Your face and hair",
+          "This prayer my day and night spanned.",
+          "It is the painful in the heart",
+          "Who Your sweet lips understand.",
+          "Your features, Your goodness, O soul,",
+          "Like Hafiz, two hundred slaves command."
+        ],
+        "couplets": [
+          [
+            "Whoever holds a cup in hand",
+            "Forever will rule over the land."
+          ],
+          [
+            "The Water of Life that Elias found",
+            "Seek in the tavern where cups stand."
+          ],
+          [
+            "The essence of soul submit to the cup",
+            "Rules of the cup are in command."
+          ],
+          [
+            "We and the wine, pious and virtue",
+            "Let’s see which ones He will demand."
+          ],
+          [
+            "It is but a word from His lips",
+            "For he who has wished and planned."
+          ],
+          [
+            "Narcissus’s ways of drunkenness",
+            "Were borrowed from His eye’s gland."
+          ],
+          [
+            "My heart pictures Your face and hair",
+            "This prayer my day and night spanned."
+          ],
+          [
+            "It is the painful in the heart",
+            "Who Your sweet lips understand."
+          ],
+          [
+            "Your features, Your goodness, O soul,",
+            "Like Hafiz, two hundred slaves command."
+          ]
+        ],
+        "full_text": "Whoever holds a cup in hand\nForever will rule over the land.\nThe Water of Life that Elias found\nSeek in the tavern where cups stand.\nThe essence of soul submit to the cup\nRules of the cup are in command.\nWe and the wine, pious and virtue\nLet’s see which ones He will demand.\nIt is but a word from His lips\nFor he who has wished and planned.\nNarcissus’s ways of drunkenness\nWere borrowed from His eye’s gland.\nMy heart pictures Your face and hair\nThis prayer my day and night spanned.\nIt is the painful in the heart\nWho Your sweet lips understand.\nYour features, Your goodness, O soul,\nLike Hafiz, two hundred slaves command."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/03/118.htm"
+    },
+    {
+      "id": 21,
+      "ghazal_number": 132,
+      "title_en": "The Nightingale",
+      "title_fa": "به آب روشن می عارفی طهارت کرد",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "به آب روشن می عارفی طهارت کرد",
+          "عـلی الصباح که میخانه را زیارت کرد",
+          "همین که ساغر زرین خور نهان گردید",
+          "هـلال عید بـه دور قدح اشارت کرد",
+          "خوشا نماز و نیاز کسی که از سر درد",
+          "بـه آب دیده و خون جگر طهارت کرد",
+          "امام خواجه که بودش سر نـماز دراز",
+          "بـه خون دختر رز خرقه را قصارت کرد",
+          "دلم ز حلقه زلفش به جان خرید آشوب",
+          "چه سود دید ندانم که این تجارت کرد",
+          "اگر امام جماعت طلـب کـند امروز",
+          "خبر دهید که حافظ به می طهارت کرد"
+        ],
+        "couplets": [
+          [
+            "به آب روشن می عارفی طهارت کرد",
+            "عـلی الصباح که میخانه را زیارت کرد"
+          ],
+          [
+            "همین که ساغر زرین خور نهان گردید",
+            "هـلال عید بـه دور قدح اشارت کرد"
+          ],
+          [
+            "خوشا نماز و نیاز کسی که از سر درد",
+            "بـه آب دیده و خون جگر طهارت کرد"
+          ],
+          [
+            "امام خواجه که بودش سر نـماز دراز",
+            "بـه خون دختر رز خرقه را قصارت کرد"
+          ],
+          [
+            "دلم ز حلقه زلفش به جان خرید آشوب",
+            "چه سود دید ندانم که این تجارت کرد"
+          ],
+          [
+            "اگر امام جماعت طلـب کـند امروز",
+            "خبر دهید که حافظ به می طهارت کرد"
+          ]
+        ],
+        "full_text": "به آب روشن می عارفی طهارت کرد\nعـلی الصباح که میخانه را زیارت کرد\nهمین که ساغر زرین خور نهان گردید\nهـلال عید بـه دور قدح اشارت کرد\nخوشا نماز و نیاز کسی که از سر درد\nبـه آب دیده و خون جگر طهارت کرد\nامام خواجه که بودش سر نـماز دراز\nبـه خون دختر رز خرقه را قصارت کرد\nدلم ز حلقه زلفش به جان خرید آشوب\nچه سود دید ندانم که این تجارت کرد\nاگر امام جماعت طلـب کـند امروز\nخبر دهید که حافظ به می طهارت کرد"
+      },
+      "english": {
+        "lines": [
+          "With clear wine, a wise one washed his behind",
+          "Early morning in tavern, who had homage on his mind.",
+          "When the golden cup of sun, descended from the skies",
+          "Curve of the new moon, of the curved cup would remind.",
+          "Happy is the one whose prayers and needs stem from his pain",
+          "With tears of his eyes and blood of his veins, cleans his behind.",
+          "The head priest leading prayers should be the one",
+          "Whose shrinking gown, blood of the daughter of vine defined.",
+          "My heart bought upheavals for the locks of that flowing hair",
+          "I know not that in this trade, what profit it could ever find.",
+          "If the head priest asks for me and my kind",
+          "Tell him Hafiz, with wine, is baptizing his behind."
+        ],
+        "couplets": [
+          [
+            "With clear wine, a wise one washed his behind",
+            "Early morning in tavern, who had homage on his mind."
+          ],
+          [
+            "When the golden cup of sun, descended from the skies",
+            "Curve of the new moon, of the curved cup would remind."
+          ],
+          [
+            "Happy is the one whose prayers and needs stem from his pain",
+            "With tears of his eyes and blood of his veins, cleans his behind."
+          ],
+          [
+            "The head priest leading prayers should be the one",
+            "Whose shrinking gown, blood of the daughter of vine defined."
+          ],
+          [
+            "My heart bought upheavals for the locks of that flowing hair",
+            "I know not that in this trade, what profit it could ever find."
+          ],
+          [
+            "If the head priest asks for me and my kind",
+            "Tell him Hafiz, with wine, is baptizing his behind."
+          ]
+        ],
+        "full_text": "With clear wine, a wise one washed his behind\nEarly morning in tavern, who had homage on his mind.\nWhen the golden cup of sun, descended from the skies\nCurve of the new moon, of the curved cup would remind.\nHappy is the one whose prayers and needs stem from his pain\nWith tears of his eyes and blood of his veins, cleans his behind.\nThe head priest leading prayers should be the one\nWhose shrinking gown, blood of the daughter of vine defined.\nMy heart bought upheavals for the locks of that flowing hair\nI know not that in this trade, what profit it could ever find.\nIf the head priest asks for me and my kind\nTell him Hafiz, with wine, is baptizing his behind."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/03/132.htm"
+    },
+    {
+      "id": 22,
+      "ghazal_number": 169,
+      "title_en": "The Wind of Grace",
+      "title_fa": "یاری اندر کـس نـمی‌بینیم یاران را چـه شد",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "یاری اندر کـس نـمی‌بینیم یاران را چـه شد",
+          "دوسـتی کی آخر آمد دوستداران را چـه شد",
+          "آب حیوان تیره گون شد خضر فرخ پی کجاسـت",
+          "خون چـکید از شاخ گل باد بهاران را چـه شد",
+          "کـس نـمی‌گوید که یاری داشت حق دوستی",
+          "حـق شناسان را چه حال افتاد یاران را چه شد",
+          "لـعـلی از کان مروت برنیامد سال‌هاسـت",
+          "تابـش خورشید و سعی باد و باران را چـه شد",
+          "شـهر یاران بود و خاک مـهربانان این دیار",
+          "مـهربانی کی سر آمد شـهریاران را چـه شد",
+          "گوی توفیق و کرامـت در میان افـکـنده‌اند",
+          "کـس بـه میدان در نمی‌آید سواران را چه شد",
+          "صد هزاران گل شکفت و بانگ مرغی برنخاسـت",
+          "عـندلیبان را چـه پیش آمد هزاران را چـه شد",
+          "زهره سازی خوش نمی‌سازد مگر عودش بسوخت",
+          "کـس ندارد ذوق مستی میگساران را چـه شد",
+          "حافـظ اسرار الـهی کـس نمی‌داند خـموش",
+          "از کـه می‌پرسی که دور روزگاران را چـه شد"
+        ],
+        "couplets": [
+          [
+            "یاری اندر کـس نـمی‌بینیم یاران را چـه شد",
+            "دوسـتی کی آخر آمد دوستداران را چـه شد"
+          ],
+          [
+            "آب حیوان تیره گون شد خضر فرخ پی کجاسـت",
+            "خون چـکید از شاخ گل باد بهاران را چـه شد"
+          ],
+          [
+            "کـس نـمی‌گوید که یاری داشت حق دوستی",
+            "حـق شناسان را چه حال افتاد یاران را چه شد"
+          ],
+          [
+            "لـعـلی از کان مروت برنیامد سال‌هاسـت",
+            "تابـش خورشید و سعی باد و باران را چـه شد"
+          ],
+          [
+            "شـهر یاران بود و خاک مـهربانان این دیار",
+            "مـهربانی کی سر آمد شـهریاران را چـه شد"
+          ],
+          [
+            "گوی توفیق و کرامـت در میان افـکـنده‌اند",
+            "کـس بـه میدان در نمی‌آید سواران را چه شد"
+          ],
+          [
+            "صد هزاران گل شکفت و بانگ مرغی برنخاسـت",
+            "عـندلیبان را چـه پیش آمد هزاران را چـه شد"
+          ],
+          [
+            "زهره سازی خوش نمی‌سازد مگر عودش بسوخت",
+            "کـس ندارد ذوق مستی میگساران را چـه شد"
+          ],
+          [
+            "حافـظ اسرار الـهی کـس نمی‌داند خـموش",
+            "از کـه می‌پرسی که دور روزگاران را چـه شد"
+          ]
+        ],
+        "full_text": "یاری اندر کـس نـمی‌بینیم یاران را چـه شد\nدوسـتی کی آخر آمد دوستداران را چـه شد\nآب حیوان تیره گون شد خضر فرخ پی کجاسـت\nخون چـکید از شاخ گل باد بهاران را چـه شد\nکـس نـمی‌گوید که یاری داشت حق دوستی\nحـق شناسان را چه حال افتاد یاران را چه شد\nلـعـلی از کان مروت برنیامد سال‌هاسـت\nتابـش خورشید و سعی باد و باران را چـه شد\nشـهر یاران بود و خاک مـهربانان این دیار\nمـهربانی کی سر آمد شـهریاران را چـه شد\nگوی توفیق و کرامـت در میان افـکـنده‌اند\nکـس بـه میدان در نمی‌آید سواران را چه شد\nصد هزاران گل شکفت و بانگ مرغی برنخاسـت\nعـندلیبان را چـه پیش آمد هزاران را چـه شد\nزهره سازی خوش نمی‌سازد مگر عودش بسوخت\nکـس ندارد ذوق مستی میگساران را چـه شد\nحافـظ اسرار الـهی کـس نمی‌داند خـموش\nاز کـه می‌پرسی که دور روزگاران را چـه شد"
+      },
+      "english": {
+        "lines": [
+          "I see no friends around, whatever happened to every friend?",
+          "I see no-one I love, when did come to an end?",
+          "Water of life has turned dark, where is glorious Elias?",
+          "Flowers are all bleeding, whence the breeze which branches bend?",
+          "Nobody says that a friend has got the right to befriend",
+          "What has come of loyalty? Whatever happened to every friend?",
+          "For years no gem has been dug from the mine of loyalty",
+          "What happened to sunshine? And what about wind and rain’s trend?",
+          "This was the home of the Kings, and the land of the Kind-hearted",
+          "When did kindness end, and since when Kings pretend?",
+          "The ball of compassion and joy is now inside the field",
+          "Why is it that in this game still no players will attend?",
+          "Thousands of flowers are in full bloom, yet not a song",
+          "What happened to nightingales? Where did those thousands descend?",
+          "Venus is not making music any more, did all her instruments burn?",
+          "Nobody is in the mood, to whom do the wine-sellers tend?",
+          "Hafiz, secrets divine nobody knows, stay silent",
+          "Whom do you ask, why isn’t our turning fate now on the mend?"
+        ],
+        "couplets": [
+          [
+            "I see no friends around, whatever happened to every friend?",
+            "I see no-one I love, when did come to an end?"
+          ],
+          [
+            "Water of life has turned dark, where is glorious Elias?",
+            "Flowers are all bleeding, whence the breeze which branches bend?"
+          ],
+          [
+            "Nobody says that a friend has got the right to befriend",
+            "What has come of loyalty? Whatever happened to every friend?"
+          ],
+          [
+            "For years no gem has been dug from the mine of loyalty",
+            "What happened to sunshine? And what about wind and rain’s trend?"
+          ],
+          [
+            "This was the home of the Kings, and the land of the Kind-hearted",
+            "When did kindness end, and since when Kings pretend?"
+          ],
+          [
+            "The ball of compassion and joy is now inside the field",
+            "Why is it that in this game still no players will attend?"
+          ],
+          [
+            "Thousands of flowers are in full bloom, yet not a song",
+            "What happened to nightingales? Where did those thousands descend?"
+          ],
+          [
+            "Venus is not making music any more, did all her instruments burn?",
+            "Nobody is in the mood, to whom do the wine-sellers tend?"
+          ],
+          [
+            "Hafiz, secrets divine nobody knows, stay silent",
+            "Whom do you ask, why isn’t our turning fate now on the mend?"
+          ]
+        ],
+        "full_text": "I see no friends around, whatever happened to every friend?\nI see no-one I love, when did come to an end?\nWater of life has turned dark, where is glorious Elias?\nFlowers are all bleeding, whence the breeze which branches bend?\nNobody says that a friend has got the right to befriend\nWhat has come of loyalty? Whatever happened to every friend?\nFor years no gem has been dug from the mine of loyalty\nWhat happened to sunshine? And what about wind and rain’s trend?\nThis was the home of the Kings, and the land of the Kind-hearted\nWhen did kindness end, and since when Kings pretend?\nThe ball of compassion and joy is now inside the field\nWhy is it that in this game still no players will attend?\nThousands of flowers are in full bloom, yet not a song\nWhat happened to nightingales? Where did those thousands descend?\nVenus is not making music any more, did all her instruments burn?\nNobody is in the mood, to whom do the wine-sellers tend?\nHafiz, secrets divine nobody knows, stay silent\nWhom do you ask, why isn’t our turning fate now on the mend?"
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/04/169.htm"
+    },
+    {
+      "id": 23,
+      "ghazal_number": 177,
+      "title_en": "The Eternal Tavern",
+      "title_fa": "نـه هر کـه چهره برافروخت دلـبری داند",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "نـه هر کـه چهره برافروخت دلـبری داند",
+          "نـه هر کـه آینـه سازد سکـندری داند",
+          "نـه هر که طرف کله کج نهاد و تند نشست",
+          "کـلاه داری و آیین سروری داند",
+          "تو بـندگی چو گدایان به شرط مزد مکـن",
+          "کـه دوسـت خود روش بـنده پروری داند",
+          "غـلام هـمـت آن رند عافیت سوزم",
+          "کـه در گداصـفـتی کیمیاگری داند",
+          "وفا و عـهد نـکو باشد ار بیاموزی",
+          "وگرنـه هر کـه تو بینی ستمـگری داند",
+          "بـباخـتـم دل دیوانـه و ندانسـتـم",
+          "کـه آدمی بـچـه‌ای شیوه پری داند",
+          "هزار نکـتـه باریکـتر ز مو این جاسـت",
+          "نـه هر کـه سر بتراشد قـلـندری داند",
+          "مدار نقـطـه بینـش ز خال توسـت مرا",
+          "کـه قدر گوهر یک دانـه جوهری داند",
+          "به قد و چهره هر آن کس که شاه خوبان شد",
+          "جـهان بـگیرد اگر دادگـسـتری داند",
+          "ز شـعر دلکـش حافـظ کـسی بود آگاه",
+          "کـه لطـف طبـع و سخن گفتن دری داند"
+        ],
+        "couplets": [
+          [
+            "نـه هر کـه چهره برافروخت دلـبری داند",
+            "نـه هر کـه آینـه سازد سکـندری داند"
+          ],
+          [
+            "نـه هر که طرف کله کج نهاد و تند نشست",
+            "کـلاه داری و آیین سروری داند"
+          ],
+          [
+            "تو بـندگی چو گدایان به شرط مزد مکـن",
+            "کـه دوسـت خود روش بـنده پروری داند"
+          ],
+          [
+            "غـلام هـمـت آن رند عافیت سوزم",
+            "کـه در گداصـفـتی کیمیاگری داند"
+          ],
+          [
+            "وفا و عـهد نـکو باشد ار بیاموزی",
+            "وگرنـه هر کـه تو بینی ستمـگری داند"
+          ],
+          [
+            "بـباخـتـم دل دیوانـه و ندانسـتـم",
+            "کـه آدمی بـچـه‌ای شیوه پری داند"
+          ],
+          [
+            "هزار نکـتـه باریکـتر ز مو این جاسـت",
+            "نـه هر کـه سر بتراشد قـلـندری داند"
+          ],
+          [
+            "مدار نقـطـه بینـش ز خال توسـت مرا",
+            "کـه قدر گوهر یک دانـه جوهری داند"
+          ],
+          [
+            "به قد و چهره هر آن کس که شاه خوبان شد",
+            "جـهان بـگیرد اگر دادگـسـتری داند"
+          ],
+          [
+            "ز شـعر دلکـش حافـظ کـسی بود آگاه",
+            "کـه لطـف طبـع و سخن گفتن دری داند"
+          ]
+        ],
+        "full_text": "نـه هر کـه چهره برافروخت دلـبری داند\nنـه هر کـه آینـه سازد سکـندری داند\nنـه هر که طرف کله کج نهاد و تند نشست\nکـلاه داری و آیین سروری داند\nتو بـندگی چو گدایان به شرط مزد مکـن\nکـه دوسـت خود روش بـنده پروری داند\nغـلام هـمـت آن رند عافیت سوزم\nکـه در گداصـفـتی کیمیاگری داند\nوفا و عـهد نـکو باشد ار بیاموزی\nوگرنـه هر کـه تو بینی ستمـگری داند\nبـباخـتـم دل دیوانـه و ندانسـتـم\nکـه آدمی بـچـه‌ای شیوه پری داند\nهزار نکـتـه باریکـتر ز مو این جاسـت\nنـه هر کـه سر بتراشد قـلـندری داند\nمدار نقـطـه بینـش ز خال توسـت مرا\nکـه قدر گوهر یک دانـه جوهری داند\nبه قد و چهره هر آن کس که شاه خوبان شد\nجـهان بـگیرد اگر دادگـسـتری داند\nز شـعر دلکـش حافـظ کـسی بود آگاه\nکـه لطـف طبـع و سخن گفتن دری داند"
+      },
+      "english": {
+        "lines": [
+          "Not every painted face has charm",
+          "Not every mirror maker, Alexander can disarm",
+          "Not everyone upon a throne who puts on a crown",
+          "Knows the ways of ruling over farm and town.",
+          "Like beggars serve not for the alms",
+          "Master keeps his servants in good form.",
+          "I submit to the will of the weal maker,",
+          "Alchemist beggar, lead into gold can transform.",
+          "Faith and loyalty are good, if you can learn",
+          "Else you must weather tyranny’s storm.",
+          "I was brokenhearted and still unaware;",
+          "For children of men, angel is the norm.",
+          "A point much finer than a strand of hair,",
+          "The unshaven hair is not a Dervish’s uniform.",
+          "All the world revolves around your mole",
+          "It takes a gem to know a gem, a worm, a worm.",
+          "Whoever charismatically becomes the king",
+          "Will rule the world if with fairness keep away harm.",
+          "The poetry of Hafiz can only inform",
+          "He whose heart and speech is kind and warm."
+        ],
+        "couplets": [
+          [
+            "Not every painted face has charm",
+            "Not every mirror maker, Alexander can disarm"
+          ],
+          [
+            "Not everyone upon a throne who puts on a crown",
+            "Knows the ways of ruling over farm and town."
+          ],
+          [
+            "Like beggars serve not for the alms",
+            "Master keeps his servants in good form."
+          ],
+          [
+            "I submit to the will of the weal maker,",
+            "Alchemist beggar, lead into gold can transform."
+          ],
+          [
+            "Faith and loyalty are good, if you can learn",
+            "Else you must weather tyranny’s storm."
+          ],
+          [
+            "I was brokenhearted and still unaware;",
+            "For children of men, angel is the norm."
+          ],
+          [
+            "A point much finer than a strand of hair,",
+            "The unshaven hair is not a Dervish’s uniform."
+          ],
+          [
+            "All the world revolves around your mole",
+            "It takes a gem to know a gem, a worm, a worm."
+          ],
+          [
+            "Whoever charismatically becomes the king",
+            "Will rule the world if with fairness keep away harm."
+          ],
+          [
+            "The poetry of Hafiz can only inform",
+            "He whose heart and speech is kind and warm."
+          ]
+        ],
+        "full_text": "Not every painted face has charm\nNot every mirror maker, Alexander can disarm\nNot everyone upon a throne who puts on a crown\nKnows the ways of ruling over farm and town.\nLike beggars serve not for the alms\nMaster keeps his servants in good form.\nI submit to the will of the weal maker,\nAlchemist beggar, lead into gold can transform.\nFaith and loyalty are good, if you can learn\nElse you must weather tyranny’s storm.\nI was brokenhearted and still unaware;\nFor children of men, angel is the norm.\nA point much finer than a strand of hair,\nThe unshaven hair is not a Dervish’s uniform.\nAll the world revolves around your mole\nIt takes a gem to know a gem, a worm, a worm.\nWhoever charismatically becomes the king\nWill rule the world if with fairness keep away harm.\nThe poetry of Hafiz can only inform\nHe whose heart and speech is kind and warm."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/04/177.htm"
+    },
+    {
+      "id": 24,
+      "ghazal_number": 184,
+      "title_en": "The Cup of Jamshid",
+      "title_fa": "دوش دیدم که مـلایک در میخانـه زدند",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "دوش دیدم که مـلایک در میخانـه زدند",
+          "گـل آدم بسرشتـند و به پیمانـه زدند",
+          "ساکـنان حرم سـتر و عفاف ملـکوت",
+          "با مـن راه نشین باده مسـتانـه زدند",
+          "آسـمان بار امانـت نتوانست کـشید",
+          "قرعـه کار بـه نام مـن دیوانـه زدند",
+          "جنـگ هفتاد و دو ملت همه را عذر بنه",
+          "چون ندیدند حقیقت ره افـسانـه زدند",
+          "شـکر ایزد که میان من و او صلح افـتاد",
+          "صوفیان رقص کنان ساغر شکرانـه زدند",
+          "آتش آن نیست که از شعله او خندد شمع",
+          "آتـش آن است که در خرمن پروانه زدند",
+          "کس چو حافظ نگشاد از رخ اندیشه نقاب",
+          "تا سر زلف عروسان سخن شانـه زدند"
+        ],
+        "couplets": [
+          [
+            "دوش دیدم که مـلایک در میخانـه زدند",
+            "گـل آدم بسرشتـند و به پیمانـه زدند"
+          ],
+          [
+            "ساکـنان حرم سـتر و عفاف ملـکوت",
+            "با مـن راه نشین باده مسـتانـه زدند"
+          ],
+          [
+            "آسـمان بار امانـت نتوانست کـشید",
+            "قرعـه کار بـه نام مـن دیوانـه زدند"
+          ],
+          [
+            "جنـگ هفتاد و دو ملت همه را عذر بنه",
+            "چون ندیدند حقیقت ره افـسانـه زدند"
+          ],
+          [
+            "شـکر ایزد که میان من و او صلح افـتاد",
+            "صوفیان رقص کنان ساغر شکرانـه زدند"
+          ],
+          [
+            "آتش آن نیست که از شعله او خندد شمع",
+            "آتـش آن است که در خرمن پروانه زدند"
+          ],
+          [
+            "کس چو حافظ نگشاد از رخ اندیشه نقاب",
+            "تا سر زلف عروسان سخن شانـه زدند"
+          ]
+        ],
+        "full_text": "دوش دیدم که مـلایک در میخانـه زدند\nگـل آدم بسرشتـند و به پیمانـه زدند\nساکـنان حرم سـتر و عفاف ملـکوت\nبا مـن راه نشین باده مسـتانـه زدند\nآسـمان بار امانـت نتوانست کـشید\nقرعـه کار بـه نام مـن دیوانـه زدند\nجنـگ هفتاد و دو ملت همه را عذر بنه\nچون ندیدند حقیقت ره افـسانـه زدند\nشـکر ایزد که میان من و او صلح افـتاد\nصوفیان رقص کنان ساغر شکرانـه زدند\nآتش آن نیست که از شعله او خندد شمع\nآتـش آن است که در خرمن پروانه زدند\nکس چو حافظ نگشاد از رخ اندیشه نقاب\nتا سر زلف عروسان سخن شانـه زدند"
+      },
+      "english": {
+        "lines": [
+          "At the gates of the tavern I saw the angels knock",
+          "Kneaded this clay we call human, and made it talk.",
+          "The residents of the Celestial Court and the heavenly bloc",
+          "Drank from the Wine of Love, with me, upon our common walk.",
+          "The earth and the skies could not keep this trust of the clock",
+          "Yet the poor insane me was stuck with such tough luck.",
+          "People find good reason for the wars in which they are stuck",
+          "Since Truth they cannot see, to fantasies they would flock.",
+          "In our midst, thank God, the dogs of war are put in chain and lock",
+          "The angels gratefully drink, gracefully dance, from block to block.",
+          "Fire is not a flickering glow that a candle flame would mock",
+          "Fire is the flame of a heap of moths that lightning has just struck.",
+          "None like Hafiz, the mask of deceitful intellect can pluck",
+          "Till the hair of Bride of Verses was brushed lock after lock."
+        ],
+        "couplets": [
+          [
+            "At the gates of the tavern I saw the angels knock",
+            "Kneaded this clay we call human, and made it talk."
+          ],
+          [
+            "The residents of the Celestial Court and the heavenly bloc",
+            "Drank from the Wine of Love, with me, upon our common walk."
+          ],
+          [
+            "The earth and the skies could not keep this trust of the clock",
+            "Yet the poor insane me was stuck with such tough luck."
+          ],
+          [
+            "People find good reason for the wars in which they are stuck",
+            "Since Truth they cannot see, to fantasies they would flock."
+          ],
+          [
+            "In our midst, thank God, the dogs of war are put in chain and lock",
+            "The angels gratefully drink, gracefully dance, from block to block."
+          ],
+          [
+            "Fire is not a flickering glow that a candle flame would mock",
+            "Fire is the flame of a heap of moths that lightning has just struck."
+          ],
+          [
+            "None like Hafiz, the mask of deceitful intellect can pluck",
+            "Till the hair of Bride of Verses was brushed lock after lock."
+          ]
+        ],
+        "full_text": "At the gates of the tavern I saw the angels knock\nKneaded this clay we call human, and made it talk.\nThe residents of the Celestial Court and the heavenly bloc\nDrank from the Wine of Love, with me, upon our common walk.\nThe earth and the skies could not keep this trust of the clock\nYet the poor insane me was stuck with such tough luck.\nPeople find good reason for the wars in which they are stuck\nSince Truth they cannot see, to fantasies they would flock.\nIn our midst, thank God, the dogs of war are put in chain and lock\nThe angels gratefully drink, gracefully dance, from block to block.\nFire is not a flickering glow that a candle flame would mock\nFire is the flame of a heap of moths that lightning has just struck.\nNone like Hafiz, the mask of deceitful intellect can pluck\nTill the hair of Bride of Verses was brushed lock after lock."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/04/184.htm"
+    },
+    {
+      "id": 25,
+      "ghazal_number": 203,
+      "title_en": "The Garden of Love",
+      "title_fa": "سال‌ها دفـتر ما در گرو صـهـبا بود",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "سال‌ها دفـتر ما در گرو صـهـبا بود",
+          "رونـق میکده از درس و دعای ما بود",
+          "نیکی پیر مغان بین که چو ما بدمـسـتان",
+          "هر چـه کردیم به چشم کرمـش زیبا بود",
+          "دفـتر دانـش ما جملـه بشویید بـه می",
+          "کـه فـلـک دیدم و در قـصد دل دانا بود",
+          "از بتان آن طلب ار حسن شـناسی ای دل",
+          "کاین کـسی گفت که در علم نـظر بینا بود",
+          "دل چو پرگار بـه هر سو دورانی می‌کرد",
+          "و اندر آن دایره سرگـشـتـه پابرجا بود",
+          "مـطرب از درد محبت عملی می‌پرداخـت",
+          "کـه حـکیمان جـهان را مژه خون پالا بود",
+          "می‌شکفتم ز طرب زان که چو گل بر لب جوی",
+          "بر سرم سایه آن سرو سـهی بالا بود",
+          "پیر گـلرنـگ مـن اندر حـق ازرق پوشان",
+          "رخصـت خـبـث نداد ار نه حکایت‌ها بود",
+          "قـلـب اندوده حافـظ بر او خرج نـشد",
+          "کاین معامـل به همه عیب نـهان بینا بود"
+        ],
+        "couplets": [
+          [
+            "سال‌ها دفـتر ما در گرو صـهـبا بود",
+            "رونـق میکده از درس و دعای ما بود"
+          ],
+          [
+            "نیکی پیر مغان بین که چو ما بدمـسـتان",
+            "هر چـه کردیم به چشم کرمـش زیبا بود"
+          ],
+          [
+            "دفـتر دانـش ما جملـه بشویید بـه می",
+            "کـه فـلـک دیدم و در قـصد دل دانا بود"
+          ],
+          [
+            "از بتان آن طلب ار حسن شـناسی ای دل",
+            "کاین کـسی گفت که در علم نـظر بینا بود"
+          ],
+          [
+            "دل چو پرگار بـه هر سو دورانی می‌کرد",
+            "و اندر آن دایره سرگـشـتـه پابرجا بود"
+          ],
+          [
+            "مـطرب از درد محبت عملی می‌پرداخـت",
+            "کـه حـکیمان جـهان را مژه خون پالا بود"
+          ],
+          [
+            "می‌شکفتم ز طرب زان که چو گل بر لب جوی",
+            "بر سرم سایه آن سرو سـهی بالا بود"
+          ],
+          [
+            "پیر گـلرنـگ مـن اندر حـق ازرق پوشان",
+            "رخصـت خـبـث نداد ار نه حکایت‌ها بود"
+          ],
+          [
+            "قـلـب اندوده حافـظ بر او خرج نـشد",
+            "کاین معامـل به همه عیب نـهان بینا بود"
+          ]
+        ],
+        "full_text": "سال‌ها دفـتر ما در گرو صـهـبا بود\nرونـق میکده از درس و دعای ما بود\nنیکی پیر مغان بین که چو ما بدمـسـتان\nهر چـه کردیم به چشم کرمـش زیبا بود\nدفـتر دانـش ما جملـه بشویید بـه می\nکـه فـلـک دیدم و در قـصد دل دانا بود\nاز بتان آن طلب ار حسن شـناسی ای دل\nکاین کـسی گفت که در علم نـظر بینا بود\nدل چو پرگار بـه هر سو دورانی می‌کرد\nو اندر آن دایره سرگـشـتـه پابرجا بود\nمـطرب از درد محبت عملی می‌پرداخـت\nکـه حـکیمان جـهان را مژه خون پالا بود\nمی‌شکفتم ز طرب زان که چو گل بر لب جوی\nبر سرم سایه آن سرو سـهی بالا بود\nپیر گـلرنـگ مـن اندر حـق ازرق پوشان\nرخصـت خـبـث نداد ار نه حکایت‌ها بود\nقـلـب اندوده حافـظ بر او خرج نـشد\nکاین معامـل به همه عیب نـهان بینا بود"
+      },
+      "english": {
+        "lines": [
+          "For years, to the red wine, my heart was bound",
+          "The Tavern became alive with my prayer and my sound.",
+          "See the Old Magi's goodness, with us, the drunks,",
+          "Saw whatever we did, in everyone beauty had found.",
+          "Wash away all our knowledge with red wine,",
+          "Firmaments, themselves, the knowing minds hound.",
+          "Seek that from idols, O knowing heart,",
+          "Said the one whose insights, his knowledge crowned.",
+          "My heart, like a compass, goes round and round,",
+          "I'm lost in that circle, with foot firmly on the ground.",
+          "Minstrel did what he did from pain of Love,",
+          "Lashes of wise-of-the-world in their bloody tears have drowned.",
+          "With joy my heart bloomed, like that flower by the stream",
+          "Under the shade of that tall spruce, myself, I found.",
+          "My colorful wise Master, in my dealings with the black robes,",
+          "My meanness checked and bound, else my stories would astound.",
+          "Hafiz's cloudy heart in this trade was not spent,",
+          "This merchant saw and heard every hidden sight and sound."
+        ],
+        "couplets": [
+          [
+            "For years, to the red wine, my heart was bound",
+            "The Tavern became alive with my prayer and my sound."
+          ],
+          [
+            "See the Old Magi's goodness, with us, the drunks,",
+            "Saw whatever we did, in everyone beauty had found."
+          ],
+          [
+            "Wash away all our knowledge with red wine,",
+            "Firmaments, themselves, the knowing minds hound."
+          ],
+          [
+            "Seek that from idols, O knowing heart,",
+            "Said the one whose insights, his knowledge crowned."
+          ],
+          [
+            "My heart, like a compass, goes round and round,",
+            "I'm lost in that circle, with foot firmly on the ground."
+          ],
+          [
+            "Minstrel did what he did from pain of Love,",
+            "Lashes of wise-of-the-world in their bloody tears have drowned."
+          ],
+          [
+            "With joy my heart bloomed, like that flower by the stream",
+            "Under the shade of that tall spruce, myself, I found."
+          ],
+          [
+            "My colorful wise Master, in my dealings with the black robes,",
+            "My meanness checked and bound, else my stories would astound."
+          ],
+          [
+            "Hafiz's cloudy heart in this trade was not spent,",
+            "This merchant saw and heard every hidden sight and sound."
+          ]
+        ],
+        "full_text": "For years, to the red wine, my heart was bound\nThe Tavern became alive with my prayer and my sound.\nSee the Old Magi's goodness, with us, the drunks,\nSaw whatever we did, in everyone beauty had found.\nWash away all our knowledge with red wine,\nFirmaments, themselves, the knowing minds hound.\nSeek that from idols, O knowing heart,\nSaid the one whose insights, his knowledge crowned.\nMy heart, like a compass, goes round and round,\nI'm lost in that circle, with foot firmly on the ground.\nMinstrel did what he did from pain of Love,\nLashes of wise-of-the-world in their bloody tears have drowned.\nWith joy my heart bloomed, like that flower by the stream\nUnder the shade of that tall spruce, myself, I found.\nMy colorful wise Master, in my dealings with the black robes,\nMy meanness checked and bound, else my stories would astound.\nHafiz's cloudy heart in this trade was not spent,\nThis merchant saw and heard every hidden sight and sound."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/05/203.htm"
+    },
+    {
+      "id": 26,
+      "ghazal_number": 270,
+      "title_en": "The Divine Beloved",
+      "title_fa": "درد عشقی کشیده‌ام که مـپرس",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "درد عشقی کشیده‌ام که مـپرس",
+          "زهر هجری چشیده‌ام که مـپرس",
+          "گشـتـه‌ام در جـهان و آخر کار",
+          "دلـبری برگزیده‌ام کـه مـپرس",
+          "آن چـنان در هوای خاک درش",
+          "می‌رود آب دیده‌ام کـه مـپرس",
+          "مـن به گوش خود از دهانش دوش",
+          "سخـنانی شـنیده‌ام که مپرس",
+          "سوی من لب چه می‌گزی که مگوی",
+          "لـب لـعـلی گزیده‌ام که مپرس",
+          "بی تو در کـلـبـه گدایی خویش",
+          "رنـج‌هایی کـشیده‌ام که مپرس",
+          "همـچو حافـظ غریب در ره عشق",
+          "بـه مـقامی رسیده‌ام که مپرس"
+        ],
+        "couplets": [
+          [
+            "درد عشقی کشیده‌ام که مـپرس",
+            "زهر هجری چشیده‌ام که مـپرس"
+          ],
+          [
+            "گشـتـه‌ام در جـهان و آخر کار",
+            "دلـبری برگزیده‌ام کـه مـپرس"
+          ],
+          [
+            "آن چـنان در هوای خاک درش",
+            "می‌رود آب دیده‌ام کـه مـپرس"
+          ],
+          [
+            "مـن به گوش خود از دهانش دوش",
+            "سخـنانی شـنیده‌ام که مپرس"
+          ],
+          [
+            "سوی من لب چه می‌گزی که مگوی",
+            "لـب لـعـلی گزیده‌ام که مپرس"
+          ],
+          [
+            "بی تو در کـلـبـه گدایی خویش",
+            "رنـج‌هایی کـشیده‌ام که مپرس"
+          ],
+          [
+            "همـچو حافـظ غریب در ره عشق",
+            "بـه مـقامی رسیده‌ام که مپرس"
+          ]
+        ],
+        "full_text": "درد عشقی کشیده‌ام که مـپرس\nزهر هجری چشیده‌ام که مـپرس\nگشـتـه‌ام در جـهان و آخر کار\nدلـبری برگزیده‌ام کـه مـپرس\nآن چـنان در هوای خاک درش\nمی‌رود آب دیده‌ام کـه مـپرس\nمـن به گوش خود از دهانش دوش\nسخـنانی شـنیده‌ام که مپرس\nسوی من لب چه می‌گزی که مگوی\nلـب لـعـلی گزیده‌ام که مپرس\nبی تو در کـلـبـه گدایی خویش\nرنـج‌هایی کـشیده‌ام که مپرس\nهمـچو حافـظ غریب در ره عشق\nبـه مـقامی رسیده‌ام که مپرس"
+      },
+      "english": {
+        "lines": [
+          "Ask not what sorrows for love I endure",
+          "Ask not of parting poisons that make me impure.",
+          "I have traveled the world and in the end",
+          "Ask not what lover I willingly allure.",
+          "Longing for a vision, at her door",
+          "Ask not of the tears that I pour.",
+          "With my own ears I heard her last night",
+          "Ask not of her words, harsh yet demure.",
+          "Bite not your upper lip and speak not",
+          "Ask not what sweet lips I may secure.",
+          "In my mendicant state without you",
+          "Ask not of my pain and need for a cure.",
+          "On the path of Love, Hafiz, lost & unsure",
+          "Ask not of his standing, high and pure."
+        ],
+        "couplets": [
+          [
+            "Ask not what sorrows for love I endure",
+            "Ask not of parting poisons that make me impure."
+          ],
+          [
+            "I have traveled the world and in the end",
+            "Ask not what lover I willingly allure."
+          ],
+          [
+            "Longing for a vision, at her door",
+            "Ask not of the tears that I pour."
+          ],
+          [
+            "With my own ears I heard her last night",
+            "Ask not of her words, harsh yet demure."
+          ],
+          [
+            "Bite not your upper lip and speak not",
+            "Ask not what sweet lips I may secure."
+          ],
+          [
+            "In my mendicant state without you",
+            "Ask not of my pain and need for a cure."
+          ],
+          [
+            "On the path of Love, Hafiz, lost & unsure",
+            "Ask not of his standing, high and pure."
+          ]
+        ],
+        "full_text": "Ask not what sorrows for love I endure\nAsk not of parting poisons that make me impure.\nI have traveled the world and in the end\nAsk not what lover I willingly allure.\nLonging for a vision, at her door\nAsk not of the tears that I pour.\nWith my own ears I heard her last night\nAsk not of her words, harsh yet demure.\nBite not your upper lip and speak not\nAsk not what sweet lips I may secure.\nIn my mendicant state without you\nAsk not of my pain and need for a cure.\nOn the path of Love, Hafiz, lost & unsure\nAsk not of his standing, high and pure."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/06/270.htm"
+    },
+    {
+      "id": 27,
+      "ghazal_number": 315,
+      "title_en": "Reflection",
+      "title_fa": "به غیر از آن که بشد دین و دانش از دستم",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "به غیر از آن که بشد دین و دانش از دستم",
+          "بیا بـگو که ز عشقت چه طرف بربستـم",
+          "اگر چـه خرمن عمرم غم تو داد بـه باد",
+          "بـه خاک پای عزیزت که عهد نشکستم",
+          "چو ذره گر چه حقیرم ببین به دولت عشق",
+          "کـه در هوای رخت چون به مهر پیوستم",
+          "بیار باده که عمریست تا من از سر امـن",
+          "بـه کنـج عافیت از بهر عیش ننشستم",
+          "اگر ز مردم هـشیاری ای نـصیحـتـگو",
+          "سخن به خاک میفکن چرا که من مستم",
+          "چـگونـه سر ز خجالت برآورم بر دوست",
+          "کـه خدمـتی به سزا برنیامد از دستم",
+          "بـسوخـت حافـظ و آن یار دلنواز نگفت",
+          "که مرهمی بفرستم که خاطرش خستم"
+        ],
+        "couplets": [
+          [
+            "به غیر از آن که بشد دین و دانش از دستم",
+            "بیا بـگو که ز عشقت چه طرف بربستـم"
+          ],
+          [
+            "اگر چـه خرمن عمرم غم تو داد بـه باد",
+            "بـه خاک پای عزیزت که عهد نشکستم"
+          ],
+          [
+            "چو ذره گر چه حقیرم ببین به دولت عشق",
+            "کـه در هوای رخت چون به مهر پیوستم"
+          ],
+          [
+            "بیار باده که عمریست تا من از سر امـن",
+            "بـه کنـج عافیت از بهر عیش ننشستم"
+          ],
+          [
+            "اگر ز مردم هـشیاری ای نـصیحـتـگو",
+            "سخن به خاک میفکن چرا که من مستم"
+          ],
+          [
+            "چـگونـه سر ز خجالت برآورم بر دوست",
+            "کـه خدمـتی به سزا برنیامد از دستم"
+          ],
+          [
+            "بـسوخـت حافـظ و آن یار دلنواز نگفت",
+            "که مرهمی بفرستم که خاطرش خستم"
+          ]
+        ],
+        "full_text": "به غیر از آن که بشد دین و دانش از دستم\nبیا بـگو که ز عشقت چه طرف بربستـم\nاگر چـه خرمن عمرم غم تو داد بـه باد\nبـه خاک پای عزیزت که عهد نشکستم\nچو ذره گر چه حقیرم ببین به دولت عشق\nکـه در هوای رخت چون به مهر پیوستم\nبیار باده که عمریست تا من از سر امـن\nبـه کنـج عافیت از بهر عیش ننشستم\nاگر ز مردم هـشیاری ای نـصیحـتـگو\nسخن به خاک میفکن چرا که من مستم\nچـگونـه سر ز خجالت برآورم بر دوست\nکـه خدمـتی به سزا برنیامد از دستم\nبـسوخـت حافـظ و آن یار دلنواز نگفت\nکه مرهمی بفرستم که خاطرش خستم"
+      },
+      "english": {
+        "lines": [
+          "All my knowledge and piety I detest",
+          "What have I gained from your love in my breast?",
+          "Though the wind of separation blew away my zest",
+          "I kept my vows to Thee, sincere, honest.",
+          "As a spec of dust, I may be small at best",
+          "But through love, the sun itself is my nest.",
+          "Bring forth the wine, let me joyously ingest",
+          "For safety and security, in joy I didn’t invest.",
+          "If you are sober, save your advice and protest",
+          "Waste not your words on me, the drunken pest.",
+          "From shame, can’t keep my head above my chest",
+          "I was not of worthy service, in my quest.",
+          "Beloved didn’t say, though life Hafiz molest",
+          "Let me send him a cure to put him to rest."
+        ],
+        "couplets": [
+          [
+            "All my knowledge and piety I detest",
+            "What have I gained from your love in my breast?"
+          ],
+          [
+            "Though the wind of separation blew away my zest",
+            "I kept my vows to Thee, sincere, honest."
+          ],
+          [
+            "As a spec of dust, I may be small at best",
+            "But through love, the sun itself is my nest."
+          ],
+          [
+            "Bring forth the wine, let me joyously ingest",
+            "For safety and security, in joy I didn’t invest."
+          ],
+          [
+            "If you are sober, save your advice and protest",
+            "Waste not your words on me, the drunken pest."
+          ],
+          [
+            "From shame, can’t keep my head above my chest",
+            "I was not of worthy service, in my quest."
+          ],
+          [
+            "Beloved didn’t say, though life Hafiz molest",
+            "Let me send him a cure to put him to rest."
+          ]
+        ],
+        "full_text": "All my knowledge and piety I detest\nWhat have I gained from your love in my breast?\nThough the wind of separation blew away my zest\nI kept my vows to Thee, sincere, honest.\nAs a spec of dust, I may be small at best\nBut through love, the sun itself is my nest.\nBring forth the wine, let me joyously ingest\nFor safety and security, in joy I didn’t invest.\nIf you are sober, save your advice and protest\nWaste not your words on me, the drunken pest.\nFrom shame, can’t keep my head above my chest\nI was not of worthy service, in my quest.\nBeloved didn’t say, though life Hafiz molest\nLet me send him a cure to put him to rest."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/07/315.htm"
+    },
+    {
+      "id": 28,
+      "ghazal_number": 351,
+      "title_en": "The Wanderer",
+      "title_fa": "حاشا که من به موسم گل ترک می کنم",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "حاشا که من به موسم گل ترک می کنم",
+          "مـن لاف عقل می‌زنم این کار کی کنم",
+          "مطرب کجاست تا همه محصول زهد و علم",
+          "در کار چنـگ و بربط و آواز نی کـنـم",
+          "از قیل و قال مدرسه حالی دلم گرفـت",
+          "یک چند نیز خدمت معشوق و می کنـم",
+          "کی بود در زمانـه وفا جام می بیار",
+          "تا مـن حکایت جم و کاووس کی کنـم",
+          "از نامـه سیاه نترسم کـه روز حـشر",
+          "با فیض لطف او صد از این نامه طی کنـم",
+          "کو پیک صبـح تا گلـه‌های شـب فراق",
+          "با آن خجسته طالع فرخنده پی کـنـم",
+          "این جان عاریت که به حافظ سپرد دوست",
+          "روزی رخـش ببینم و تسلیم وی کنـم"
+        ],
+        "couplets": [
+          [
+            "حاشا که من به موسم گل ترک می کنم",
+            "مـن لاف عقل می‌زنم این کار کی کنم"
+          ],
+          [
+            "مطرب کجاست تا همه محصول زهد و علم",
+            "در کار چنـگ و بربط و آواز نی کـنـم"
+          ],
+          [
+            "از قیل و قال مدرسه حالی دلم گرفـت",
+            "یک چند نیز خدمت معشوق و می کنـم"
+          ],
+          [
+            "کی بود در زمانـه وفا جام می بیار",
+            "تا مـن حکایت جم و کاووس کی کنـم"
+          ],
+          [
+            "از نامـه سیاه نترسم کـه روز حـشر",
+            "با فیض لطف او صد از این نامه طی کنـم"
+          ],
+          [
+            "کو پیک صبـح تا گلـه‌های شـب فراق",
+            "با آن خجسته طالع فرخنده پی کـنـم"
+          ],
+          [
+            "این جان عاریت که به حافظ سپرد دوست",
+            "روزی رخـش ببینم و تسلیم وی کنـم"
+          ]
+        ],
+        "full_text": "حاشا که من به موسم گل ترک می کنم\nمـن لاف عقل می‌زنم این کار کی کنم\nمطرب کجاست تا همه محصول زهد و علم\nدر کار چنـگ و بربط و آواز نی کـنـم\nاز قیل و قال مدرسه حالی دلم گرفـت\nیک چند نیز خدمت معشوق و می کنـم\nکی بود در زمانـه وفا جام می بیار\nتا مـن حکایت جم و کاووس کی کنـم\nاز نامـه سیاه نترسم کـه روز حـشر\nبا فیض لطف او صد از این نامه طی کنـم\nکو پیک صبـح تا گلـه‌های شـب فراق\nبا آن خجسته طالع فرخنده پی کـنـم\nاین جان عاریت که به حافظ سپرد دوست\nروزی رخـش ببینم و تسلیم وی کنـم"
+      },
+      "english": {
+        "lines": [
+          "Next spring, giving up wine, I deny",
+          "Why fool myself? This I’ll never try.",
+          "Where is the minstrel, that all piety and mind",
+          "With the song of the harp and reed I defy.",
+          "In the noisy school, O heavy heart, O heavy heart",
+          "In the service of wine and love let sometime go by",
+          "Where is the fairness of life, bring me wine",
+          "I’ll tell the tale of many kings who now peacefully lie.",
+          "On Judgement Day, openly I show how I erred",
+          "Honest mistakes fear not, His mercy shall multiply.",
+          "Bring the messenger of dawn, distant midnight cry",
+          "With that majestic morning light will dissolve and fly.",
+          "This borrowed life, given to Hafiz to live and die",
+          "Will return to its owner, when His face identify."
+        ],
+        "couplets": [
+          [
+            "Next spring, giving up wine, I deny",
+            "Why fool myself? This I’ll never try."
+          ],
+          [
+            "Where is the minstrel, that all piety and mind",
+            "With the song of the harp and reed I defy."
+          ],
+          [
+            "In the noisy school, O heavy heart, O heavy heart",
+            "In the service of wine and love let sometime go by"
+          ],
+          [
+            "Where is the fairness of life, bring me wine",
+            "I’ll tell the tale of many kings who now peacefully lie."
+          ],
+          [
+            "On Judgement Day, openly I show how I erred",
+            "Honest mistakes fear not, His mercy shall multiply."
+          ],
+          [
+            "Bring the messenger of dawn, distant midnight cry",
+            "With that majestic morning light will dissolve and fly."
+          ],
+          [
+            "This borrowed life, given to Hafiz to live and die",
+            "Will return to its owner, when His face identify."
+          ]
+        ],
+        "full_text": "Next spring, giving up wine, I deny\nWhy fool myself? This I’ll never try.\nWhere is the minstrel, that all piety and mind\nWith the song of the harp and reed I defy.\nIn the noisy school, O heavy heart, O heavy heart\nIn the service of wine and love let sometime go by\nWhere is the fairness of life, bring me wine\nI’ll tell the tale of many kings who now peacefully lie.\nOn Judgement Day, openly I show how I erred\nHonest mistakes fear not, His mercy shall multiply.\nBring the messenger of dawn, distant midnight cry\nWith that majestic morning light will dissolve and fly.\nThis borrowed life, given to Hafiz to live and die\nWill return to its owner, when His face identify."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/08/351.htm"
+    },
+    {
+      "id": 29,
+      "ghazal_number": 415,
+      "title_en": "The Beloved's Face",
+      "title_fa": "ای پیک راسـتان خـبر یار ما بـگو",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "ای پیک راسـتان خـبر یار ما بـگو",
+          "احوال گـل بـه بلبل دستان سرا بـگو",
+          "ما مـحرمان خـلوت انسیم غم مـخور",
+          "با یار آشـنا سـخـن آشـنا بـگو",
+          "برهـم چو می‌زد آن سر زلفین مشکـبار",
+          "با ما سر چه داشـت ز بـهر خدا بـگو",
+          "هر کس که گفت خاک در دوست توتیاست",
+          "گو این سخن معاینه در چشـم ما بـگو",
+          "آن کـس کـه منع ما ز خرابات می‌کـند",
+          "گو در حـضور پیر مـن این ماجرا بـگو",
+          "گر دیگرت بر آن در دولـت گذر بود",
+          "بـعد از ادای خدمـت و عرض دعا بـگو",
+          "هر چـند ما بدیم تو ما را بدان مـگیر",
+          "شاهانـه ماجرای گـناه گدا بـگو",
+          "بر این فـقیر نامه آن محتشـم بـخوان",
+          "با این گدا حـکایت آن پادشا بـگو",
+          "جان‌ها ز دام زلف چو بر خاک می‌فـشاند",
+          "بر آن غریب ما چه گذشت ای صـبا بـگو",
+          "جان پرور اسـت قصه ارباب مـعرفـت",
+          "رمزی برو بـپرس حدیثی بیا بـگو",
+          "حافـظ گرت به مجلس او راه می‌دهـند",
+          "می نوش و ترک زرق ز بـهر خدا بـگو"
+        ],
+        "couplets": [
+          [
+            "ای پیک راسـتان خـبر یار ما بـگو",
+            "احوال گـل بـه بلبل دستان سرا بـگو"
+          ],
+          [
+            "ما مـحرمان خـلوت انسیم غم مـخور",
+            "با یار آشـنا سـخـن آشـنا بـگو"
+          ],
+          [
+            "برهـم چو می‌زد آن سر زلفین مشکـبار",
+            "با ما سر چه داشـت ز بـهر خدا بـگو"
+          ],
+          [
+            "هر کس که گفت خاک در دوست توتیاست",
+            "گو این سخن معاینه در چشـم ما بـگو"
+          ],
+          [
+            "آن کـس کـه منع ما ز خرابات می‌کـند",
+            "گو در حـضور پیر مـن این ماجرا بـگو"
+          ],
+          [
+            "گر دیگرت بر آن در دولـت گذر بود",
+            "بـعد از ادای خدمـت و عرض دعا بـگو"
+          ],
+          [
+            "هر چـند ما بدیم تو ما را بدان مـگیر",
+            "شاهانـه ماجرای گـناه گدا بـگو"
+          ],
+          [
+            "بر این فـقیر نامه آن محتشـم بـخوان",
+            "با این گدا حـکایت آن پادشا بـگو"
+          ],
+          [
+            "جان‌ها ز دام زلف چو بر خاک می‌فـشاند",
+            "بر آن غریب ما چه گذشت ای صـبا بـگو"
+          ],
+          [
+            "جان پرور اسـت قصه ارباب مـعرفـت",
+            "رمزی برو بـپرس حدیثی بیا بـگو"
+          ],
+          [
+            "حافـظ گرت به مجلس او راه می‌دهـند",
+            "می نوش و ترک زرق ز بـهر خدا بـگو"
+          ]
+        ],
+        "full_text": "ای پیک راسـتان خـبر یار ما بـگو\nاحوال گـل بـه بلبل دستان سرا بـگو\nما مـحرمان خـلوت انسیم غم مـخور\nبا یار آشـنا سـخـن آشـنا بـگو\nبرهـم چو می‌زد آن سر زلفین مشکـبار\nبا ما سر چه داشـت ز بـهر خدا بـگو\nهر کس که گفت خاک در دوست توتیاست\nگو این سخن معاینه در چشـم ما بـگو\nآن کـس کـه منع ما ز خرابات می‌کـند\nگو در حـضور پیر مـن این ماجرا بـگو\nگر دیگرت بر آن در دولـت گذر بود\nبـعد از ادای خدمـت و عرض دعا بـگو\nهر چـند ما بدیم تو ما را بدان مـگیر\nشاهانـه ماجرای گـناه گدا بـگو\nبر این فـقیر نامه آن محتشـم بـخوان\nبا این گدا حـکایت آن پادشا بـگو\nجان‌ها ز دام زلف چو بر خاک می‌فـشاند\nبر آن غریب ما چه گذشت ای صـبا بـگو\nجان پرور اسـت قصه ارباب مـعرفـت\nرمزی برو بـپرس حدیثی بیا بـگو\nحافـظ گرت به مجلس او راه می‌دهـند\nمی نوش و ترک زرق ز بـهر خدا بـگو"
+      },
+      "english": {
+        "lines": [
+          "Tell me of my friend, my messenger of the Right",
+          "Tell the nightingale of the flower's condition & plight.",
+          "In the gathering of lovers, we are trusted, fear not",
+          "With trusted friends, speak of friendship's delight.",
+          "My head was agitated such with her fragrant hair",
+          "For God's sake, why the fire in my head thus ignite?",
+          "To those who say the dust of friend's home is vile",
+          "Say, speak of this while examining my eye-sight.",
+          "And to the ones who forbid the tavern and wine",
+          "Say, in my Master's presence speak not of your spite",
+          "And if anyone else, in your presence speaks",
+          "Tell them to pause for your prayerful respite.",
+          "Though I am a sinner, judge me not by my sins",
+          "You be the King & I, the mendicant, contrite.",
+          "To this poor man tell the tale of generous ones",
+          "With this beggar speak only of kingly might.",
+          "I sacrifice my life in the trap of your hair",
+          "O morning breeze speak of the stranger in the night.",
+          "The tale of the Knower, the Wise, nourishes the soul",
+          "Ask secrets of Him, and with your stories excite.",
+          "If to His feast, Hafiz, they would invite",
+          "Drink wine & throw away every deceitful rite."
+        ],
+        "couplets": [
+          [
+            "Tell me of my friend, my messenger of the Right",
+            "Tell the nightingale of the flower's condition & plight."
+          ],
+          [
+            "In the gathering of lovers, we are trusted, fear not",
+            "With trusted friends, speak of friendship's delight."
+          ],
+          [
+            "My head was agitated such with her fragrant hair",
+            "For God's sake, why the fire in my head thus ignite?"
+          ],
+          [
+            "To those who say the dust of friend's home is vile",
+            "Say, speak of this while examining my eye-sight."
+          ],
+          [
+            "And to the ones who forbid the tavern and wine",
+            "Say, in my Master's presence speak not of your spite"
+          ],
+          [
+            "And if anyone else, in your presence speaks",
+            "Tell them to pause for your prayerful respite."
+          ],
+          [
+            "Though I am a sinner, judge me not by my sins",
+            "You be the King & I, the mendicant, contrite."
+          ],
+          [
+            "To this poor man tell the tale of generous ones",
+            "With this beggar speak only of kingly might."
+          ],
+          [
+            "I sacrifice my life in the trap of your hair",
+            "O morning breeze speak of the stranger in the night."
+          ],
+          [
+            "The tale of the Knower, the Wise, nourishes the soul",
+            "Ask secrets of Him, and with your stories excite."
+          ],
+          [
+            "If to His feast, Hafiz, they would invite",
+            "Drink wine & throw away every deceitful rite."
+          ]
+        ],
+        "full_text": "Tell me of my friend, my messenger of the Right\nTell the nightingale of the flower's condition & plight.\nIn the gathering of lovers, we are trusted, fear not\nWith trusted friends, speak of friendship's delight.\nMy head was agitated such with her fragrant hair\nFor God's sake, why the fire in my head thus ignite?\nTo those who say the dust of friend's home is vile\nSay, speak of this while examining my eye-sight.\nAnd to the ones who forbid the tavern and wine\nSay, in my Master's presence speak not of your spite\nAnd if anyone else, in your presence speaks\nTell them to pause for your prayerful respite.\nThough I am a sinner, judge me not by my sins\nYou be the King & I, the mendicant, contrite.\nTo this poor man tell the tale of generous ones\nWith this beggar speak only of kingly might.\nI sacrifice my life in the trap of your hair\nO morning breeze speak of the stranger in the night.\nThe tale of the Knower, the Wise, nourishes the soul\nAsk secrets of Him, and with your stories excite.\nIf to His feast, Hafiz, they would invite\nDrink wine & throw away every deceitful rite."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/09/415.htm"
+    },
+    {
+      "id": 30,
+      "ghazal_number": 453,
+      "title_en": "The Wine of Love",
+      "title_fa": "ای که دایم به خویش مغروری",
+      "poet": "Hafez",
+      "poet_fa": "حافظ",
+      "poet_full_name": "Khwaja Shams-ud-Din Muhammad Hafez-e Shirazi",
+      "poet_full_name_fa": "خواجه شمس‌الدین محمد حافظ شیرازی",
+      "era": "14th century",
+      "origin": "Shiraz, Iran",
+      "form": "Ghazal",
+      "form_fa": "غزل",
+      "farsi": {
+        "lines": [
+          "ای که دایم به خویش مغروری",
+          "گر تو را عشق نیست معذوری",
+          "گرد دیوانـگان عشق مـگرد",
+          "کـه به عقل عقیله مشهوری",
+          "مستی عشق نیست در سر تو",
+          "رو کـه تو مست آب انـگوری",
+          "روی زرد اسـت و آه دردآلود",
+          "عاشـقان را دوای رنـجوری",
+          "بـگذر از نام و ننگ خود حافظ",
+          "ساغر می ‌طلب که مخـموری"
+        ],
+        "couplets": [
+          [
+            "ای که دایم به خویش مغروری",
+            "گر تو را عشق نیست معذوری"
+          ],
+          [
+            "گرد دیوانـگان عشق مـگرد",
+            "کـه به عقل عقیله مشهوری"
+          ],
+          [
+            "مستی عشق نیست در سر تو",
+            "رو کـه تو مست آب انـگوری"
+          ],
+          [
+            "روی زرد اسـت و آه دردآلود",
+            "عاشـقان را دوای رنـجوری"
+          ],
+          [
+            "بـگذر از نام و ننگ خود حافظ",
+            "ساغر می ‌طلب که مخـموری"
+          ]
+        ],
+        "full_text": "ای که دایم به خویش مغروری\nگر تو را عشق نیست معذوری\nگرد دیوانـگان عشق مـگرد\nکـه به عقل عقیله مشهوری\nمستی عشق نیست در سر تو\nرو کـه تو مست آب انـگوری\nروی زرد اسـت و آه دردآلود\nعاشـقان را دوای رنـجوری\nبـگذر از نام و ننگ خود حافظ\nساغر می ‌طلب که مخـموری"
+      },
+      "english": {
+        "lines": [
+          "You, who are so proud of your name",
+          "If you are not in love, then shame!",
+          "Befriend not lovers, who are insane,",
+          "If sane sobriety is your fame.",
+          "Your head is sober from the wine of Love",
+          "Drinking grape juice is your game.",
+          "Melancholic face and painful cries,",
+          "Make lovers' pain, somewhat tame.",
+          "Hafiz, let go of infamy and name,",
+          "Seek more wine, your drunkenness inflame."
+        ],
+        "couplets": [
+          [
+            "You, who are so proud of your name",
+            "If you are not in love, then shame!"
+          ],
+          [
+            "Befriend not lovers, who are insane,",
+            "If sane sobriety is your fame."
+          ],
+          [
+            "Your head is sober from the wine of Love",
+            "Drinking grape juice is your game."
+          ],
+          [
+            "Melancholic face and painful cries,",
+            "Make lovers' pain, somewhat tame."
+          ],
+          [
+            "Hafiz, let go of infamy and name,",
+            "Seek more wine, your drunkenness inflame."
+          ]
+        ],
+        "full_text": "You, who are so proud of your name\nIf you are not in love, then shame!\nBefriend not lovers, who are insane,\nIf sane sobriety is your fame.\nYour head is sober from the wine of Love\nDrinking grape juice is your game.\nMelancholic face and painful cries,\nMake lovers' pain, somewhat tame.\nHafiz, let go of infamy and name,\nSeek more wine, your drunkenness inflame."
+      },
+      "source": "hafizonlove.com",
+      "source_url": "https://www.hafizonlove.com/divan/10/453.htm"
+    }
+  ]
+}
