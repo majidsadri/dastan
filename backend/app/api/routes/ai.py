@@ -223,6 +223,25 @@ class AIConsultResponse(BaseModel):
     error: Optional[str] = None
 
 
+PERSIAN_VOICES = {"omar-khayyam", "mulla-sadra", "ibn-sina"}
+
+
+def _contains_persian_script(text: str) -> bool:
+    """Return True if the text has any Arabic/Persian script characters."""
+    for ch in text:
+        code = ord(ch)
+        # Arabic (0600–06FF), Arabic Supplement (0750–077F),
+        # Arabic Extended-A (08A0–08FF), Arabic Presentation Forms-A/B (FB50–FEFF).
+        if (
+            0x0600 <= code <= 0x06FF
+            or 0x0750 <= code <= 0x077F
+            or 0x08A0 <= code <= 0x08FF
+            or 0xFB50 <= code <= 0xFEFC
+        ):
+            return True
+    return False
+
+
 def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> str:
     lines: List[str] = []
     lines.append(
@@ -236,7 +255,68 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
     lines.append("")
     lines.append("THE READER'S QUESTION:")
     lines.append(f'"{question.strip()}"')
-    lines.append("")
+    question_is_persian = _contains_persian_script(question)
+
+    selected_ids = {p.id for p in profiles}
+    persian_selected = selected_ids & PERSIAN_VOICES
+
+    # ── HARD LANGUAGE OVERRIDE ──
+    # If the reader wrote in Persian AND a Persian thinker is selected,
+    # put the language rule BEFORE everything else so the model sees it first
+    # and can't let the English-centric rules below override it.
+    if question_is_persian and persian_selected:
+        lines.append("")
+        lines.append("╔══════════════════════════════════════════════════════╗")
+        lines.append("║  HARD LANGUAGE CONSTRAINT — READ BEFORE ANYTHING ELSE ║")
+        lines.append("╚══════════════════════════════════════════════════════╝")
+        lines.append(
+            "The reader wrote in Persian (Farsi script). For the Persian-"
+            "tradition thinkers selected below, the response MUST be written "
+            "ENTIRELY in Persian script. No English. No transliteration. No "
+            "meta-preface. Just Persian."
+        )
+        lines.append(
+            "This language rule OVERRIDES the 60–90 word cap, the \"begin "
+            "immediately\" rule, the temperament notes, and the signature-"
+            "concept rule below. Persian thinkers respond in Persian, period."
+        )
+        lines.append("")
+        lines.append("Required format by thinker:")
+        if "omar-khayyam" in persian_selected:
+            lines.append(
+                "  • Omar Khayyam: ONE ruba'i — exactly four lines of Persian "
+                "verse in the voice of his Rubaiyat (wine, dust, the turning "
+                "wheel of the heavens, the rose, the moving finger). Nothing "
+                "before the four lines. Nothing after. No gloss. No advice. "
+                "Just the quatrain. You may adapt one of his real rubaiyat "
+                "or compose one freshly in his unmistakable voice. Example "
+                "of the shape (do NOT copy; write one that answers THIS "
+                "reader's actual question):"
+            )
+            lines.append("      این کوزه چو من عاشق زاری بوده‌است")
+            lines.append("      در بند سر زلف نگاری بوده‌است")
+            lines.append("      این دسته که بر گردن او می‌بینی")
+            lines.append("      دستی‌ست که بر گردن یاری بوده‌است")
+        if "mulla-sadra" in persian_selected:
+            lines.append(
+                "  • Mulla Sadra: 3–5 sentences of Persian prose, reverent and "
+                "metaphysical. Name his own concepts in Persian/Arabic: "
+                "اصالت وجود, حرکت جوهری, تشکیک وجود."
+            )
+        if "ibn-sina" in persian_selected:
+            lines.append(
+                "  • Ibn Sina (Avicenna): 3–5 sentences of Persian prose, "
+                "physician-metaphysician's measured voice. Use وجود, ماهیت, "
+                "واجب‌الوجود where apt."
+            )
+        if selected_ids - PERSIAN_VOICES:
+            lines.append(
+                "  • Non-Persian thinkers (any others in the list) still "
+                "answer in their usual language (English) per the rules "
+                "below — ONLY the Persian-tradition thinkers switch language."
+            )
+        lines.append("")
+
     lines.append("PHILOSOPHERS (respond in this exact order):")
     lines.append("")
 
@@ -263,7 +343,9 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
     lines.append("RULES FOR EACH RESPONSE:")
     lines.append("")
     lines.append(
-        "• Length: 60–90 words. Tight. No padding. A short, direct reply — not an essay."
+        "• Length: 60–90 words. Tight. No padding. A short, direct reply — not "
+        "an essay. EXCEPTION: Omar Khayyam may go up to 110 words when he is "
+        "delivering a full ruba'i (quatrain) plus a brief gloss."
     )
     lines.append(
         "• Begin immediately with the thought itself. No 'As X,' no 'Speaking "
@@ -313,6 +395,42 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
         "• No motivational-poster platitudes. If the thinker would give a "
         "hard or uncomfortable answer, give the hard answer."
     )
+
+    # Persian-tradition thinkers answering an ENGLISH question — they may
+    # still lean into their tradition's voice, but the hard-override block
+    # above only fires when the question itself is in Persian.
+    if persian_selected and not question_is_persian:
+        lines.append("")
+        lines.append("• PERSIAN TRADITION — voice notes:")
+        if "omar-khayyam" in persian_selected:
+            lines.append(
+                "  – Omar Khayyam answers as a ruba'i poet, not as a lecturer. "
+                "Speak in the voice of the Rubaiyat: wine, dust, the turning "
+                "jar of the heavens, the rose that opens and falls, the moving "
+                "finger that writes and moves on. Deliver ONE quatrain of "
+                "four lines, then at most one short sentence of earthly "
+                "advice. Never moralize. Never preach. The ruba'i IS the "
+                "answer. He may answer in Persian (Farsi script) with a "
+                "short English gloss on the next line if the question "
+                "invites it — otherwise English verse in his cadence."
+            )
+        if "mulla-sadra" in persian_selected:
+            lines.append(
+                "  – Mulla Sadra speaks with the gravitas of the ḥakīm. Use "
+                "his actual vocabulary by name: aṣālat al-wujūd (the primacy "
+                "of existence over essence), ḥarakat jawhariyya (substantial "
+                "motion — the self itself is a flowing, not a fixed thing), "
+                "tashkīk al-wujūd (the gradation of being). Reverent, "
+                "metaphysical, patient."
+            )
+        if "ibn-sina" in persian_selected:
+            lines.append(
+                "  – Ibn Sina (Avicenna) speaks as physician and metaphysician "
+                "together. Use wujūd (existence), māhiyya (essence), wājib "
+                "al-wujūd (the Necessary Existent), and where apt the Floating "
+                "Man thought-experiment. Measured, lucid, diagnostic."
+            )
+
     lines.append("")
     lines.append(
         "Return ONLY a JSON array — no markdown, no code fences, no commentary — "

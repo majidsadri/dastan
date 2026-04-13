@@ -8,6 +8,7 @@ import {
   consultPhilosophers,
   type ConsultResponseItem,
 } from "@/lib/api";
+import { getPhilosopherFigures, type PhilosopherFigure } from "./illustrations";
 
 /* TTS cache — persists across modal opens within the session */
 const ttsCache = new Map<string, Blob>();
@@ -171,6 +172,24 @@ interface Philosopher {
   pull_quote: string;
   image: string;
   fun_fact?: string;
+}
+
+interface Article {
+  id: string;
+  title: string;
+  subject: string;
+  theme: string;
+  era: string;
+  visual_concept: string;
+  article: string;
+  pull_quote: string;
+  ending_quote: string;
+  ending_quote_attribution: string;
+}
+
+interface ArticlesData {
+  meta: { title: string; subtitle: string; description: string };
+  articles: Article[];
 }
 
 interface CatalogData {
@@ -673,6 +692,30 @@ function getInitials(name: string): string {
   return (words[0][0] + words[words.length - 1][0]).toUpperCase();
 }
 
+/* ─── Inline figure block for the modal — renders a philosopher-specific SVG scene ─── */
+function ModalFigureBlock({
+  figure,
+  color,
+}: {
+  figure: PhilosopherFigure;
+  color: string;
+}) {
+  const Render = figure.render;
+  return (
+    <figure className="my-8">
+      <div className={`mx-auto ${figure.wide ? "max-w-[480px]" : "max-w-[320px]"}`}>
+        <Render color={color} />
+      </div>
+      <figcaption
+        className="mt-3 text-center text-[11px] italic text-sepia-light/60"
+        style={{ fontFamily: "var(--font-heading)" }}
+      >
+        {figure.caption}
+      </figcaption>
+    </figure>
+  );
+}
+
 /* ─── Philosopher Avatar — classical medallion style ─── */
 function PhilosopherAvatar({
   philosopher,
@@ -795,7 +838,8 @@ function TimelineCard({
       audio.onerror = () => { setFunFactState("idle"); activeFunFactAudio = null; URL.revokeObjectURL(url); };
       await audio.play();
       setFunFactState("playing");
-    } catch {
+    } catch (err) {
+      console.error("[Philosopher fun fact] TTS failed:", err);
       setFunFactState("idle");
     }
   }
@@ -1190,7 +1234,8 @@ function ArticleModal({
 
       await audio.play();
       setTtsState("playing");
-    } catch {
+    } catch (err) {
+      console.error("[Philosopher article] TTS failed:", err);
       setTtsState("idle");
     }
   }
@@ -1251,6 +1296,7 @@ function ArticleModal({
 
   const paragraphs = philosopher.article.split("\n\n");
   const [firstParagraph, ...restParagraphs] = paragraphs;
+  const figures = getPhilosopherFigures(philosopher.id);
 
   const influences = philosopher.influenced_by
     .map((id) => allPhilosophers.find((p) => p.id === id))
@@ -1450,19 +1496,36 @@ function ArticleModal({
             {/* Article */}
             <div className="space-y-5">
               {firstParagraph && (
-                <p className="text-sepia/85 text-[16px] sm:text-[15px] leading-[1.85]
-                             first-letter:text-[3.2em] first-letter:font-bold first-letter:float-left
-                             first-letter:mr-2 first-letter:mt-1 first-letter:leading-[0.8] first-letter:text-sepia"
-                  style={{ fontFamily: "var(--font-body)" }}>
-                  {firstParagraph}
-                </p>
+                <>
+                  <p className="text-sepia/85 text-[16px] sm:text-[15px] leading-[1.85]
+                               first-letter:text-[3.2em] first-letter:font-bold first-letter:float-left
+                               first-letter:mr-2 first-letter:mt-1 first-letter:leading-[0.8] first-letter:text-sepia"
+                    style={{ fontFamily: "var(--font-body)" }}>
+                    {firstParagraph}
+                  </p>
+                  {figures
+                    .filter((f) => f.afterParagraph === 0)
+                    .map((fig, fi) => (
+                      <ModalFigureBlock key={`fig-0-${fi}`} figure={fig} color={eraColor} />
+                    ))}
+                </>
               )}
-              {restParagraphs.map((p, i) => (
-                <p key={i} className="text-sepia/80 text-[16px] sm:text-[15px] leading-[1.85]"
-                  style={{ fontFamily: "var(--font-body)" }}>
-                  {p}
-                </p>
-              ))}
+              {restParagraphs.map((p, i) => {
+                // restParagraphs[i] corresponds to the full article's paragraph index (i + 1)
+                const articleIndex = i + 1;
+                const figuresAfter = figures.filter((f) => f.afterParagraph === articleIndex);
+                return (
+                  <div key={i} className="space-y-5">
+                    <p className="text-sepia/80 text-[16px] sm:text-[15px] leading-[1.85]"
+                      style={{ fontFamily: "var(--font-body)" }}>
+                      {p}
+                    </p>
+                    {figuresAfter.map((fig, fi) => (
+                      <ModalFigureBlock key={`fig-${articleIndex}-${fi}`} figure={fig} color={eraColor} />
+                    ))}
+                  </div>
+                );
+              })}
             </div>
 
             {/* Pull quote */}
@@ -1869,10 +1932,12 @@ function AskThemView({
                   )}
                 </div>
                 <p
+                  dir="auto"
                   className="text-[14px] sm:text-[15px] text-sepia/85 leading-relaxed pl-4"
                   style={{
                     fontFamily: "var(--font-body)",
                     borderLeft: `2px solid ${color}45`,
+                    whiteSpace: "pre-line",
                   }}
                 >
                   {r.response}
@@ -2373,6 +2438,349 @@ function SchoolsStreamGraph({
   );
 }
 
+/* ─── Readings — article cards + detail modal ─── */
+
+/* ─── Modal frontispieces — one illustrated plate per article ────────
+ *
+ * Object-only art. No people, no crowds — just the emblem of the
+ * reading: a timeline, a motorcycle, an arch, a peak, a river. Each
+ * fills a banner viewBox (200×120) and is rendered only inside the
+ * reading modal, never on the card. Lines are deliberate and spare,
+ * so the plate reads like an engraved book frontispiece rather than
+ * an illustration.
+ */
+const READING_ART: Record<string, (color: string) => React.ReactNode> = {
+  /* Story of Philosophy — a single timeline line with three dots. */
+  "story-of-philosophy": (c) => (
+    <svg viewBox="0 0 200 120" fill="none" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
+      <line x1="40" y1="60" x2="160" y2="60" stroke={c} strokeWidth="0.8" opacity="0.55" strokeLinecap="round" />
+      <circle cx="55" cy="60" r="2" fill={c} opacity="0.55" />
+      <circle cx="100" cy="60" r="2.5" fill={c} opacity="0.7" />
+      <circle cx="145" cy="60" r="2" fill={c} opacity="0.55" />
+    </svg>
+  ),
+
+  /* Zen Motorcycle — just two wheels + a frame, engraving-simple. */
+  "zen-motorcycle": (c) => (
+    <svg viewBox="0 0 200 120" fill="none" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
+      <g transform="translate(100 64)" opacity="0.65">
+        <circle cx="-32" cy="14" r="14" stroke={c} strokeWidth="0.9" fill="none" />
+        <circle cx="32" cy="14" r="14" stroke={c} strokeWidth="0.9" fill="none" />
+        <path d="M-32 14 L-12 -6 L12 -6 L32 14" stroke={c} strokeWidth="0.9" strokeLinejoin="round" fill="none" />
+        <line x1="-14" y1="-6" x2="-4" y2="-14" stroke={c} strokeWidth="0.8" strokeLinecap="round" />
+      </g>
+    </svg>
+  ),
+
+  /* School of Athens — a single arch, nothing else. */
+  "school-of-athens": (c) => (
+    <svg viewBox="0 0 200 120" fill="none" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
+      <path d="M55 92 L55 48 Q100 10 145 48 L145 92"
+            stroke={c} strokeWidth="0.9" strokeLinecap="round" fill="none" opacity="0.65" />
+    </svg>
+  ),
+
+  /* Art of War — a single mountain ridge. */
+  "art-of-war": (c) => (
+    <svg viewBox="0 0 200 120" fill="none" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
+      <path d="M30 82 L70 50 L100 68 L130 38 L170 72"
+            stroke={c} strokeWidth="0.9" strokeLinejoin="round" strokeLinecap="round" fill="none" opacity="0.6" />
+    </svg>
+  ),
+
+  /* Tao Te Ching — three gentle waves. */
+  "tao-te-ching": (c) => (
+    <svg viewBox="0 0 200 120" fill="none" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
+      <path d="M40 52 C65 46 85 58 100 52 C115 46 135 58 160 52"
+            stroke={c} strokeWidth="0.8" strokeLinecap="round" opacity="0.55" fill="none" />
+      <path d="M40 68 C65 62 85 74 100 68 C115 62 135 74 160 68"
+            stroke={c} strokeWidth="0.8" strokeLinecap="round" opacity="0.5" fill="none" />
+      <path d="M40 84 C65 78 85 90 100 84 C115 78 135 90 160 84"
+            stroke={c} strokeWidth="0.8" strokeLinecap="round" opacity="0.45" fill="none" />
+    </svg>
+  ),
+};
+
+function ReadingCard({
+  article,
+  index,
+  onClick,
+}: {
+  article: Article;
+  index: number;
+  onClick: () => void;
+}) {
+  const ref = useRef<HTMLButtonElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
+      { rootMargin: "60px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const eraColor = ERA_COLORS[article.era] || "#8B6914";
+  const numeral = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"][index] || `${index + 1}`;
+
+  return (
+    <button
+      ref={ref}
+      onClick={onClick}
+      className="group relative w-full text-left cursor-pointer transition-all duration-600
+                 active:scale-[0.99] active:duration-100"
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? "translateY(0)" : "translateY(18px)",
+        transition: `opacity 0.6s ${index * 0.1}s, transform 0.6s ${index * 0.1}s`,
+      }}
+    >
+      <div className="flex items-stretch">
+        {/* Left edge — thin vertical stroke in era color */}
+        <div className="w-[2px] shrink-0 rounded-full transition-all duration-500 group-hover:h-full"
+          style={{ backgroundColor: eraColor, opacity: 0.3 }} />
+
+        <div className="flex-1 pl-5 sm:pl-7 py-5 sm:py-7 relative">
+          {/* Roman numeral + subject line */}
+          <div className="flex items-baseline gap-3 mb-3 sm:mb-4">
+            <span
+              className="text-[11px] sm:text-[12px] tracking-[3px]"
+              style={{ fontFamily: "var(--font-heading)", color: eraColor, opacity: 0.4 }}
+            >
+              {numeral}
+            </span>
+            <span
+              className="text-[10px] sm:text-[11px] tracking-[1px] text-sepia/30 uppercase"
+              style={{ fontFamily: "var(--font-ui)" }}
+            >
+              {article.subject}
+            </span>
+          </div>
+
+          {/* Title — large, breathing */}
+          <h3
+            className="text-[22px] sm:text-[26px] text-sepia leading-[1.2] mb-4 sm:mb-5
+                       transition-colors duration-300 group-hover:text-sepia/80"
+            style={{ fontFamily: "var(--font-heading)" }}
+          >
+            {article.title}
+          </h3>
+
+          {/* Quote — the soul of the card */}
+          <p
+            className="text-[13px] sm:text-[14px] text-sepia/40 italic leading-[1.7] max-w-lg
+                       transition-colors duration-300 group-hover:text-sepia/55"
+            style={{ fontFamily: "var(--font-body)" }}
+          >
+            {article.pull_quote}
+          </p>
+
+          {/* Footer — attribution + whisper of a read-more chevron */}
+          <div className="mt-5 sm:mt-6 flex items-center justify-between gap-4">
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="w-6 h-px" style={{ backgroundColor: eraColor, opacity: 0.15 }} />
+              <span
+                className="text-[9px] sm:text-[10px] tracking-[1.5px] text-sepia/20 uppercase truncate"
+                style={{ fontFamily: "var(--font-ui)" }}
+              >
+                {article.ending_quote_attribution}
+              </span>
+            </div>
+            <span
+              className="text-[10px] tracking-[2px] uppercase shrink-0 transition-all duration-300
+                         opacity-30 group-hover:opacity-100 group-hover:translate-x-1"
+              style={{ fontFamily: "var(--font-ui)", color: eraColor }}
+            >
+              Read →
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom separator — barely there, like a crease in old paper */}
+      <div className="mx-5 sm:mx-7 h-px bg-warm-border/30" />
+    </button>
+  );
+}
+
+function ReadingModal({
+  article,
+  onClose,
+}: {
+  article: Article;
+  onClose: () => void;
+}) {
+  const eraColor = ERA_COLORS[article.era] || "#8B6914";
+  const backdropRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = ""; };
+  }, []);
+
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
+  }, [onClose]);
+
+  // Split article into paragraphs
+  const paragraphs = article.article.split("\n\n");
+
+  return (
+    <div
+      ref={backdropRef}
+      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto"
+      onClick={(e) => { if (e.target === backdropRef.current) onClose(); }}
+      style={{ backgroundColor: "rgba(15, 12, 8, 0.6)", backdropFilter: "blur(6px)" }}
+    >
+      <div
+        className="relative w-full max-w-2xl mx-4 my-8 sm:my-12 rounded-2xl overflow-hidden animate-slide-up"
+        style={{ backgroundColor: "var(--color-parchment)" }}
+      >
+        {/* Top accent */}
+        <div className="h-[3px]" style={{ backgroundColor: eraColor, opacity: 0.5 }} />
+
+        {/* Close button */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 z-20 w-8 h-8 rounded-full flex items-center justify-center
+                     text-sepia/60 hover:text-sepia/90 bg-parchment/70 hover:bg-parchment backdrop-blur-sm
+                     transition-colors duration-200 cursor-pointer"
+          style={{ backgroundColor: "rgba(250,246,235,0.75)" }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+
+        {/* ── Frontispiece banner — the illustrated plate ───────────
+           Full-width illustration that sets the mood before any text.
+           Drawn with objects only (no people): a timeline, a bike,
+           an arch, a ridge with banner, flowing water. */}
+        {(() => {
+          const artFn = READING_ART[article.id];
+          if (!artFn) return null;
+          return (
+            <div
+              className="relative w-full overflow-hidden"
+              style={{
+                aspectRatio: "5 / 2",
+                background: `linear-gradient(180deg, ${eraColor}14 0%, ${eraColor}06 55%, transparent 100%)`,
+                borderBottom: `1px solid ${eraColor}22`,
+              }}
+            >
+              {artFn(eraColor)}
+              {/* Gilded corner ornaments */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 200 80" preserveAspectRatio="none">
+                <path d="M6 6 L6 14 M6 6 L14 6" stroke={eraColor} strokeWidth="0.6" opacity="0.5" fill="none" />
+                <path d="M194 6 L194 14 M194 6 L186 6" stroke={eraColor} strokeWidth="0.6" opacity="0.5" fill="none" />
+                <path d="M6 74 L6 66 M6 74 L14 74" stroke={eraColor} strokeWidth="0.6" opacity="0.5" fill="none" />
+                <path d="M194 74 L194 66 M194 74 L186 74" stroke={eraColor} strokeWidth="0.6" opacity="0.5" fill="none" />
+              </svg>
+            </div>
+          );
+        })()}
+
+        <div className="px-6 sm:px-10 pt-8 sm:pt-10 pb-10 sm:pb-14">
+          {/* Header */}
+          <div className="mb-8 sm:mb-10">
+            <span
+              className="text-[9px] sm:text-[10px] tracking-[2px] uppercase block mb-3"
+              style={{ fontFamily: "var(--font-ui)", color: eraColor, opacity: 0.7 }}
+            >
+              {article.subject}
+            </span>
+
+            <h2
+              className="text-[28px] sm:text-[34px] text-sepia leading-tight mb-4"
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              {article.title}
+            </h2>
+
+            <p
+              className="text-[12px] sm:text-[13px] text-sepia/40 italic"
+              style={{ fontFamily: "var(--font-body)" }}
+            >
+              {article.theme}
+            </p>
+
+            {/* Decorative divider */}
+            <div className="flex items-center gap-3 mt-6">
+              <div className="flex-1 h-px" style={{ backgroundColor: eraColor, opacity: 0.15 }} />
+              <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: eraColor, opacity: 0.3 }} />
+              <div className="flex-1 h-px" style={{ backgroundColor: eraColor, opacity: 0.15 }} />
+            </div>
+          </div>
+
+          {/* Pull quote — featured */}
+          <div className="relative mb-10 sm:mb-12 px-4 sm:px-6 py-5 rounded-xl"
+            style={{ backgroundColor: eraColor + "08", borderLeft: `3px solid ${eraColor}30` }}>
+            <span className="absolute -top-2 left-4 text-[36px] leading-none"
+              style={{ color: eraColor, opacity: 0.2, fontFamily: "Georgia, serif" }}>
+              &ldquo;
+            </span>
+            <p
+              className="text-[14px] sm:text-[15px] text-sepia/70 italic leading-relaxed relative z-10"
+              style={{ fontFamily: "var(--font-body)" }}
+            >
+              {article.pull_quote}
+            </p>
+          </div>
+
+          {/* Article body */}
+          <div className="space-y-5 sm:space-y-6">
+            {paragraphs.map((p, i) => (
+              <p
+                key={i}
+                className="text-[14px] sm:text-[15px] text-sepia/75 leading-[1.85]"
+                style={{ fontFamily: "var(--font-body)" }}
+              >
+                {i === 0 && (
+                  <span
+                    className="text-[32px] sm:text-[38px] float-left mr-2 -mt-1 leading-[0.85]"
+                    style={{ fontFamily: "var(--font-heading)", color: eraColor, opacity: 0.7 }}
+                  >
+                    {p.charAt(0)}
+                  </span>
+                )}
+                {i === 0 ? p.slice(1) : p}
+              </p>
+            ))}
+          </div>
+
+          {/* Ending quote */}
+          <div className="mt-12 sm:mt-16 text-center">
+            <div className="flex items-center justify-center gap-3 mb-6">
+              <div className="w-8 h-px" style={{ backgroundColor: eraColor, opacity: 0.2 }} />
+              <div className="w-1 h-1 rounded-full" style={{ backgroundColor: eraColor, opacity: 0.3 }} />
+              <div className="w-8 h-px" style={{ backgroundColor: eraColor, opacity: 0.2 }} />
+            </div>
+            <p
+              className="text-[15px] sm:text-[17px] text-sepia/60 italic mb-2 max-w-md mx-auto leading-relaxed"
+              style={{ fontFamily: "var(--font-heading)" }}
+            >
+              &ldquo;{article.ending_quote}&rdquo;
+            </p>
+            <p
+              className="text-[10px] sm:text-[11px] text-sepia-light/40"
+              style={{ fontFamily: "var(--font-ui)" }}
+            >
+              — {article.ending_quote_attribution}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ─── Main Page ─── */
 export default function PhilosophersPage() {
   return (
@@ -2388,11 +2796,14 @@ function PhilosophersContent() {
   const eraFilter = "All";
   const [selected, setSelected] = useState<Philosopher | null>(null);
   const [wisdomTopic, setWisdomTopic] = useState<WisdomTopic | null>(null);
+  const [articlesData, setArticlesData] = useState<ArticlesData | null>(null);
+  const [openArticle, setOpenArticle] = useState<Article | null>(null);
   const searchParams = useSearchParams();
-  const [viewMode, setViewMode] = useState<"wisdom" | "ask" | "timeline">(() => {
+  const [viewMode, setViewMode] = useState<"wisdom" | "ask" | "timeline" | "readings">(() => {
     const v = searchParams.get("view");
     if (v === "wisdom") return "wisdom";
     if (v === "ask") return "ask";
+    if (v === "readings") return "readings";
     return "timeline";
   });
 
@@ -2402,6 +2813,10 @@ function PhilosophersContent() {
       .then((d) => setData(d))
       .catch(() => {})
       .finally(() => setLoading(false));
+    fetch("/philosophers/articles.json")
+      .then((r) => r.json())
+      .then((d: ArticlesData) => setArticlesData(d))
+      .catch(() => {});
   }, []);
 
   const philosophers = data?.philosophers || [];
@@ -2420,9 +2835,79 @@ function PhilosophersContent() {
     }))
     .filter((g) => g.philosophers.length > 0);
 
-  const closeModal = useCallback(() => setSelected(null), []);
-  const selectPhilosopher = useCallback((p: Philosopher) => { setWisdomTopic(null); setSelected(p); }, []);
-  const closeWisdom = useCallback(() => setWisdomTopic(null), []);
+  // Track whether a modal-close is in response to the browser back button
+  // so we don't re-invoke history.back() from the close handler.
+  const isPoppingRef = useRef(false);
+
+  const selectPhilosopher = useCallback((p: Philosopher) => {
+    setWisdomTopic(null);
+    setSelected(p);
+    if (typeof window === "undefined") return;
+    const currentState = window.history.state as { modal?: string } | null;
+    if (currentState?.modal) {
+      // Already inside a modal — replace the entry so back still returns to the list.
+      window.history.replaceState({ modal: "philosopher", id: p.id }, "");
+    } else {
+      window.history.pushState({ modal: "philosopher", id: p.id }, "");
+    }
+  }, []);
+
+  const openWisdom = useCallback((topic: WisdomTopic) => {
+    setSelected(null);
+    setWisdomTopic(topic);
+    if (typeof window === "undefined") return;
+    const currentState = window.history.state as { modal?: string } | null;
+    if (currentState?.modal) {
+      window.history.replaceState({ modal: "wisdom", id: topic.id }, "");
+    } else {
+      window.history.pushState({ modal: "wisdom", id: topic.id }, "");
+    }
+  }, []);
+
+  const closeModal = useCallback(() => {
+    if (isPoppingRef.current) {
+      setSelected(null);
+      return;
+    }
+    if (typeof window !== "undefined") {
+      const currentState = window.history.state as { modal?: string } | null;
+      if (currentState?.modal) {
+        window.history.back();
+        return;
+      }
+    }
+    setSelected(null);
+  }, []);
+
+  const closeWisdom = useCallback(() => {
+    if (isPoppingRef.current) {
+      setWisdomTopic(null);
+      return;
+    }
+    if (typeof window !== "undefined") {
+      const currentState = window.history.state as { modal?: string } | null;
+      if (currentState?.modal) {
+        window.history.back();
+        return;
+      }
+    }
+    setWisdomTopic(null);
+  }, []);
+
+  // Close any open modal when the user hits the browser back button (e.g. Safari).
+  useEffect(() => {
+    const onPopState = () => {
+      isPoppingRef.current = true;
+      setSelected(null);
+      setWisdomTopic(null);
+      // Reset the flag after React flushes the state update.
+      setTimeout(() => {
+        isPoppingRef.current = false;
+      }, 0);
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
 
   return (
     <>
@@ -2512,6 +2997,15 @@ function PhilosophersContent() {
               style={{ fontFamily: "var(--font-ui)" }}>
               Timeline
             </button>
+            <button
+              onClick={() => setViewMode("readings")}
+              className={`px-3 sm:px-5 py-1.5 sm:py-2 rounded-full text-[11px] sm:text-[12px] transition-all duration-300 cursor-pointer
+                         ${viewMode === "readings"
+                           ? "bg-sepia text-parchment shadow-sm"
+                           : "text-sepia-light/70 hover:text-sepia"}`}
+              style={{ fontFamily: "var(--font-ui)" }}>
+              Readings
+            </button>
           </div>
         </div>
 
@@ -2524,7 +3018,7 @@ function PhilosophersContent() {
                 <WisdomTopicCard
                   key={topic.id}
                   topic={topic}
-                  onClick={() => setWisdomTopic(topic)}
+                  onClick={() => openWisdom(topic)}
                 />
               ))}
             </div>
@@ -2577,7 +3071,7 @@ function PhilosophersContent() {
                     key={philosopher.id}
                     philosopher={philosopher}
                     index={i}
-                    onClick={() => setSelected(philosopher)}
+                    onClick={() => selectPhilosopher(philosopher)}
                     isActive={selected?.id === philosopher.id}
                     isLast={eraIdx === groupedByEra.length - 1 && i === eraPhilosophers.length - 1}
                     eraColor={era.color}
@@ -2629,6 +3123,40 @@ function PhilosophersContent() {
         </div>
           </>
         )}
+
+        {/* ══════ READINGS ══════ */}
+        {viewMode === "readings" && (
+          <div className="animate-fade-in">
+            {/* Section intro — barely there, like a librarian's whisper */}
+            <div className="text-center mb-10 sm:mb-14">
+              <p className="text-[12px] sm:text-[13px] text-sepia/25 italic max-w-xs mx-auto leading-relaxed"
+                style={{ fontFamily: "var(--font-body)" }}>
+                On the books, paintings, and teachings that shaped the conversation.
+              </p>
+            </div>
+
+            {/* Article cards — vertical stream, no grid */}
+            <div>
+              {(articlesData?.articles || []).map((article, idx) => (
+                <ReadingCard
+                  key={article.id}
+                  article={article}
+                  index={idx}
+                  onClick={() => setOpenArticle(article)}
+                />
+              ))}
+            </div>
+
+            {/* Empty state */}
+            {articlesData && articlesData.articles.length === 0 && (
+              <div className="text-center py-20">
+                <p className="text-sepia-light/60 text-sm italic" style={{ fontFamily: "var(--font-heading)" }}>
+                  No readings yet
+                </p>
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {selected && (
@@ -2646,6 +3174,13 @@ function PhilosophersContent() {
           allPhilosophers={philosophers}
           onClose={closeWisdom}
           onSelectPhilosopher={selectPhilosopher}
+        />
+      )}
+
+      {openArticle && (
+        <ReadingModal
+          article={openArticle}
+          onClose={() => setOpenArticle(null)}
         />
       )}
     </>

@@ -137,7 +137,12 @@ export async function saveCanvasHistory(canvas: TodayCanvas): Promise<void> {
     return;
   }
 
-  const { error } = await supabase.from("canvas_history").insert(row);
+  // Upsert with ignoreDuplicates preserves freeze-once semantics: if a
+  // concurrent call (e.g. React strict-mode double-invoke) already inserted
+  // the row, we silently no-op instead of throwing a unique-constraint error.
+  const { error } = await supabase
+    .from("canvas_history")
+    .upsert(row, { onConflict: "user_id,canvas_date", ignoreDuplicates: true });
   if (error) console.error("Failed to save canvas history:", error.message);
 }
 

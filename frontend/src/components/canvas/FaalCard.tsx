@@ -30,6 +30,7 @@ export default function FaalCard({ refreshKey = 0 }: { refreshKey?: number }) {
   const [loading, setLoading] = useState(true);
   const [ttsLang, setTtsLang] = useState<"farsi" | "english">("farsi");
   const [ttsState, setTtsState] = useState<"idle" | "loading" | "playing" | "paused">("idle");
+  const [ttsError, setTtsError] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const blobUrlRef = useRef<string | null>(null);
   const setarRef = useRef<HTMLAudioElement | null>(null);
@@ -92,6 +93,7 @@ export default function FaalCard({ refreshKey = 0 }: { refreshKey?: number }) {
       return;
     }
     if (ttsState === "loading" || !poem) return;
+    setTtsError(null);
     playPoem();
   }
 
@@ -112,6 +114,7 @@ export default function FaalCard({ refreshKey = 0 }: { refreshKey?: number }) {
     // so the browser allows audio playback
     if (isFarsi) startAmbient();
 
+    setTtsError(null);
     setTtsState("loading");
     try {
       const textToRead = isFarsi ? poem.farsi.full_text : poem.english.full_text;
@@ -137,9 +140,11 @@ export default function FaalCard({ refreshKey = 0 }: { refreshKey?: number }) {
 
       await audio.play();
       setTtsState("playing");
-    } catch {
+    } catch (err) {
+      console.error("[FaalCard] TTS failed:", err);
       stopAmbient();
       setTtsState("idle");
+      setTtsError("Voice is temporarily unavailable. Please try again later.");
     }
   }
 
@@ -299,6 +304,14 @@ export default function FaalCard({ refreshKey = 0 }: { refreshKey?: number }) {
             )}
           </div>
         </div>
+        {ttsError && (
+          <p
+            className="mt-3 text-[11px] text-sepia-light/70 italic text-right"
+            style={{ fontFamily: "var(--font-ui)" }}
+          >
+            {ttsError}
+          </p>
+        )}
       </div>
 
       {/* Poem body */}

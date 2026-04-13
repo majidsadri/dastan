@@ -99,7 +99,7 @@ class UserCanvasHistory(Base):
     painting_title = Column(String(500), nullable=True)
     painting_artist = Column(String(300), nullable=True)
     painting_image_url = Column(String(1000), nullable=True)
-    painting_year = Column(String(50), nullable=True)
+    painting_year = Column(String(200), nullable=True)
     painting_movement = Column(String(200), nullable=True)
     novel_title = Column(String(500), nullable=True)
     novel_author = Column(String(300), nullable=True)

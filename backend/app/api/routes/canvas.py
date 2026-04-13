@@ -1267,6 +1267,56 @@ async def get_gallery(count: int = 100):
     ]
 
 
+@router.get("/gallery/by-artist")
+async def get_gallery_by_artist(name: str, limit: int = 24):
+    """Return paintings by a specific artist (case-insensitive exact match)."""
+    import json
+    from pathlib import Path
+
+    catalog_path = Path(__file__).resolve().parents[4] / "paintings-collection" / "catalog.json"
+    if not catalog_path.exists():
+        return []
+
+    try:
+        with open(catalog_path) as f:
+            catalog = json.load(f)
+    except Exception:
+        return []
+
+    needle = (name or "").strip().lower()
+    if not needle:
+        return []
+
+    paintings = catalog.get("paintings", [])
+    matches = [
+        p for p in paintings
+        if p.get("artist", "").strip().lower() == needle
+        and (catalog_path.parent / p["file"]).exists()
+    ]
+    # Sort by year when possible — chronological feels better on a detail page.
+    def year_key(p):
+        y = str(p.get("year", "")).strip()
+        # Strip c. / circa / BCE / etc and pull the first 4-digit number.
+        import re
+        m = re.search(r"\d{3,4}", y)
+        return int(m.group()) if m else 9999
+    matches.sort(key=year_key)
+
+    sliced = matches[:limit]
+    return [
+        {
+            "title": p["title"],
+            "artist": p["artist"],
+            "year": p.get("year", "Unknown"),
+            "movement": p.get("movement", ""),
+            "category": p.get("category", ""),
+            "origin_country": p.get("origin_country", "Unknown"),
+            "image_url": f"/collection/{p['file']}",
+        }
+        for p in sliced
+    ]
+
+
 @router.post("/curate")
 async def curate_canvas(db: AsyncSession = Depends(get_db)):
     """Use Claude to curate 7 days of profile-based paintings from AIC & Met."""

@@ -621,7 +621,48 @@ export default function ArtistsPage() {
     []
   );
 
-  const closeModal = useCallback(() => setSelected(null), []);
+  // Track whether a modal-close is driven by the browser back button
+  // so we don't recursively call history.back() from closeModal.
+  const isPoppingRef = useRef(false);
+
+  const openArtist = useCallback((artist: Artist) => {
+    setSelected(artist);
+    if (typeof window === "undefined") return;
+    const currentState = window.history.state as { modal?: string } | null;
+    if (currentState?.modal) {
+      window.history.replaceState({ modal: "artist", id: artist.id }, "");
+    } else {
+      window.history.pushState({ modal: "artist", id: artist.id }, "");
+    }
+  }, []);
+
+  const closeModal = useCallback(() => {
+    if (isPoppingRef.current) {
+      setSelected(null);
+      return;
+    }
+    if (typeof window !== "undefined") {
+      const currentState = window.history.state as { modal?: string } | null;
+      if (currentState?.modal) {
+        window.history.back();
+        return;
+      }
+    }
+    setSelected(null);
+  }, []);
+
+  // Close the modal when the user hits the browser back button (iPhone Safari).
+  useEffect(() => {
+    const onPopState = () => {
+      isPoppingRef.current = true;
+      setSelected(null);
+      setTimeout(() => {
+        isPoppingRef.current = false;
+      }, 0);
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
 
   return (
     <>
@@ -700,7 +741,7 @@ export default function ArtistsPage() {
                 key={artist.id}
                 artist={artist}
                 index={i}
-                onClick={() => setSelected(artist)}
+                onClick={() => openArtist(artist)}
               />
             ))}
           </div>
