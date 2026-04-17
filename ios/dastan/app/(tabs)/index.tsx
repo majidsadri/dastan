@@ -1,4 +1,3 @@
-import { BlurView } from "expo-blur";
 import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";
@@ -8,7 +7,6 @@ import {
   Animated,
   Dimensions,
   Easing,
-  FlatList,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -18,9 +16,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PaintingLoader } from "../../components/PaintingLoader";
 import {
-  Article,
   assetUrl,
-  fetchArticles,
   fetchRefreshedCanvas,
   fetchTodayCanvas,
   TodayCanvas,
@@ -152,7 +148,6 @@ function SignedIn() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [activeTab, setActiveTab] = useState<TabId>("painting");
-  const [articles, setArticles] = useState<Article[]>([]);
 
   // Redirect to profile setup only after the async check finishes
   // and confirms no profile exists — prevents false redirects on
@@ -168,7 +163,6 @@ function SignedIn() {
       .then((d) => setCanvas(d.canvas))
       .catch((e) => setError(e?.message ?? String(e)))
       .finally(() => setLoading(false));
-    fetchArticles().then(setArticles).catch(() => {});
   }, []);
 
   // Rotating glyph while refreshing — same treatment as the gallery
@@ -235,7 +229,7 @@ function SignedIn() {
       contentContainerStyle={{ paddingBottom: tabBarHeight + space.xl }}
       showsVerticalScrollIndicator={false}
     >
-      {/* ─── Hero: full-bleed painting with mood word + date ──────── */}
+      {/* ─── Hero: full-bleed painting ────────────────────────── */}
       <View style={styles.canvasHero}>
         {heroImage && (
           <Image
@@ -263,7 +257,7 @@ function SignedIn() {
         <View style={[styles.frameCorner, styles.frameBR]} />
 
         <SafeAreaView edges={["top"]} style={styles.heroInner}>
-          {/* ── Top bar: frosted glass profile · date · refresh ───── */}
+          {/* Top bar: just profile + refresh, no date pill */}
           <View style={styles.heroTopRow}>
             <Pressable
               onPress={() => {
@@ -278,18 +272,10 @@ function SignedIn() {
                 pressed && styles.glassBtnPressed,
               ]}
             >
-              <BlurView intensity={40} tint="dark" style={styles.glassBtnBlur}>
+              <View style={styles.glassBtnInner}>
                 <Text style={styles.glassBtnIcon}>✦</Text>
-              </BlurView>
+              </View>
             </Pressable>
-
-            <View style={styles.heroDatePill}>
-              <BlurView intensity={30} tint="dark" style={styles.heroDateBlur}>
-                <Text style={styles.heroDateText}>
-                  {canvas?.date ?? "TODAY"}
-                </Text>
-              </BlurView>
-            </View>
 
             <Pressable
               onPress={handleRefresh}
@@ -302,17 +288,20 @@ function SignedIn() {
                 pressed && styles.glassBtnPressed,
               ]}
             >
-              <BlurView intensity={40} tint="dark" style={styles.glassBtnBlur}>
+              <View style={styles.glassBtnInner}>
                 <Animated.Text
                   style={[styles.glassRefreshIcon, { transform: [{ rotate }] }]}
                 >
                   ❋
                 </Animated.Text>
-              </BlurView>
+              </View>
             </Pressable>
           </View>
 
           <View style={styles.heroBottom}>
+            <Text style={styles.heroDateText}>
+              {canvas?.date ?? "TODAY"}
+            </Text>
             {canvas?.mood_word ? (
               <Text style={styles.heroMoodLabel}>THE MOOD</Text>
             ) : null}
@@ -389,9 +378,6 @@ function SignedIn() {
           <VerseTab literature={literature} />
         )}
       </View>
-
-      {/* ─── Readings carousel ──────────────────────────────────── */}
-      {articles.length > 0 && <ReadingsCarousel articles={articles} />}
 
       {/* ─── Colophon: the end-of-chapter ritual ─────────────────── */}
       <View style={styles.colophon}>
@@ -579,69 +565,6 @@ function VerseTab({ literature }: { literature: NonNullable<TodayCanvas["literat
 }
 
 // ─────────────────────────────────────────────────────────────────────
-// Readings carousel — horizontal swipe of editorial article cards
-// ─────────────────────────────────────────────────────────────────────
-
-const ROMAN = ["I", "II", "III", "IV", "V"];
-const CARD_W = Dimensions.get("window").width * 0.42;
-const CARD_GAP = space.sm;
-
-function ReadingsCarousel({ articles }: { articles: Article[] }) {
-  return (
-    <View style={styles.readingsSection}>
-      <View style={styles.readingsHeader}>
-        <View style={styles.readingsRule} />
-        <Text style={styles.readingsEyebrow}>READINGS</Text>
-        <View style={styles.readingsRule} />
-      </View>
-      <FlatList
-        data={articles}
-        keyExtractor={(a) => a.id}
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        snapToInterval={CARD_W + CARD_GAP}
-        decelerationRate="fast"
-        contentContainerStyle={styles.readingsScroll}
-        renderItem={({ item, index }) => (
-          <ReadingCard article={item} index={index} />
-        )}
-      />
-    </View>
-  );
-}
-
-function ReadingCard({ article, index }: { article: Article; index: number }) {
-  return (
-    <Pressable
-      onPress={() => {
-        Haptics.selectionAsync();
-        router.push({ pathname: "/thinkers/article", params: { id: article.id } });
-      }}
-      style={({ pressed }) => [
-        styles.readingCard,
-        pressed && { opacity: 0.75, transform: [{ scale: 0.97 }] },
-      ]}
-    >
-      <View style={styles.readingAccent} />
-      <View style={styles.readingBody}>
-        <Text style={styles.readingNumeral}>
-          {ROMAN[index] ?? `${index + 1}`}
-        </Text>
-        <Text style={styles.readingTitle} numberOfLines={2}>
-          {article.title}
-        </Text>
-        <Text style={styles.readingSubject} numberOfLines={1}>
-          {article.subject}
-        </Text>
-      </View>
-      <View style={styles.readingFooter}>
-        <Text style={styles.readingReadLabel}>READ  ›</Text>
-      </View>
-    </Pressable>
-  );
-}
-
-// ─────────────────────────────────────────────────────────────────────
 
 const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
@@ -752,8 +675,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: space.lg,
     paddingTop: space.xs,
   },
-
-  // Shared glass button (profile + refresh)
   glassBtn: {
     width: 38,
     height: 38,
@@ -766,11 +687,11 @@ const styles = StyleSheet.create({
     opacity: 0.7,
     transform: [{ scale: 0.9 }],
   },
-  glassBtnBlur: {
+  glassBtnInner: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "rgba(10,8,4,0.25)",
+    backgroundColor: "rgba(10,8,4,0.35)",
   },
   glassBtnIcon: {
     color: colors.goldLight,
@@ -782,24 +703,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: fonts.display,
   },
-
-  // Date pill — also frosted
-  heroDatePill: {
-    borderRadius: radius.pill,
-    overflow: "hidden",
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "rgba(232,223,200,0.2)",
-  },
-  heroDateBlur: {
-    paddingVertical: 7,
-    paddingHorizontal: 18,
-    backgroundColor: "rgba(10,8,4,0.2)",
-  },
   heroDateText: {
     ...type.uiLabel,
     color: colors.goldLight,
     fontSize: 10,
     letterSpacing: 2.5,
+    marginBottom: space.md,
+    opacity: 0.8,
   },
   heroBottom: {
     padding: space.lg,
@@ -982,88 +892,6 @@ const styles = StyleSheet.create({
     fontStyle: "italic",
     writingDirection: "rtl",
     textAlign: "right",
-  },
-
-  // ── Readings carousel ────────────────────────────────────────────────
-  readingsSection: {
-    marginTop: space.xxl,
-    marginBottom: space.sm,
-  },
-  readingsHeader: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: space.md,
-    paddingHorizontal: space.xl,
-    marginBottom: space.lg,
-  },
-  readingsRule: {
-    flex: 1,
-    height: StyleSheet.hairlineWidth,
-    backgroundColor: colors.gold,
-    opacity: 0.3,
-  },
-  readingsEyebrow: {
-    ...type.uiLabel,
-    fontSize: 10,
-    letterSpacing: 2.5,
-    color: colors.gold,
-  },
-  readingsScroll: {
-    paddingHorizontal: space.lg,
-    gap: CARD_GAP,
-  },
-  readingCard: {
-    width: CARD_W,
-    backgroundColor: "rgba(250,247,240,0.6)",
-    borderRadius: radius.sm,
-    borderWidth: StyleSheet.hairlineWidth,
-    borderColor: "rgba(184,154,91,0.3)",
-    overflow: "hidden",
-  },
-  readingAccent: {
-    height: 2,
-    backgroundColor: colors.gold,
-    opacity: 0.4,
-    borderTopLeftRadius: radius.sm,
-    borderTopRightRadius: radius.sm,
-  },
-  readingBody: {
-    padding: space.md,
-    paddingBottom: space.xs,
-  },
-  readingNumeral: {
-    fontFamily: "CormorantGaramond_600SemiBold",
-    fontSize: 20,
-    lineHeight: 22,
-    color: colors.gold,
-    marginBottom: 4,
-  },
-  readingTitle: {
-    fontFamily: "CormorantGaramond_600SemiBold",
-    fontSize: 17,
-    lineHeight: 21,
-    color: colors.ink,
-    marginBottom: 3,
-  },
-  readingSubject: {
-    fontFamily: "CrimsonPro_400Regular_Italic",
-    fontSize: 11,
-    color: colors.inkMuted,
-    fontStyle: "italic",
-  },
-  readingFooter: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "flex-end",
-    paddingHorizontal: space.md,
-    paddingBottom: space.sm,
-    paddingTop: space.xs,
-  },
-  readingReadLabel: {
-    ...type.uiLabel,
-    fontSize: 8,
-    letterSpacing: 2,
-    color: colors.gold,
   },
 
   // ── Colophon: book-ending the daily page ────────────────────────────

@@ -202,6 +202,7 @@ class PhilosopherProfile(BaseModel):
     name: str
     school: Optional[str] = ""
     key_ideas: List[str] = Field(default_factory=list)
+    key_works: List[str] = Field(default_factory=list)
     famous_quote: Optional[str] = ""
     pull_quote: Optional[str] = ""
     article_excerpt: Optional[str] = ""
@@ -216,6 +217,7 @@ class ConsultResponseItem(BaseModel):
     id: str
     name: str
     response: str
+    suggested_book: Optional[str] = None
 
 
 class AIConsultResponse(BaseModel):
@@ -322,6 +324,7 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
 
     for i, p in enumerate(profiles, start=1):
         ideas = ", ".join(p.key_ideas[:6]) if p.key_ideas else ""
+        works = ", ".join(p.key_works[:5]) if p.key_works else ""
         excerpt = (p.article_excerpt or "").strip()
         # Allow more context so the model can ground in the thinker's own text
         if len(excerpt) > 1400:
@@ -332,6 +335,8 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
             lines.append(f"   school: {p.school}")
         if ideas:
             lines.append(f"   key ideas: {ideas}")
+        if works:
+            lines.append(f"   key works: {works}")
         if p.famous_quote:
             lines.append(f'   famous quote: "{p.famous_quote}"')
         if p.pull_quote:
@@ -395,6 +400,14 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
         "• No motivational-poster platitudes. If the thinker would give a "
         "hard or uncomfortable answer, give the hard answer."
     )
+    lines.append(
+        "• BOOK SUGGESTION: After the response, pick ONE work from the "
+        "thinker's key works list that is MOST relevant to the reader's "
+        "question. Return it as a short string in the 'suggested_book' "
+        "field. Choose the work whose ideas best address the question — "
+        "not the most famous one. If the thinker has no written works, "
+        "suggest the most relevant dialogue or text that records their ideas."
+    )
 
     # Persian-tradition thinkers answering an ENGLISH question — they may
     # still lean into their tradition's voice, but the hard-override block
@@ -436,7 +449,7 @@ def _build_consult_prompt(question: str, profiles: List[PhilosopherProfile]) -> 
         "Return ONLY a JSON array — no markdown, no code fences, no commentary — "
         "in this exact shape:"
     )
-    lines.append('[{"id": "<philosopher id>", "response": "<their answer>"}, ...]')
+    lines.append('[{"id": "<philosopher id>", "response": "<their answer>", "suggested_book": "<one relevant work>"}, ...]')
     lines.append("Preserve the order given above.")
     return "\n".join(lines)
 
@@ -479,7 +492,7 @@ async def ai_consult(request: AIConsultRequest):
     prompt = _build_consult_prompt(request.question, profiles)
     # 90 words × 3 thinkers × ~1.6 tokens/word ≈ 430 tokens of content;
     # give headroom for JSON framing and occasional overrun.
-    raw = _call_claude(prompt, max_tokens=1200)
+    raw = _call_claude(prompt, max_tokens=1500)
 
     if not raw:
         return AIConsultResponse(
@@ -508,8 +521,11 @@ async def ai_consult(request: AIConsultRequest):
         profile = by_id.get(pid)
         if not profile:
             continue
+        book = str(item.get("suggested_book", "")).strip() or None
         responses.append(
-            ConsultResponseItem(id=pid, name=profile.name, response=reply)
+            ConsultResponseItem(
+                id=pid, name=profile.name, response=reply, suggested_book=book
+            )
         )
 
     if not responses:

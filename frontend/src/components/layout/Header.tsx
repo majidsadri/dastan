@@ -34,7 +34,7 @@ export default function Header() {
   }
 
   const isAuthPage = pathname === "/signin" || pathname === "/signup";
-  const isGuestPublic = !user && (pathname === "/gallery" || pathname === "/artists" || pathname === "/philosophers" || pathname === "/faal");
+  const isGuestPublic = !user && (pathname === "/gallery" || pathname === "/artists" || pathname === "/philosophers" || pathname === "/faal" || pathname.startsWith("/little-prince") || pathname.startsWith("/siddhartha") || pathname.startsWith("/tao") || pathname.startsWith("/proust"));
   const profileActive = pathname.startsWith("/profile");
 
   // User avatar and initials

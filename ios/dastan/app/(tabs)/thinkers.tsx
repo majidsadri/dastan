@@ -1,8 +1,8 @@
 import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import * as Haptics from "expo-haptics";
-import { router } from "expo-router";
-import { useEffect, useMemo, useState } from "react";
+import { router, useNavigation } from "expo-router";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
   Dimensions,
@@ -45,6 +45,8 @@ const FRAME_CORNER = 22;
  */
 export default function ThinkersScreen() {
   const tabBarHeight = useGlassTabBarHeight();
+  const navigation = useNavigation();
+  const scrollRef = useRef<ScrollView>(null);
   const [philosophers, setPhilosophers] = useState<Philosopher[]>([]);
   const [eras, setEras] = useState<PhilosopherEra[]>([]);
   const [loading, setLoading] = useState(true);
@@ -59,6 +61,16 @@ export default function ThinkersScreen() {
       .catch((e) => setError(e?.message ?? String(e)))
       .finally(() => setLoading(false));
   }, []);
+
+  // Re-tap the Thinkers tab while already on it → scroll to top.
+  useEffect(() => {
+    const unsub = navigation.addListener("tabPress" as any, () => {
+      if (navigation.isFocused()) {
+        scrollRef.current?.scrollTo({ y: 0, animated: true });
+      }
+    });
+    return unsub;
+  }, [navigation]);
 
   const grouped = useMemo(() => {
     return eras
@@ -93,6 +105,7 @@ export default function ThinkersScreen() {
   return (
     <View style={styles.root}>
       <ScrollView
+        ref={scrollRef}
         contentContainerStyle={[
           styles.scroll,
           { paddingBottom: tabBarHeight + space.lg },

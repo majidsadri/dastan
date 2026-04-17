@@ -3,6 +3,11 @@
 Gemini TTS produces proper Iranian Farsi with the Achernar voice but has
 a hard 100/day cap on the preview model. When that cap hits we fall back
 to OpenAI `shimmer` so the feature keeps working instead of failing.
+
+Pre-generated audio: poems can be pre-generated in high quality via
+`scripts/generate-faal-audio.py` and served as static files from
+`/faal/audio/{id}-{lang}.mp3`. The `/api/tts/poem/:id/:lang` endpoint
+serves these directly with cache headers.
 """
 
 from __future__ import annotations
@@ -13,10 +18,11 @@ import hashlib
 import logging
 import struct
 from io import BytesIO
+from pathlib import Path
 
 import httpx
 from fastapi import APIRouter, HTTPException
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from pydantic import BaseModel
 
 from app.core.config import settings
@@ -184,4 +190,34 @@ async def speak(req: TTSRequest):
         BytesIO(audio),
         media_type=media_type,
         headers={"Content-Disposition": "inline; filename=poem"},
+    )
+
+
+# ── Pre-generated poem audio ─────────────────────────────────────────
+
+# Look for static audio files relative to the project root's
+# frontend/public/faal/audio/ directory.
+_STATIC_AUDIO_DIR = Path(__file__).resolve().parents[3] / "frontend" / "public" / "faal" / "audio"
+
+
+@router.get("/poem/{poem_id}/{lang}")
+async def poem_audio(poem_id: int, lang: str):
+    """Serve pre-generated high-quality poem audio.
+
+    Files are named {id:03d}-{lang}.mp3 and generated via
+    scripts/generate-faal-audio.py using OpenAI tts-1-hd.
+    """
+    if lang not in ("en", "fa"):
+        raise HTTPException(status_code=400, detail="lang must be 'en' or 'fa'")
+
+    audio_file = _STATIC_AUDIO_DIR / f"{poem_id:03d}-{lang}.mp3"
+    if not audio_file.exists():
+        raise HTTPException(status_code=404, detail="Audio not yet generated")
+
+    return FileResponse(
+        audio_file,
+        media_type="audio/mpeg",
+        headers={
+            "Cache-Control": "public, max-age=31536000, immutable",
+        },
     )

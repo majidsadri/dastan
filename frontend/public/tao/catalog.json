@@ -1,0 +1,141 @@
+{
+  "title": "Tao Te Ching",
+  "author": "Lao Tzu",
+  "published": "~400 BCE",
+  "translator": "English after public-domain translations (McDonald, Legge), lightly edited for line-break and breath.",
+  "curator_note": "The Tao Te Ching is short enough to reread, and that is the point. Twelve of its eighty-one verses, chosen as a way in.",
+  "scenes": [
+    {
+      "id": "verse-1",
+      "number": 1,
+      "title": "The Eternal Tao",
+      "chapter": "Verse 1",
+      "theme": "Mystery",
+      "chinese_text": "道可道，非常道。\n名可名，非常名。\n\n無名天地之始；\n有名萬物之母。\n\n故常無，欲以觀其妙；\n常有，欲以觀其徼。\n\n此兩者，同出而異名，\n同謂之玄。\n玄之又玄，\n衆妙之門。",
+      "essay": "The Way that can be walked is not the eternal Way.\nThe name that can be named is not the eternal name.\n\nThe nameless is the beginning of heaven and earth.\nThe named is the mother of all things.\n\nFree from desire, you see the mystery.\nFull of desire, you see the manifestations.\n\nThese two have the same origin\nbut differ in name.\nThat is the secret,\nthe secret of secrets,\nthe gate to all mysteries.",
+      "pull_quote": "The Way that can be walked is not the eternal Way.",
+      "editor_note": "The refusal that opens the book. Every verse after this one is, in a way, a footnote to this one — and every translation is an apology for disobeying its first line."
+    },
+    {
+      "id": "verse-2",
+      "number": 2,
+      "title": "The Unity of Opposites",
+      "chapter": "Verse 2",
+      "theme": "Duality",
+      "chinese_text": "天下皆知美之為美，斯惡已。\n皆知善之為善，斯不善已。\n\n故有無相生，\n難易相成，\n長短相形，\n高下相傾，\n音聲相和，\n前後相隨。\n\n是以聖人處無為之事，\n行不言之教。\n萬物作焉而不辭，\n生而不有，\n為而不恃，\n功成而弗居。\n\n夫唯弗居，是以不去。",
+      "essay": "When everyone in the world sees beauty,\nthen ugly exists.\nWhen everyone sees good,\nthen bad exists.\n\nWhat is and what is not create each other.\nDifficult and easy complement each other.\nTall and short shape each other.\nHigh and low rest on each other.\nVoice and tone blend with each other.\nFirst and last follow each other.\n\nSo the sage acts by doing nothing,\nteaches without speaking,\nattends all things without making claim on them,\nworks for them without making them dependent,\ndemands no honor for his deed.\n\nBecause he demands no honor,\nhe will never be dishonored.",
+      "pull_quote": "Because he demands no honor, he will never be dishonored.",
+      "editor_note": "This is why the book can't be argued with. Any counter-claim is already inside it, paired with its opposite, nodding at its reflection."
+    },
+    {
+      "id": "verse-8",
+      "number": 3,
+      "title": "Water",
+      "chapter": "Verse 8",
+      "theme": "Humility",
+      "chinese_text": "上善若水。\n水善利萬物而不爭，\n處衆人之所惡，\n故幾於道。\n\n居善地，\n心善淵，\n與善仁，\n言善信，\n政善治，\n事善能，\n動善時。\n\n夫唯不爭，故無尤。",
+      "essay": "Supreme good is like water.\nWater greatly benefits all things, without conflict.\nIt flows through places that people loathe.\nThereby it is close to the Way.\n\nA good dwelling is on the ground.\nA good mind is deep.\nA good gift is kind.\nA good word is sincere.\nA good ruler is just.\nA good worker is able.\nA good deed is timely.\n\nWhere there is no conflict, there is no fault.",
+      "pull_quote": "Supreme good is like water.",
+      "editor_note": "The verse most often quoted, and most often misread as a soft thing. Water also drowns — and the Tao, when it is ignored long enough, drowns the one who ignored it."
+    },
+    {
+      "id": "verse-11",
+      "number": 4,
+      "title": "The Use of Nothing",
+      "chapter": "Verse 11",
+      "theme": "Emptiness",
+      "chinese_text": "三十輻共一轂，\n當其無，有車之用。\n\n埏埴以為器，\n當其無，有器之用。\n\n鑿戶牖以為室，\n當其無，有室之用。\n\n故有之以為利，\n無之以為用。",
+      "essay": "Thirty spokes are joined in the wheel's hub.\nThe hole in the middle makes it useful.\n\nMold clay into a bowl.\nThe empty space makes it useful.\n\nCut out doors and windows for the house.\nThe holes make it useful.\n\nTherefore, the value comes from what is there,\nbut the use comes from what is not there.",
+      "pull_quote": "The value comes from what is there, but the use comes from what is not there.",
+      "editor_note": "Bauhaus architects kept this pinned above their drafting tables. It is the verse that made negative space a discipline, and it is still the reason a good room feels larger than its measurements."
+    },
+    {
+      "id": "verse-22",
+      "number": 5,
+      "title": "The Flexible",
+      "chapter": "Verse 22",
+      "theme": "Yielding",
+      "chinese_text": "曲則全，\n枉則直，\n窪則盈，\n敝則新，\n少則得，\n多則惑。\n\n是以聖人抱一為天下式。\n不自見，故明；\n不自是，故彰；\n不自伐，故有功；\n不自矜，故長。\n\n夫唯不爭，\n故天下莫能與之爭。",
+      "essay": "Yield and remain whole.\nBend and remain straight.\nEmpty out and be filled.\nWear down and be renewed.\nReduce and gain.\nExcess confuses.\n\nTherefore the sage embraces the One\nand is an example to the world.\nHe does not show off, therefore he shines.\nHe does not justify himself, therefore he is revered.\nHe does not boast, therefore he is honored.\nHe does not praise himself, therefore he remains.\n\nBecause he opposes no one,\nno one in the world can oppose him.",
+      "pull_quote": "Because he opposes no one, no one in the world can oppose him.",
+      "editor_note": "If you have ever been told to stop pushing, this is the older version of that advice. The yielding described here is not passivity — it is the kind of patience that outlasts what it refuses to fight."
+    },
+    {
+      "id": "verse-25",
+      "number": 6,
+      "title": "Before the Universe",
+      "chapter": "Verse 25",
+      "theme": "Origin",
+      "chinese_text": "有物混成，先天地生。\n寂兮寥兮，\n獨立而不改，\n周行而不殆，\n可以為天下母。\n\n吾不知其名，\n字之曰道，\n強為之名曰大。\n\n大曰逝，\n逝曰遠，\n遠曰反。\n\n故道大，天大，\n地大，人亦大。\n域中有四大，\n而人居其一焉。\n\n人法地，\n地法天，\n天法道，\n道法自然。",
+      "essay": "There was something that finished chaos,\nborn before heaven and earth.\nSo silent and still!\nSo pure and deep!\nIt stands alone and immutable,\never-present and inexhaustible.\nIt can be called the mother of the whole world.\n\nI do not know its name.\nI call it the Way.\nFor lack of better words I call it great.\n\nGreat means constant flow.\nConstant flow means far-reaching.\nFar-reaching means returning.\n\nThe Way is great.\nHeaven is great.\nEarth is great.\nMan is also great.\nIn the world there are four greats,\nand man is one of them.\n\nMan is ruled by earth.\nEarth is ruled by heaven.\nHeaven is ruled by the Way.\nThe Way is ruled by itself.",
+      "pull_quote": "There was something that finished chaos, born before heaven and earth.",
+      "editor_note": "The theology of the Tao in twelve lines. Four greats — and man comes last, on purpose, because the book is uninterested in reassuring its reader."
+    },
+    {
+      "id": "verse-33",
+      "number": 7,
+      "title": "Knowing Yourself",
+      "chapter": "Verse 33",
+      "theme": "Wisdom",
+      "chinese_text": "知人者智，\n自知者明。\n勝人者有力，\n自勝者強。\n\n知足者富。\n強行者有志。\n不失其所者久。\n死而不亡者壽。",
+      "essay": "Those who understand others are clever.\nThose who understand themselves are wise.\nThose who defeat others are strong.\nThose who defeat themselves are mighty.\n\nThose who know when they have enough are rich.\nThose who are unswerving have resolve.\nThose who stay where they are will endure.\nThose who die without being forgotten get longevity.",
+      "pull_quote": "Those who understand others are clever. Those who understand themselves are wise.",
+      "editor_note": "A sentence so famous it has stopped being a sentence. Try reading it as if you had never heard it before — the distinction between knowing others and knowing oneself is more embarrassing in private than in quotation."
+    },
+    {
+      "id": "verse-42",
+      "number": 8,
+      "title": "The Birth of All Things",
+      "chapter": "Verse 42",
+      "theme": "Creation",
+      "chinese_text": "道生一，\n一生二，\n二生三，\n三生萬物。\n\n萬物負陰而抱陽，\n沖氣以為和。\n\n人之所惡，\n唯孤、寡、不穀，\n而王公以為稱。\n\n故物或損之而益，\n或益之而損。\n\n人之所教，我亦教之：\n強梁者不得其死，\n吾將以為教父。",
+      "essay": "The Way gave birth to one.\nOne gave birth to two.\nTwo gave birth to three.\nThree gave birth to all things.\n\nAll things carry yin and embrace yang.\nThey reach harmony by blending with the vital breath.\n\nWhat people loathe the most\nis to be orphaned, desolate, unworthy.\nBut this is what princes and kings call themselves.\n\nSometimes gain comes from losing,\nand sometimes loss comes from gaining.\n\nWhat others have taught, I also teach:\nthe forceful and violent will not die from natural causes.\nThis will be my chief doctrine.",
+      "pull_quote": "The Way gave birth to one. One gave birth to two. Two gave birth to three. Three gave birth to all things.",
+      "editor_note": "Three things everyone remembers from the Tao — water, the valley, and this. One, two, three, ten thousand — a cosmology small enough to fit on a postcard and wide enough to keep physicists honest."
+    },
+    {
+      "id": "verse-64",
+      "number": 9,
+      "title": "The Thousand-Mile Journey",
+      "chapter": "Verse 64",
+      "theme": "Patience",
+      "chinese_text": "其安易持，\n其未兆易謀。\n其脆易泮，\n其微易散。\n\n為之於未有，\n治之於未亂。\n\n合抱之木，生於毫末；\n九層之臺，起於累土；\n千里之行，始於足下。\n\n為者敗之，\n執者失之。\n是以聖人無為故無敗，\n無執故無失。\n\n民之從事，\n常於幾成而敗之。\n慎終如始，\n則無敗事。\n\n是以聖人欲不欲，\n不貴難得之貨；\n學不學，\n復衆人之所過。\n以輔萬物之自然，\n而不敢為。",
+      "essay": "Stillness is easy to maintain.\nWhat has not yet emerged is easy to prevent.\nThe brittle is easy to shatter.\nThe small is easy to scatter.\nSolve it before it happens.\nOrder it before chaos emerges.\n\nA tree as wide as a man's embrace\ngrows from a tiny shoot.\nA tower of nine stories\nstarts with a pile of dirt.\nA climb of a thousand miles\nstarts where the foot stands.\n\nThose who act will fail.\nThose who seize will lose.\nThe sage does not act and therefore does not fail,\ndoes not seize and therefore does not lose.\n\nPeople fail at the threshold of success.\nBe as cautious at the end as at the beginning.\nThen there will be no failure.\n\nTherefore the sage desires no desire,\ndoes not value rare treasures,\nlearns without learning,\nrecovers what people have left behind.\nHe wants all things to follow their own nature,\nbut dares not act.",
+      "pull_quote": "A climb of a thousand miles starts where the foot stands.",
+      "editor_note": "The most stolen sentence in all of Chinese literature. Return it to its paragraph — it is quieter than the poster version, and the whole point is that the long journey does not announce itself at step one."
+    },
+    {
+      "id": "verse-76",
+      "number": 10,
+      "title": "The Soft and the Hard",
+      "chapter": "Verse 76",
+      "theme": "Softness",
+      "chinese_text": "人之生也柔弱，\n其死也堅強。\n草木之生也柔脆，\n其死也枯槁。\n\n故堅強者死之徒，\n柔弱者生之徒。\n\n是以兵強則滅，\n木強則折。\n\n強大處下，\n柔弱處上。",
+      "essay": "People are born soft and weak.\nThey die hard and stiff.\nAll things, such as grass and trees,\nare soft and supple in life.\nAt their death they are withered and dry.\n\nThe hard and stiff are death's companions.\nThe soft and weak are life's companions.\n\nTherefore the unyielding army will not win.\nThe rigid tree will be felled.\n\nThe rigid and great belong below.\nThe soft and weak belong above.",
+      "pull_quote": "The soft and weak are life's companions.",
+      "editor_note": "Hesse was reading the Tao the year he finished Siddhartha. You will hear the river in this verse, and you will hear Vasudeva in the silence after it."
+    },
+    {
+      "id": "verse-78",
+      "number": 11,
+      "title": "Nothing Softer Than Water",
+      "chapter": "Verse 78",
+      "theme": "Persistence",
+      "chinese_text": "天下莫柔弱於水，\n而攻堅強者莫之能勝，\n以其無以易之。\n\n弱之勝強，\n柔之勝剛，\n天下莫不知，\n莫能行。\n\n是以聖人云：\n受國之垢，\n是謂社稷主；\n受國不祥，\n是為天下王。\n\n正言若反。",
+      "essay": "Nothing in the world\nis softer and weaker than water.\nYet to attack the hard and strong,\nnothing surpasses it.\nNothing can take its place.\n\nThe weak overcomes the strong.\nThe soft overcomes the hard.\nEverybody in the world knows this,\nstill nobody makes use of it.\n\nTherefore the sage says:\nTo bear the country's disgrace\nis to rule the shrines of soil and grain.\nTo bear the country's misfortunes\nis to be the king of the world.\n\nTrue words seem false.",
+      "pull_quote": "Nothing in the world is softer and weaker than water. Yet to attack the hard and strong, nothing surpasses it.",
+      "editor_note": "The book returns to water here, on purpose. So do we — because the Tao is short enough to reread, and the same image, struck twice, is the whole lesson."
+    },
+    {
+      "id": "verse-81",
+      "number": 12,
+      "title": "True Words",
+      "chapter": "Verse 81",
+      "theme": "Simplicity",
+      "chinese_text": "信言不美，\n美言不信。\n善者不辯，\n辯者不善。\n知者不博，\n博者不知。\n\n聖人不積，\n既以為人己愈有，\n既以與人己愈多。\n\n天之道，利而不害；\n聖人之道，為而不爭。",
+      "essay": "True words are not pleasing.\nPleasing words are not true.\nThose who are right do not argue.\nThose who argue are not right.\nThose who know are not learned.\nThose who are learned do not know.\n\nThe sage does not hoard.\nThe more he does for others,\nthe more he has.\nThe more he gives to others,\nthe ever more he gets.\n\nHeaven's Way\nis to benefit and not to harm.\nThe sage's Way\nis to act and not to contend.",
+      "pull_quote": "True words are not pleasing. Pleasing words are not true.",
+      "editor_note": "The last verse sits against the first. Silence is where the book began, and where it ends — and the verses between turn out to have been one long, patient invitation to return to it."
+    }
+  ]
+}

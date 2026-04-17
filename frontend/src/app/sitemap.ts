@@ -24,6 +24,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const artists = readCatalog("artists/catalog.json", "artists");
   const philosophers = readCatalog("philosophers/catalog.json", "philosophers");
+  const littlePrinceScenes = readCatalog("little-prince/catalog.json", "scenes");
+  const siddharthaScenes = readCatalog("siddhartha/catalog.json", "scenes");
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
@@ -49,6 +51,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/little-prince`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/siddhartha`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/tao`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/proust`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/archive`,
@@ -84,5 +110,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...artistRoutes, ...philosopherRoutes];
+  const littlePrinceRoutes: MetadataRoute.Sitemap = littlePrinceScenes.map((s) => ({
+    url: `${baseUrl}/little-prince/${s.id}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  const siddharthaRoutes: MetadataRoute.Sitemap = siddharthaScenes.map((s) => ({
+    url: `${baseUrl}/siddhartha/${s.id}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...artistRoutes,
+    ...philosopherRoutes,
+    ...littlePrinceRoutes,
+    ...siddharthaRoutes,
+  ];
 }

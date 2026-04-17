@@ -85,6 +85,22 @@ export default function RootLayout() {
             options={{ presentation: "modal", animation: "slide_from_bottom" }}
           />
           <Stack.Screen
+            name="library/faal"
+            options={{ animation: "slide_from_right" }}
+          />
+          <Stack.Screen
+            name="library/little-prince"
+            options={{ animation: "slide_from_right" }}
+          />
+          <Stack.Screen
+            name="library/siddhartha"
+            options={{ animation: "slide_from_right" }}
+          />
+          <Stack.Screen
+            name="library/tao"
+            options={{ animation: "slide_from_right" }}
+          />
+          <Stack.Screen
             name="profile"
             options={{ presentation: "modal", animation: "slide_from_bottom" }}
           />

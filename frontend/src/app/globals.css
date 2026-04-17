@@ -356,3 +356,262 @@ textarea:focus, button:focus-visible {
   outline: 2px solid #8B6914;
   outline-offset: 2px;
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   Little Prince — illuminated exhibit
+   Night-sky palette, paper grain, hand-drawn typography moves
+   ══════════════════════════════════════════════════════════════════ */
+
+@keyframes lp-twinkle {
+  0%, 100% { opacity: 0.25; transform: scale(1); }
+  50%      { opacity: 0.9;  transform: scale(1.15); }
+}
+
+@keyframes lp-drift {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50%      { transform: translate3d(0, -6px, 0); }
+}
+
+@keyframes lp-ink-bloom {
+  from { opacity: 0; filter: blur(4px); }
+  to   { opacity: 1; filter: blur(0); }
+}
+
+/* Paper background — parchment with soft watercolor stain */
+.lp-paper {
+  background-color: #FBF6EB;
+  background-image:
+    radial-gradient(ellipse 800px 500px at 20% 10%, rgba(232, 180, 184, 0.10), transparent 70%),
+    radial-gradient(ellipse 700px 400px at 80% 90%, rgba(139, 105, 20, 0.05), transparent 70%),
+    radial-gradient(circle at 15% 85%, rgba(74, 103, 65, 0.04), transparent 40%),
+    radial-gradient(circle, rgba(139, 105, 20, 0.035) 0.6px, transparent 0.8px);
+  background-size: auto, auto, auto, 6px 6px;
+}
+
+/* Deep night sky — for the serpent / farewell / dedication */
+.lp-night {
+  background-color: #0F1530;
+  background-image:
+    radial-gradient(ellipse 900px 600px at 30% 20%, rgba(74, 53, 110, 0.45), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 80% 85%, rgba(44, 36, 88, 0.55), transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(26, 31, 58, 0.3), transparent 70%);
+}
+
+/* Dawn sky — warm indigo fading to sand */
+.lp-dawn {
+  background: linear-gradient(180deg,
+    #2B2448 0%,
+    #4A3F5A 25%,
+    #A08070 55%,
+    #E8D8B0 85%,
+    #FBF6EB 100%);
+}
+
+/* Twinkling stars container — scatter these under .lp-night */
+.lp-stars span {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #F4D06F;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(244, 208, 111, 0.8);
+  animation: lp-twinkle var(--d, 3.5s) ease-in-out infinite;
+  animation-delay: var(--dly, 0s);
+}
+.lp-stars span.big    { width: 3px; height: 3px; }
+.lp-stars span.tiny   { width: 1px; height: 1px; opacity: 0.6; }
+.lp-stars span.white  { background: #FFF8E7; box-shadow: 0 0 8px rgba(255, 248, 231, 0.9); }
+
+/* Drop cap — first letter of the essay, like an illuminated manuscript */
+.lp-dropcap::first-letter {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 4.6em;
+  line-height: 0.85;
+  float: left;
+  padding: 0.08em 0.12em 0 0;
+  color: #8B6914;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Hand-drawn ink wave — used as section divider */
+.lp-ink-wave {
+  display: block;
+  width: 140px;
+  height: 12px;
+  margin: 0 auto;
+  opacity: 0.55;
+}
+
+/* Scene image — soft vignette, no hard frame */
+.lp-illustration {
+  filter: drop-shadow(0 6px 24px rgba(44, 36, 24, 0.12))
+          drop-shadow(0 2px 8px rgba(44, 36, 24, 0.08));
+}
+.lp-illustration-dark {
+  filter: drop-shadow(0 6px 28px rgba(244, 208, 111, 0.18))
+          drop-shadow(0 2px 10px rgba(0, 0, 0, 0.35));
+}
+
+/* Ink-bloom entrance */
+.lp-ink-bloom { animation: lp-ink-bloom 1.2s ease-out both; }
+
+/* Hand-written French quote — oversized Playfair italic with ink shadow */
+.lp-french {
+  font-family: var(--font-heading), Georgia, serif;
+  font-style: italic;
+  letter-spacing: 0.005em;
+  color: #8B6914;
+  text-shadow: 0 1px 0 rgba(255, 248, 231, 0.8);
+}
+
+/* Chapter label — small caps */
+.lp-chapter {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: rgba(107, 93, 77, 0.7);
+}
+
+/* Scene card — hand-drawn pinned-to-wall feel */
+.lp-card {
+  position: relative;
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 500ms ease;
+}
+.lp-card:hover {
+  transform: translateY(-4px) rotate(-0.3deg);
+  box-shadow:
+    0 20px 40px -15px rgba(44, 36, 24, 0.18),
+    0 6px 14px -8px rgba(44, 36, 24, 0.10);
+}
+.lp-card:nth-child(3n)   { transform: rotate(0.2deg); }
+.lp-card:nth-child(3n+1) { transform: rotate(-0.15deg); }
+.lp-card:nth-child(3n+2) { transform: rotate(0.12deg); }
+.lp-card:nth-child(3n):hover,
+.lp-card:nth-child(3n+1):hover,
+.lp-card:nth-child(3n+2):hover {
+  transform: translateY(-4px) rotate(0);
+}
+
+/* Tape corner — little scotch-tape feel on cards */
+.lp-tape {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 60px;
+  height: 16px;
+  background: rgba(244, 208, 111, 0.35);
+  border: 1px solid rgba(139, 105, 20, 0.1);
+  border-radius: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+}
+
+/* ────────────────────────────────────────────────────────────
+   SIDDHARTHA — sumi-ink, river, breath. Minimal zen surface.
+   ──────────────────────────────────────────────────────────── */
+
+/* Sumi-ink color — deeper, cooler than sepia; the brush's black */
+.sd-ink { color: #1E1A15; }
+.sd-ink-muted { color: rgba(30, 26, 21, 0.55); }
+
+/* Stone-cream paper — cooler & more spare than lp-paper */
+.sd-paper {
+  background-color: #F6F1E6;
+  background-image:
+    radial-gradient(ellipse 1000px 600px at 18% 8%, rgba(94, 112, 110, 0.05), transparent 65%),
+    radial-gradient(ellipse 800px 500px at 82% 92%, rgba(30, 26, 21, 0.04), transparent 65%),
+    radial-gradient(circle at 70% 30%, rgba(176, 152, 108, 0.06), transparent 55%);
+}
+
+/* Dawn stone — the hero atmosphere; fading into paper */
+.sd-dawn {
+  background: linear-gradient(180deg,
+    #E4DCC9 0%,
+    #EBE4D2 40%,
+    #F0E9D8 70%,
+    #F6F1E6 100%);
+}
+
+/* Hairline ink divider */
+.sd-rule {
+  height: 1px;
+  background: linear-gradient(to right,
+    transparent 0%,
+    rgba(30, 26, 21, 0.18) 20%,
+    rgba(30, 26, 21, 0.28) 50%,
+    rgba(30, 26, 21, 0.18) 80%,
+    transparent 100%);
+}
+
+/* Drop cap — slimmer than lp-dropcap, a calligraphic opening */
+.sd-dropcap::first-letter {
+  font-family: var(--font-heading), Georgia, serif;
+  font-size: 4.2em;
+  line-height: 0.9;
+  float: left;
+  margin: 0.08em 0.14em 0 -0.04em;
+  font-style: italic;
+  color: #1E1A15;
+  font-weight: 400;
+}
+
+/* Sanskrit/German treatment */
+.sd-german {
+  font-family: var(--font-heading), Georgia, serif;
+  font-style: italic;
+  color: #1E1A15;
+  letter-spacing: 0.005em;
+}
+
+/* Breath — slow pulsing fade, like meditation rhythm */
+@keyframes sd-breath {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%      { opacity: 0.85; transform: scale(1.02); }
+}
+.sd-breath { animation: sd-breath 7s ease-in-out infinite; }
+
+/* Flowing river line — subtle horizontal drift */
+@keyframes sd-stream {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(6px); }
+  100% { transform: translateX(0); }
+}
+.sd-stream { animation: sd-stream 9s ease-in-out infinite; }
+
+/* Brush-stroke bloom — ink spreading into paper */
+@keyframes sd-brush {
+  from { opacity: 0; transform: scale(0.96); filter: blur(4px); }
+  to   { opacity: 1; transform: scale(1);    filter: blur(0); }
+}
+.sd-brush { animation: sd-brush 1.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Ensō draw — the brushed circle stroking in */
+@keyframes sd-enso-draw {
+  from { stroke-dashoffset: 320; opacity: 0; }
+  to   { stroke-dashoffset: 0;   opacity: 1; }
+}
+.sd-enso path {
+  stroke-dasharray: 320;
+  animation: sd-enso-draw 2.4s cubic-bezier(0.6, 0.1, 0.2, 1) 0.3s both;
+}
+
+/* Station card — for the chapter list */
+.sd-station {
+  position: relative;
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.sd-station:hover {
+  transform: translateY(-3px);
+}
+.sd-station:hover .sd-station-ink {
+  color: #8B6914;
+}
+
+/* Sumi brush soft vignette — for motif SVGs */
+.sd-motif {
+  filter: drop-shadow(0 2px 4px rgba(30, 26, 21, 0.08));
+}

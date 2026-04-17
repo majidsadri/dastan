@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useCallback, useRef } from "react";
+import MuseumCollections from "@/components/ui/MuseumCollections";
 
 interface GalleryPainting {
   title: string;
@@ -536,6 +537,9 @@ export default function GalleryPage() {
           </div>
         )}
       </div>
+
+      {/* ═══ Open Museum Collections ═══ */}
+      {!loading && <MuseumCollections />}
 
       {/* ═══ Lightbox ═══ */}
       {selected && selectedIdx >= 0 && (

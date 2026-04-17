@@ -19,9 +19,10 @@ We do not compete for screen time. We create *screen meaning*.
 | Section | Route | What it is |
 |---|---|---|
 | **Today's Canvas** | `/` | The daily experience — painting, novel page, poem, and AI creative mode |
-| **Gallery** | `/gallery` | Browse 1,600+ paintings across movements and artists |
+| **Gallery** | `/gallery` | Browse 2,300+ paintings across movements and artists |
 | **Artists** | `/artists` | Long-form essays on 20 master painters |
 | **Thinkers** | `/philosophers` | Philosophers timeline with voice fun-facts and AI consultation |
+| **Reading Room** | `/little-prince`, `/siddhartha`, `/tao`, `/proust` | Full web readers for four of the Folio books (public, linked from `/signin`) |
 | **Archive** | `/archive` | Revisit past days |
 | **Saved** | `/favorites` | Your bookmarked paintings, passages, and poems |
 | **Profile** | `/profile` | Preferences, avatar, account |
@@ -33,9 +34,9 @@ We do not compete for screen time. We create *screen meaning*.
 Each day, Dastan presents four experiences, fetched in parallel (`asyncio.gather`) and rendered as a single contemplative page.
 
 ### 1. Painting of the Day
-A masterwork from the global canon — Japanese ukiyo-e, Persian miniatures, Impressionism, Renaissance, Mexican muralism, and more. Paintings are sourced from a curated local collection and live museum APIs, matched to the user's preferred art movements.
+A masterwork from the global canon — Japanese ukiyo-e, Persian miniatures, Impressionism, Renaissance, Surrealism, Mexican muralism, and more. Paintings are sourced from a curated local collection and live museum APIs, matched to the user's preferred art movements.
 
-- **Sources**: Curated local collection (1,671 paintings), Art Institute of Chicago API, Metropolitan Museum, Wikimedia Commons, Artvee
+- **Sources**: Curated local collection (2,371 paintings), Art Institute of Chicago API, Metropolitan Museum, Wikimedia Commons, Artvee, WikiArt (for copyrighted 20th-c. artists like Dalí)
 - **Profile-guided**: rotates through user's preferred movements on each refresh
 - **No repeats**: weighted random selection from the full qualifying pool with automatic cycle reset
 
@@ -131,6 +132,47 @@ The result is not a summary of their ideas — it is an attempt at their voice.
 
 ---
 
+## iOS App — React Native (Expo)
+
+A native companion built in TypeScript with Expo Router, mirroring the web experience with a museum-editorial design language.
+
+### Tabs
+| Tab | What it is |
+|-----|-----------|
+| **Today** | Daily painting, novel page, poem — same 4 pillars as the web |
+| **Gallery** | Two-column painting grid with swipeable lightbox |
+| **Artists** | Salon-wall masonry of painter portraits + essays |
+| **Thinkers** | Philosopher cards with voice fun-facts + Ask a Thinker |
+| **Folio** | The reading room — 4 books + editorial article carousel |
+
+### Folio — The Reading Room
+
+Five curated books, each a full reader experience:
+
+| Book | Author | Palette | Motif |
+|------|--------|---------|-------|
+| **Faal-e Hafez** | Hāfez (1389) | Oxblood & gold | Ghazal divination |
+| **The Little Prince** | Saint-Exupéry (1943) | Deep navy & gold | Watercolor illustrations |
+| **Siddhartha** | Hermann Hesse (1922) | Sumi-ink & stone | ॐ (Om) |
+| **Tao Te Ching** | Lao Tzu (~400 BCE) | Forest jade & mist | 道 (Dao) |
+| **In Search of Lost Time** | Marcel Proust (1913) | Belle époque rose | ❦ (fleuron) — French ↔ English side-by-side |
+
+Each reader features: fade transitions between chapters, scroll-to-top on navigation, a progress rail, editorial pull quotes with a gold left-rule, and a chapter-jump strip. Catalogs are fetched from the production web origin (`www.mydastan.com/<book>/catalog.json`) so content stays in one place.
+
+**Tap-to-top navigation**: on Gallery, Artists, and Thinkers tabs, tapping the already-active tab scrolls the list back to the top (standard iOS pattern, wired via `navigation.addListener("tabPress")`).
+
+### Ask a Thinker — Book Suggestions
+
+When consulting philosophers, each thinker now recommends a specific work from their bibliography that best addresses the reader's question. The suggestion appears below their in-character response.
+
+### Design Details
+- **Liquid Glass tab bar**: native `UIVisualEffectView` blur + gold hairline border, typographic glyphs instead of icons
+- **Typography**: Cormorant Garamond (display), Crimson Pro (serif body), Inter (UI)
+- **Auth**: Supabase with Keychain persistence via `expo-secure-store`
+- **Profile wizard**: 6-step onboarding (avatar, name, art movements, themes, literary genres, regions)
+
+---
+
 ## Design Philosophy
 
 ### The Museum Principle
@@ -218,6 +260,17 @@ dastan/
 ├── artists/                   # 20 artist essays + catalog.json
 ├── philosophy/                # 22 philosophers + catalog.json
 ├── hafez/                     # Hafez ghazals (bilingual)
+├── ios/dastan/                # React Native (Expo) iOS app
+│   ├── app/                   # Expo Router file-based routing
+│   │   ├── (tabs)/            # Tab screens (Today, Gallery, Artists, Thinkers, Folio)
+│   │   ├── library/           # Book readers (faal, little-prince, siddhartha, tao)
+│   │   ├── artists/           # Artist detail [id]
+│   │   ├── thinkers/          # Thinker detail [id], ask, article
+│   │   ├── gallery/           # Lightbox [index]
+│   │   ├── profile.tsx        # 6-step preference wizard
+│   │   └── _layout.tsx        # Root stack navigator
+│   ├── lib/                   # API client, auth, books, theme tokens
+│   └── components/            # PaintingLoader, AppleSignInButton
 ├── scripts/                   # add-artist-paintings.py (Wikidata SPARQL), fetch-hafez.py
 ├── deploy/                    # nginx.conf, ecosystem.config.js, supabase-tables.sql
 ├── run.sh                     # Dev + deploy CLI
@@ -226,30 +279,86 @@ dastan/
 
 ---
 
-## How Content Works
+## How the Today Page Works
 
-### Today's Canvas Refresh
+The Today page is the `GET /api/canvas/today` handler in `backend/app/api/routes/canvas.py`. It composes three content types (painting, novel page, verse) — each profile-scored, each with its own fallback chain. Novel and verse fetch in parallel via `asyncio.gather`.
 
-All three content types are fetched in parallel:
+### Profile shape
+Set during the onboarding wizard (`/profile`), stored on `UserProfile`:
+- `art_movements` — e.g. Impressionism, Surrealism, Ukiyo-e
+- `themes` — love, nature, mythology, existentialism, dreams
+- `regions` — Middle East, East Asia, Europe, Latin America
+- `literary_genres` — poetry, mysticism, realism, etc.
 
-1. **Painting**: Rotates through user's art movements → tries local collection → tries museum APIs → falls back to DB
-2. **Poem**: Maps user preferences to 40+ poets → fetches from PoetryDB → avoids recently shown → falls back to DB
-3. **Novel passage**: Scores 28 Gutenberg novels by profile match → fetches book text (cached) → extracts compelling passage → falls back to DB
+### 1 · Painting (`canvas.py:340`, scorer `_find_in_collection` at `:124`)
 
-Then AI generation runs in parallel:
-- AI poem inspired by the day's painting + literature
-- Mood word capturing the emotional essence
+```
+cache check (per-date)
+  → rotate to next art_movement (via _last_movement_index)
+  → score every painting in paintings-collection/catalog.json:
+       +10  category matches the preferred movement
+       +6   painting's "movement" field text-matches
+       +3   region/country match
+       +2   loose relative (e.g. post-impressionism ↔ impressionism)
+       +1   per tag overlap
+     MIN_QUALITY = 8 to qualify
+  → weighted random pick over all qualifiers (not just top-1)
+  → falls back to DB row for today, then live AIC/Met fetch
+```
 
-### Profile-Guided Curation
+The `_shown_collection` set skips titles served in this session; it resets once 70% of the catalog has been shown. Same-day refreshes rotate movements, so a user with `[impressionism, surrealism, ukiyo-e]` will see one from each genre across three refreshes before cycling.
 
-Users set preferences during onboarding:
-- **Art movements**: Impressionism, Baroque, Ukiyo-e, Romanticism, etc.
-- **Themes**: love, nature, mythology, existentialism, dreams, etc.
-- **Regions**: Middle East, East Asia, Europe, Latin America, etc.
-- **Literary genres**: poetry, mysticism, realism, etc.
-- **Favorite artists and authors**
+### 2 · Novel page (`_fetch_live_novel` at `canvas.py:1132`)
 
-All content selection is weighted by these preferences while maintaining variety.
+Scores a hardcoded `_GUTENBERG_NOVELS` list (currently ~28 titles):
+
+```
++5  region match (strongest signal)
++3  literary_genre match
++2  theme match
++2  already cached in memory (instant, no download)
+−10 recently shown (last 15 in _recent_novels)
+base: random.random() * 0.5
+  → random pick from the top-5
+  → fetch plain text from Project Gutenberg (cached)
+  → _extract_passage_fallback picks a 40–400-word paragraph
+```
+
+### 3 · Verse (`_fetch_live_literature` at `canvas.py:857`)
+
+Builds a candidate poet pool from profile:
+- `themes` → `_POETS_BY_THEME`
+- `regions` → `_POETS_BY_REGION`
+- `literary_genres` → `_POETS_BY_GENRE`
+
+If the pool is empty, defaults to Shakespeare, Keats, Dickinson, Whitman, Frost, Yeats, Shelley, Wordsworth, Poe.
+
+```
+random.choice(pool) → pick one poet
+  → PoetryDB /author/{poet} query
+  → filter to 4–40 line poems
+  → exclude last 30 shown (_recent_poems)
+  → random.choice(remaining)
+```
+
+This one is the weakest signal — it's poet-level uniform random, not per-poem scored. A profile theme that maps to 1 poet has equal weight with a theme mapping to 10.
+
+### What runs after
+Once the three items resolve, two more Claude calls run:
+- `_build_ai_prompt_from_resp` builds the creative-mode prompt
+- `_generate_mood_word` produces the single-word mood that appears at the top of the page
+- `_save_canvas_history` persists (user, date, painting, novel, verse) to `UserCanvasHistory` for the Archive
+
+### Refresh vs. first load
+- **First load of the day**: cache miss → full pipeline runs.
+- **Same-day re-open**: cache hit → instant return of the cached painting; novel and verse re-fetch.
+- **Refresh button** (`fetchRefreshedCanvas`): clears the painting cache, rotates movement, re-runs everything.
+
+### Gotchas / weak spots
+- `_recent_*` trackers are **process-global** — two users share them.
+- Novel list is a Python constant; growing it needs a code change.
+- Verse scoring happens at poet level, not poem level — room for improvement.
+- No cross-content "already shown today" lock, so painting/novel/verse pick independently.
 
 ---
 
@@ -351,12 +460,17 @@ All orchestrated from `run.sh` (`do_deploy_remote` function, line 317):
 - [x] AI poem generation (Sonnet for today, Haiku for fast refresh)
 - [x] Background Gutenberg pre-warming for instant novel passages
 
+- [x] **iOS app** — full React Native (Expo) companion with Liquid Glass tab bar
+- [x] **Folio reading room** — 4 books (Faal-e Hafez, The Little Prince, Siddhartha, Tao Te Ching)
+- [x] **Thinker book suggestions** — each philosopher recommends a relevant work with their response
+- [x] Apple Sign-In (native nonce-based OAuth)
+
 ### Next
 - [ ] Bilingual literature display (original language + English)
 - [ ] Reading groups for serialized novels
 - [ ] Community creative writing responses
 - [ ] Audio narration of full literature passages
-- [ ] Mobile app (React Native)
+- [ ] Android app
 - [ ] Multilingual UI
 
 ---

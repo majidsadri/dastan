@@ -4,8 +4,6 @@ import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
-  KeyboardAvoidingView,
-  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -111,11 +109,7 @@ export default function AskThinkersScreen() {
         </Pressable>
       </View>
 
-      <KeyboardAvoidingView
-        behavior={Platform.OS === "ios" ? "padding" : undefined}
-        style={{ flex: 1 }}
-        keyboardVerticalOffset={12}
-      >
+      <View style={{ flex: 1 }}>
         {responses ? (
           <ResponseView
             responses={responses}
@@ -124,7 +118,11 @@ export default function AskThinkersScreen() {
             onReset={reset}
           />
         ) : (
-          <ScrollView contentContainerStyle={styles.scroll}>
+          <ScrollView
+            contentContainerStyle={styles.scroll}
+            keyboardShouldPersistTaps="handled"
+            automaticallyAdjustKeyboardInsets
+          >
             {/* Selection */}
             <View style={styles.section}>
               <Text style={styles.sectionLabel}>
@@ -229,7 +227,7 @@ export default function AskThinkersScreen() {
             </Pressable>
           </ScrollView>
         )}
-      </KeyboardAvoidingView>
+      </View>
     </SafeAreaView>
   );
 }
@@ -276,6 +274,14 @@ function ResponseView({
               </View>
             </View>
             <Text style={styles.letterBody}>{r.response}</Text>
+            {r.suggested_book ? (
+              <View style={styles.bookSuggestion}>
+                <Text style={styles.bookSuggestionLabel}>SUGGESTED READING</Text>
+                <Text style={styles.bookSuggestionTitle}>
+                  {r.suggested_book}
+                </Text>
+              </View>
+            ) : null}
           </View>
         );
       })}
@@ -457,6 +463,28 @@ const styles = StyleSheet.create({
     ...type.body,
     fontSize: 16,
     lineHeight: 26,
+  },
+  bookSuggestion: {
+    marginTop: space.md,
+    paddingTop: space.md,
+    borderTopWidth: StyleSheet.hairlineWidth,
+    borderTopColor: colors.hairline,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignItems: "baseline",
+    gap: 6,
+  },
+  bookSuggestionLabel: {
+    ...type.uiLabel,
+    fontSize: 8,
+    letterSpacing: 2,
+    color: colors.gold,
+  },
+  bookSuggestionTitle: {
+    fontFamily: "CormorantGaramond_500Medium_Italic",
+    fontSize: 15,
+    color: colors.ink,
+    fontStyle: "italic",
   },
 
   askAgain: {

@@ -1,4 +1,5 @@
 import * as Haptics from "expo-haptics";
+import { router } from "expo-router";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
@@ -12,9 +13,9 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { PaintingLoader } from "../../components/PaintingLoader";
-import { fetchHafezPoems, HafezPoem, speakText } from "../../lib/api";
+import { fetchHafezPoems, fetchPoemAudio, HafezPoem, speakText } from "../../lib/api";
 import { colors, fonts, radius, space, type } from "../../lib/theme";
-import { useGlassTabBarHeight } from "./_layout";
+import { useGlassTabBarHeight } from "../(tabs)/_layout";
 
 // ── expo-audio (loaded defensively) ──────────────────────────────────
 //
@@ -147,6 +148,18 @@ export default function FaalScreen() {
         showsVerticalScrollIndicator={false}
       >
         <SafeAreaView edges={["top"]}>
+          {/* ── Top bar — back to Library ───────────────────────── */}
+          <View style={styles.topBar}>
+            <Pressable
+              onPress={() => router.back()}
+              hitSlop={14}
+              accessibilityRole="button"
+              accessibilityLabel="Back to Shelf"
+            >
+              <Text style={styles.topBack}>← SHELF</Text>
+            </Pressable>
+          </View>
+
           {/* ── Hero header ─────────────────────────────────────── */}
           <View style={styles.hero}>
             <Text style={styles.heroStar}>❂</Text>
@@ -283,22 +296,27 @@ function PoemCard({ poem, drawKey }: { poem: HafezPoem; drawKey: number }) {
       return;
     }
 
-    // Need to load (or reload after finishing) — fetch the audio
-    // file for the current language and hand it to the player.
+    // Need to load (or reload after finishing) — try pre-generated
+    // high-quality audio first, fall back to live TTS.
     setTtsLoading(true);
     try {
       const isFarsi = lang === "fa";
-      const text = isFarsi
-        ? poem.farsi?.full_text ?? ""
-        : poem.english?.full_text ?? "";
-      const prompt = isFarsi
-        ? "این غزل حافظ را با لحن گرم، آرام و شاعرانه بخوان"
-        : "Read this Hafez poem aloud slowly and beautifully, with feeling";
+      let uri: string;
 
-      const uri = await speakText(text, prompt);
+      try {
+        uri = await fetchPoemAudio(poem.id, isFarsi ? "fa" : "en");
+      } catch {
+        const text = isFarsi
+          ? poem.farsi?.full_text ?? ""
+          : poem.english?.full_text ?? "";
+        const prompt = isFarsi
+          ? "این غزل حافظ را با لحن گرم، آرام و شاعرانه بخوان"
+          : "Read this Hafez poem aloud slowly and beautifully, with feeling";
+        uri = await speakText(text, prompt);
+      }
+
       player.replace({ uri });
       loadedKey.current = currentKey;
-      // Seek to 0 in case the previous track ended mid-seek.
       try {
         await player.seekTo(0);
       } catch {}
@@ -495,6 +513,18 @@ const styles = StyleSheet.create({
   // Matched to the Thinkers "The Timeline" section headline so the
   // two tabs feel like siblings: 38pt display title, small 22pt
   // gilded ornament above, 10pt eyebrow, quiet italic lede.
+  topBar: {
+    paddingHorizontal: space.lg,
+    paddingTop: space.sm,
+    paddingBottom: space.xs,
+    alignItems: "flex-start",
+  },
+  topBack: {
+    fontFamily: fonts.uiBold,
+    fontSize: 10,
+    letterSpacing: 2,
+    color: colors.gold,
+  },
   hero: {
     alignItems: "center",
     paddingTop: space.md,

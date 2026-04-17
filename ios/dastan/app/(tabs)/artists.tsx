@@ -1,8 +1,8 @@
 import { Image } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import * as Haptics from "expo-haptics";
-import { router } from "expo-router";
-import { useEffect, useMemo, useState } from "react";
+import { router, useNavigation } from "expo-router";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
   Dimensions,
@@ -37,6 +37,8 @@ const COL_GAP = space.md;
  */
 export default function ArtistsScreen() {
   const tabBarHeight = useGlassTabBarHeight();
+  const navigation = useNavigation();
+  const scrollRef = useRef<ScrollView>(null);
   const [artists, setArtists] = useState<Artist[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -47,6 +49,16 @@ export default function ArtistsScreen() {
       .catch((e) => setError(e?.message ?? String(e)))
       .finally(() => setLoading(false));
   }, []);
+
+  // Re-tap the Artists tab while already on it → scroll to top.
+  useEffect(() => {
+    const unsub = navigation.addListener("tabPress" as any, () => {
+      if (navigation.isFocused()) {
+        scrollRef.current?.scrollTo({ y: 0, animated: true });
+      }
+    });
+    return unsub;
+  }, [navigation]);
 
   const [cover, rest] = useMemo(
     () => [artists[0], artists.slice(1)] as const,
@@ -84,6 +96,7 @@ export default function ArtistsScreen() {
   return (
     <View style={styles.root}>
       <ScrollView
+        ref={scrollRef}
         contentContainerStyle={{ paddingBottom: tabBarHeight + space.lg }}
         showsVerticalScrollIndicator={false}
       >

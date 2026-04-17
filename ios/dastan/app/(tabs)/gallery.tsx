@@ -1,6 +1,6 @@
 import { Image } from "expo-image";
 import * as Haptics from "expo-haptics";
-import { router } from "expo-router";
+import { router, useNavigation } from "expo-router";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   ActivityIndicator,
@@ -43,6 +43,8 @@ const CARD_WIDTH = (SCREEN_WIDTH - GUTTER * 3) / NUM_COLUMNS;
  */
 export default function GalleryScreen() {
   const tabBarHeight = useGlassTabBarHeight();
+  const navigation = useNavigation();
+  const listRef = useRef<FlatList<GalleryItem>>(null);
   const [items, setItems] = useState<GalleryItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
@@ -54,6 +56,16 @@ export default function GalleryScreen() {
       .catch((e) => setError(e?.message ?? String(e)))
       .finally(() => setLoading(false));
   }, []);
+
+  // Re-tap the Gallery tab while already on it → scroll to top.
+  useEffect(() => {
+    const unsub = navigation.addListener("tabPress" as any, () => {
+      if (navigation.isFocused()) {
+        listRef.current?.scrollToOffset({ offset: 0, animated: true });
+      }
+    });
+    return unsub;
+  }, [navigation]);
 
   // "Rehang the gallery" — force a fresh random sample from the
   // backend. The server re-rolls the selection on every request
@@ -99,6 +111,7 @@ export default function GalleryScreen() {
   return (
     <View style={styles.root}>
       <FlatList
+        ref={listRef}
         data={data}
         keyExtractor={(item, i) => `${item.image_url}-${i}`}
         numColumns={NUM_COLUMNS}

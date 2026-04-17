@@ -7,8 +7,6 @@ import {
   Animated,
   Dimensions,
   Easing,
-  KeyboardAvoidingView,
-  Platform,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -230,10 +228,7 @@ export default function ProfileScreen() {
 
   return (
     <SafeAreaView style={styles.safe} edges={["top", "bottom"]}>
-      <KeyboardAvoidingView
-        behavior={Platform.OS === "ios" ? "padding" : undefined}
-        style={{ flex: 1 }}
-      >
+      <View style={{ flex: 1 }}>
         {/* Header — progress + close */}
         <View style={styles.header}>
           {step > 1 ? (
@@ -261,6 +256,7 @@ export default function ProfileScreen() {
             showsVerticalScrollIndicator={false}
             contentContainerStyle={styles.scrollContent}
             keyboardShouldPersistTaps="handled"
+            automaticallyAdjustKeyboardInsets
           >
             <Text style={styles.stepEyebrow}>{meta.eyebrow}</Text>
             <Text style={styles.stepTitle}>{meta.title}</Text>
@@ -354,7 +350,7 @@ export default function ProfileScreen() {
             </Pressable>
           )}
         </View>
-      </KeyboardAvoidingView>
+      </View>
     </SafeAreaView>
   );
 }

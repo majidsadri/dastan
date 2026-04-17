@@ -53,6 +53,8 @@ TARGETS = [
     ("Berthe Morisot",         "Q105320",  "impressionism", "Impressionism"),
     ("Édouard Manet",          "Q40599",   "impressionism", "Impressionism"),
     ("Raphael",                "Q5597",    "renaissance",   "Italian Renaissance"),
+    ("Salvador Dalí",          "Q5577",    "surrealism",    "Surrealism"),
+    ("Henri de Toulouse-Lautrec", "Q82445", "post-impressionism", "Post-Impressionism"),
 ]
 
 PER_ARTIST_LIMIT = 80

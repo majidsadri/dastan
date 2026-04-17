@@ -25,7 +25,15 @@ export function useAuth() {
   return useContext(AuthContext);
 }
 
-const PUBLIC_PATHS = ["/signin", "/signup", "/gallery", "/artists", "/philosophers", "/faal"];
+const PUBLIC_PATHS = ["/signin", "/signup", "/gallery", "/artists", "/philosophers", "/faal", "/little-prince", "/siddhartha", "/tao", "/proust"];
+const PUBLIC_PREFIXES = ["/little-prince/", "/siddhartha/", "/artists/", "/philosophers/"];
+
+function isPublicPath(pathname: string): boolean {
+  return (
+    PUBLIC_PATHS.includes(pathname) ||
+    PUBLIC_PREFIXES.some((p) => pathname.startsWith(p))
+  );
+}
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
@@ -52,7 +60,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // Redirect logic
   useEffect(() => {
     if (loading) return;
-    if (!user && !PUBLIC_PATHS.includes(pathname)) {
+    if (!user && !isPublicPath(pathname)) {
       router.replace("/signin");
     }
     if (user && (pathname === "/signin" || pathname === "/signup")) {

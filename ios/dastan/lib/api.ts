@@ -427,25 +427,50 @@ export async function fetchHafezPoems(): Promise<HafezPoem[]> {
   return _hafezCache;
 }
 
-// ─── Text-to-Speech (Gemini, OpenAI fallback) ────────────────────────
+// ─── Text-to-Speech ──────────────────────────────────────────────────
 //
-// POST /api/tts/speak — returns an audio stream (audio/wav for Gemini,
-// audio/mpeg for OpenAI fallback). The web app does the same call and
-// plays the blob directly. On native we can't play a Blob — expo-audio
-// needs a file URI — so we write the bytes to a cache file and return
-// the path.
-//
-// Results are cached in-memory by a hash of text+voice+prompt so
-// repeat plays (e.g. switching away and back) are instant.
+// Two tiers:
+// 1. Pre-generated: GET /api/tts/poem/{id}/{lang} serves high-quality
+//    MP3s created offline with OpenAI tts-1-hd. Cached permanently on
+//    device in the document directory so they survive app restarts.
+// 2. Live fallback: POST /api/tts/speak generates on the fly via
+//    Gemini/OpenAI for poems without pre-generated audio.
 
-import { File, Paths } from "expo-file-system";
+import { Directory, File, Paths } from "expo-file-system";
 
-// Map of cache-key → local file URI. Populated the first time a given
-// poem/language is spoken; cleared when the app restarts.
-const _ttsFileCache = new Map<string, string>();
+const _ttsAudioDir = new Directory(Paths.document, "faal-audio");
+
+function _ensureAudioDir() {
+  if (!_ttsAudioDir.exists) {
+    _ttsAudioDir.create();
+  }
+}
+
+export async function fetchPoemAudio(
+  poemId: number,
+  lang: "en" | "fa"
+): Promise<string> {
+  _ensureAudioDir();
+  const filename = `${String(poemId).padStart(3, "0")}-${lang}.mp3`;
+  const localFile = new File(_ttsAudioDir, filename);
+
+  if (localFile.exists && localFile.size > 1000) {
+    return localFile.uri;
+  }
+
+  const res = await fetch(`${API_URL}/api/tts/poem/${poemId}/${lang}`);
+  if (!res.ok) {
+    throw new Error(`poem-audio-${res.status}`);
+  }
+
+  const buf = await res.arrayBuffer();
+  const bytes = new Uint8Array(buf);
+  localFile.create();
+  localFile.write(bytes);
+  return localFile.uri;
+}
 
 function _ttsCacheKey(text: string, voice: string, prompt: string): string {
-  // Tiny non-crypto hash — we just need uniqueness within the session.
   let h = 0;
   const raw = `${voice}|${prompt}|${text}`;
   for (let i = 0; i < raw.length; i++) {
@@ -455,23 +480,19 @@ function _ttsCacheKey(text: string, voice: string, prompt: string): string {
   return Math.abs(h).toString(36);
 }
 
-/**
- * Fetch TTS audio for `text` and return a local file URI that
- * expo-audio's `AudioPlayer.replace()` can load.
- *
- * @param text   The text to speak.
- * @param prompt Short instruction to Gemini (tone / pace / language).
- * @param voice  Gemini prebuilt voice name. Defaults to Achernar.
- * @returns      `file://` URI pointing to a WAV or MP3 on local cache.
- */
 export async function speakText(
   text: string,
   prompt: string = "Read this poem aloud slowly and beautifully, with feeling",
   voice: string = "Achernar"
 ): Promise<string> {
+  _ensureAudioDir();
   const key = _ttsCacheKey(text, voice, prompt);
-  const cached = _ttsFileCache.get(key);
-  if (cached) return cached;
+  const filename = `tts-${key}.mp3`;
+  const localFile = new File(_ttsAudioDir, filename);
+
+  if (localFile.exists && localFile.size > 1000) {
+    return localFile.uri;
+  }
 
   const headers = await authHeaders();
   const res = await fetch(`${API_URL}/api/tts/speak`, {
@@ -486,27 +507,16 @@ export async function speakText(
     throw new Error(`TTS error: ${res.status} ${res.statusText}`);
   }
 
-  // Pick an extension from the response media type. Gemini returns
-  // audio/wav, OpenAI fallback returns audio/mpeg.
   const ct = (res.headers.get("content-type") || "").toLowerCase();
   const ext = ct.includes("mpeg") || ct.includes("mp3") ? "mp3" : "wav";
 
   const buf = await res.arrayBuffer();
   const bytes = new Uint8Array(buf);
 
-  // Write to a deterministic cache path so repeats (even across a
-  // single screen) hit the on-disk file.
-  const file = new File(Paths.cache, `faal-tts-${key}.${ext}`);
-  try {
-    file.create({ overwrite: true, intermediates: true });
-  } catch {
-    // Already exists from a previous session — fine.
-  }
+  const file = new File(_ttsAudioDir, `tts-${key}.${ext}`);
+  file.create();
   file.write(bytes);
-
-  const uri = file.uri;
-  _ttsFileCache.set(key, uri);
-  return uri;
+  return file.uri;
 }
 
 // ─── Philosophers ─────────────────────────────────────────────────────
@@ -596,6 +606,7 @@ export type PhilosopherProfile = {
   name: string;
   school?: string;
   key_ideas?: string[];
+  key_works?: string[];
   famous_quote?: string;
   pull_quote?: string;
   article_excerpt?: string;
@@ -605,6 +616,7 @@ export type ConsultResponseItem = {
   id: string;
   name: string;
   response: string;
+  suggested_book?: string | null;
 };
 
 export type AIConsultResponse = {
@@ -635,6 +647,7 @@ export function toPhilosopherProfile(p: Philosopher): PhilosopherProfile {
     name: p.name,
     school: p.school ?? "",
     key_ideas: p.key_ideas ?? [],
+    key_works: p.key_works ?? [],
     famous_quote: p.famous_quote ?? "",
     pull_quote: p.pull_quote ?? "",
     article_excerpt: (p.article ?? "").slice(0, 800),

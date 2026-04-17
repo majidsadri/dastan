@@ -8,7 +8,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { colors, fonts, space } from "../../lib/theme";
 
 /**
- * Bottom tab bar — Today, Gallery, Artists, Thinkers, Faal.
+ * Bottom tab bar — Today, Gallery, Artists, Thinkers, Library.
  *
  * Liquid Glass plaque: a floating pill sitting inside the bottom
  * safe area, backed by a native `UIVisualEffectView` with the
@@ -24,7 +24,7 @@ import { colors, fonts, space } from "../../lib/theme";
  */
 
 type TabDef = {
-  name: "index" | "gallery" | "artists" | "thinkers" | "faal";
+  name: "index" | "gallery" | "artists" | "thinkers" | "library";
   title: string;
   glyph: string;
 };
@@ -34,11 +34,11 @@ const TAB_DEFS: TabDef[] = [
   { name: "gallery", title: "Gallery", glyph: "❖" },
   { name: "artists", title: "Artists", glyph: "✎" },
   { name: "thinkers", title: "Thinkers", glyph: "◈" },
-  // Faal-e Hafez — the ancient Persian tradition of drawing a
-  // ghazal as an omen. The eight-pointed star (❂) evokes both the
-  // Khatam motif from Persian tile work and the celestial reading
-  // of a fortune from an opened book.
-  { name: "faal", title: "Faal", glyph: "❂" },
+  // The Library — a reading room holding Faal-e Hafez, The Little
+  // Prince, and Siddhartha. The hedera leaf (❧) is the classical
+  // manuscript ornament for a section-end flourish; it reads as
+  // "book" without resorting to emoji.
+  { name: "library", title: "Shelf", glyph: "❧" },
 ];
 
 export default function TabsLayout() {
@@ -51,7 +51,7 @@ export default function TabsLayout() {
       <Tabs.Screen name="gallery" options={{ title: "Gallery" }} />
       <Tabs.Screen name="artists" options={{ title: "Artists" }} />
       <Tabs.Screen name="thinkers" options={{ title: "Thinkers" }} />
-      <Tabs.Screen name="faal" options={{ title: "Faal" }} />
+      <Tabs.Screen name="library" options={{ title: "Shelf" }} />
     </Tabs>
   );
 }
